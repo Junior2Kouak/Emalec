@@ -1,0 +1,792 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;GVListClient.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 190, 243</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="&gt;&gt;ColVCLINOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="GVListClient.Appearance.VertLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>249, 252, 255</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnAnnuler.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GVListClient.Appearance.FocusedCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GCListClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 383</value>
+  </data>
+  <data name="LblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>231, 242, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVListClient.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="GVListClient.Appearance.Preview.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;LblTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCListClient.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblTitre.Text" xml:space="preserve">
+    <value>Liste des clients affectés sur ce compte</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="BtnContinue.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>208, 224, 251</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Liste client affectés sur ce compte</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.Empty.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;LblNbLine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Name" xml:space="preserve">
+    <value>BtnContinue</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.FixedLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblNbLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 429</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.RowSeparator.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColVPERNOMCHAFF.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GCListClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 40</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;GCListClient.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GVListClient.Appearance.Row.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.VertLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.HorzLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;LblNbLine.Name" xml:space="preserve">
+    <value>LblNbLine</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GCListClient.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVListClient.Appearance.VertLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>99, 127, 196</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColVPERNOMCHAFF.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmListeClientByCompte</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 28</value>
+  </data>
+  <data name="&gt;&gt;LblNbLine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>62, 109, 185</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblNbLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>342, 28</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;ColVPERNOMCHAFF.Name" xml:space="preserve">
+    <value>ColVPERNOMCHAFF</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.Empty.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;ColVCLINOM.Name" xml:space="preserve">
+    <value>ColVCLINOM</value>
+  </data>
+  <data name="GVListClient.Appearance.RowSeparator.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnAnnuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 429</value>
+  </data>
+  <data name="&gt;&gt;GCListClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnContinue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.Preview.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCListClient.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="GVListClient.Appearance.Preview.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>88, 129, 185</value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.HorzLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>49, 106, 197</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnAnnuler.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GCListClient.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.Preview.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>132, 171, 228</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.RowSeparator.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.Preview.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.HorzLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>247, 251, 255</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="GVListClient.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColVCLINOM.Width" type="System.Int32, mscorlib">
+    <value>320</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.Row.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.FocusedCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 236, 254</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="LblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GVListClient.Appearance.Row.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.VertLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.HorzLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Name" xml:space="preserve">
+    <value>BtnAnnuler</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BtnAnnuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 34</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="LblNbLine.Text" xml:space="preserve">
+    <value>Nb lignes : </value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.FixedLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.FooterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.RowSeparator.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblNbLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnContinue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>438, 429</value>
+  </data>
+  <data name="GVListClient.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVListClient.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>69, 126, 217</value>
+  </data>
+  <data name="GVListClient.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>59, 97, 156</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="ColVPERNOMCHAFF.Caption" xml:space="preserve">
+    <value>Chargé d'affaire</value>
+  </data>
+  <data name="GVListClient.Appearance.OddRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;LblNbLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVListClient.Appearance.Empty.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.Row.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.FocusedCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>193, 216, 247</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;GCListClient.Name" xml:space="preserve">
+    <value>GCListClient</value>
+  </data>
+  <data name="BtnContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 34</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnContinue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GVListClient.Appearance.FixedLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GVListClient.Name" xml:space="preserve">
+    <value>GVListClient</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>528, 475</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Name" xml:space="preserve">
+    <value>LblTitre</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GVListClient.Appearance.VertLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.Empty.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColVCLINOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVListClient.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>106, 153, 228</value>
+  </data>
+  <data name="ColVCLINOM.Caption" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupFooter.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblNbLine.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GVListClient.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVListClient.Appearance.FocusedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnContinue.Text" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="GVListClient.Appearance.GroupPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColVCLINOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVListClient.Appearance.FilterCloseButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVListClient.Appearance.EvenRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVListClient.Appearance.FixedLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GCListClient.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColVPERNOMCHAFF.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCListClient.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="GVListClient.Appearance.HeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="BtnAnnuler.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

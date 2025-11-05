@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;GVGTPUNITE.Name" xml:space="preserve">
+    <value>GVGTPUNITE</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GVGTPUNITE.Appearance.RowSeparator.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;ColVGTPUNITENOM.Name" xml:space="preserve">
+    <value>ColVGTPUNITENOM</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>178, 180, 191</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="ColVGTPUNITENOM.Caption" xml:space="preserve">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColNGTPUNITEID.Name" xml:space="preserve">
+    <value>ColNGTPUNITEID</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GCGTPUNITE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>495, 576</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.VertLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Name" xml:space="preserve">
+    <value>BtnQuit</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FixedLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GCGTPUNITE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCGTPUNITE.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;GCGTPUNITE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>198, 198, 215</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="BtnAddLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 9</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="BtnSupprLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Empty.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 153, 182</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.VertLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColVGTPUNITENOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FixedLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.VertLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>164, 164, 188</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 153, 182</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColVGTPUNITENOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FixedLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>250, 250, 253</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="ColNGTPUNITEID.Caption" xml:space="preserve">
+    <value>NGTPUNITEID</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FixedLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;ColIDTMP.Name" xml:space="preserve">
+    <value>ColIDTMP</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Name" xml:space="preserve">
+    <value>BtnAddLine</value>
+  </data>
+  <data name="BtnQuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 561</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Empty.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>133, 131, 161</value>
+  </data>
+  <data name="BtnQuit.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmGTPUnite</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;GVGTPUNITE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.Empty.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="BtnAddLine.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="BtnAddLine.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.RowSeparator.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 153, 182</value>
+  </data>
+  <data name="BtnSupprLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 242</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>154, 153, 182</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GCGTPUNITE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 42</value>
+  </data>
+  <data name="BtnSupprLine.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>164, 164, 188</value>
+  </data>
+  <data name="BtnSupprLine.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnQuit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;ColNGTPUNITEID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Gestion des unités GTP</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="&gt;&gt;GCGTPUNITE.Name" xml:space="preserve">
+    <value>GCGTPUNITE</value>
+  </data>
+  <data name="&gt;&gt;GCGTPUNITE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSupprLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.RowSeparator.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnAddLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>124, 124, 148</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Empty.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCGTPUNITE.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>495, 30</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>215, 215, 229</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GCGTPUNITE.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Gestion des unités GTP</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnAddLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 191</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 612</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>218, 219, 226</value>
+  </data>
+  <data name="&gt;&gt;ColIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HorzLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Row.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>163, 165, 177</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HorzLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.RowSeparator.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>195, 197, 205</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HorzLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.FooterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColVGTPUNITENOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.Preview.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.OddRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.EvenRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>133, 131, 161</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Name" xml:space="preserve">
+    <value>BtnSupprLine</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCGTPUNITE.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>641, 624</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterCloseButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HideSelectionRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.VertLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Vertical</value>
+  </data>
+  <data name="GCGTPUNITE.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.VertLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HorzLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>243, 244, 250</value>
+  </data>
+  <data name="BtnQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>133, 131, 161</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.GroupPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.HeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.SelectedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVGTPUNITE.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="BtnQuit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

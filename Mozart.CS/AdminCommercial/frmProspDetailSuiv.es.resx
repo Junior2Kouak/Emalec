@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Command2.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Command1.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="chkProp.Text" xml:space="preserve">
+    <value>Propuesta comercial hecha</value>
+  </data>
+  <data name="chkRDV.Text" xml:space="preserve">
+    <value>RDV realizado</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblLabels2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Lista des contactos :</value>
+  </data>
+  <data name="lblLabels22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblLabels22.Text" xml:space="preserve">
+    <value>Actividad :</value>
+  </data>
+  <data name="lblLabels21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lblLabels21.Text" xml:space="preserve">
+    <value>Sucursal :</value>
+  </data>
+  <data name="lblLabels11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>Enseña</value>
+  </data>
+  <data name="lblLabels7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="lblLabels8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>Dirección1</value>
+  </data>
+  <data name="lblLabels15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>Dirección2</value>
+  </data>
+  <data name="lblLabels18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblLabels18.Text" xml:space="preserve">
+    <value>Ciudad :</value>
+  </data>
+  <data name="lblLabels6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Datos</value>
+  </data>
+  <data name="Frame3.Text" xml:space="preserve">
+    <value>Cliente potencial</value>
+  </data>
+  <data name="cmdDetail.Text" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="cmdValider.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="cmdAnObs.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cmdValObs.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="lblLabels0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Próximo contacto</value>
+  </data>
+  <data name="cmdDate1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAttJREFUWEftVt9LU2EY3m1X9QcEQc0bjbzopq4KCqlUyt24oByx6dJIlFIHmuXQ
+        /BlN5o/y55xOXbZAURSdOVHBOZebSrNAQdm6mCZpXQy8eDrf55nUjidP2xG88IEH9oz3/Z7n7H2/wyTH
+        OPI4fenVCfbjfyHcPg5Ksm93fKi6nMBKwQi3T3L2YtlJ6fnyK4TnYkpVU83ReJoq/yyNrYgLfn8Q+fpY
+        i38jT66z9N9QYTpBga44NaYao9GQcQfWW0r6nRA2X0uHq136V5/hegaYYFdZG35o7tXOeWVyIDmJsvlB
+        MtYe3tzTQmlOk+FLauKeticqSAAVa8OPvPt1vj8DiEUSICqmVMva8CNHUb/hzcwBNE/EY7qSBpDGvKxh
+        bfjxWK7fnE3TwJuZKxrXlWnCA8hkjZtN5b2w1A2KxnHTKOw948ICqNQ9Pq/vB8SG3bEWeQCvbwuaYiuK
+        dRMorLRhZGwZb9scVBNW6Cex9HWdU0MgSgByiGF4BTP+HQwsfIfJ4qZGRBPWdLoxMOjh1AR7RQlQbV6k
+        B7d/XEWbeQ7PK8eoJqxonKEBQmuCvREH2P4ZQEOHE8b3brR2u7Dg8WPEtkw1YU/fItY3fnFqCMIK0GB0
+        oLR6grKqZne+ao0VWdpJPHpmQ//Iyr41+SVWqouYHRi1rdCzwgrAme+QB/HaVchbgaTqLejb5g93Bzjz
+        ZQLEaTzUPL7YB12L63B3YIi5Qq3vmFky7O7dnW++7hOK6uZRqHdh2u3ft6be6KS6qWsO85HswBuDA1rm
+        JyYsZ+94HnPHiS5g5jvMmIfWbG0HaG8oRNuBg94Dwd5QiLYDB70HRA1gZa5QJ/OUhBb2jreYnFQbzS4s
+        Lvk5NYHADu0NheAACmX3N/KkpEFMGjpmhQW4m2JyZuf0oeDFkKjMzu0jAbJYG34kp3TWkuL9DomE6kwL
+        oi6UyVkbfpyJfX2K/Hs9DLIWxzhKkEh+A/JXjgqVe9++AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="cmdSupp1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAntJREFUOE91ku9PUlEYx09rjtWUi8kP9cLlcgNaYwpbTApYFkTumj8apnNzbpXh
+        23rX1t/Q+7be1Nar3MxIW21CMZFKpjjbgLBSuNlWchHbbr7D0znARUD7bp/tnvM9z32+e84BoiKeLtfa
+        sCsW9VjZKQCOl7crmlIoGpdZp29tyD0zbzUw5e2SHjc0mDZvD27tPpjYT/u8XNBiMpetipav2n3b98aE
+        nfu3CqkRT/LRCUAWjUhXp2tzlN36c3ccinz1eviozVJMgjtHndbJH+MDQt2ZwLyBYsDqpa5YfmJ4f/fO
+        CKwm7e3hgibaHL1gnvw1Nvi33s/dHCoEzhpmQdTSwaZ73Vx+9DrcrQKvv1x25DK9LgF/50cGYH64v8SN
+        Ppi64oy812ppgGMGadqcctj4fD8Lq9m51gN33N0wd9EOc87zCBvMOWxw6bQu8wYVQwCOFeeA9dFoZDds
+        Ni7XjQrsDsifs0K+o7OGLCLBMBG/SqUrlx2omIQkzUk1xWcZI8zqatlGLLUoOT9B6Go6i0I/aAwT8sl1
+        JSX8VuvhUXyWk3yoqfnIdwIWm+W+jXZG2NIY4M//gL24UsO9PSk7eCe48wIqjrdphQw6UE26bi2yoiD5
+        gJgkiIoTJCN8o4zwexV4HZIpuahCzR/lxVQUN4uTLMhVL5KUobCuNUKRFOKTSh3xSyS6QLOcXWnVctU+
+        Jq7R771qlD0EcwTBhJVkMkGfgZg4Yv4UmrakNG0ccxp1iqg0PPbEcyF5+7OXLS1NxTk8BYBcbNUEV7XG
+        QrhVgzoTh+75NUryoY3mYpRh7x0qfgKArGyV9Fwq1c9Iibly8aF7FpNMo9iVzgCAf27pjy7RtdruAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="lblLabels1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblLabels1.Text" xml:space="preserve">
+    <value>Prestación</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 29</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Detalle de una acción en un cliente potencial</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detalle de una acción en un cliente potencial</value>
+  </data>
+  <data name="CmdCom.Text" xml:space="preserve">
+    <value>Cambiar de comercial</value>
+  </data>
+</root>

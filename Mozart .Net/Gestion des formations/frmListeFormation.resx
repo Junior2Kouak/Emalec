@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 465</value>
+  </data>
+  <data name="btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btn.Text" xml:space="preserve">
+    <value>Liste des habilitations</value>
+  </data>
+  <data name="&gt;&gt;btn.Name" xml:space="preserve">
+    <value>btn</value>
+  </data>
+  <data name="&gt;&gt;btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnArchives.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 390</value>
+  </data>
+  <data name="BtnArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnArchives.Text" xml:space="preserve">
+    <value>Gestion des archives</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Name" xml:space="preserve">
+    <value>BtnArchives</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnPrintAttest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnPrintAttest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPrintAttest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 312</value>
+  </data>
+  <data name="BtnPrintAttest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnPrintAttest.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnPrintAttest.Text" xml:space="preserve">
+    <value>Visualiser attestation</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintAttest.Name" xml:space="preserve">
+    <value>BtnPrintAttest</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintAttest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintAttest.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintAttest.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdHabilitation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdHabilitation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 516</value>
+  </data>
+  <data name="cmdHabilitation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="cmdHabilitation.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmdHabilitation.Text" xml:space="preserve">
+    <value>Gestion des habilitations</value>
+  </data>
+  <data name="&gt;&gt;cmdHabilitation.Name" xml:space="preserve">
+    <value>cmdHabilitation</value>
+  </data>
+  <data name="&gt;&gt;cmdHabilitation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdHabilitation.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;cmdHabilitation.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnExcel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 261</value>
+  </data>
+  <data name="BtnExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnExcel.Text" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="&gt;&gt;BtnExcel.Name" xml:space="preserve">
+    <value>BtnExcel</value>
+  </data>
+  <data name="&gt;&gt;BtnExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnExcel.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnExcel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnImp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnImp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 210</value>
+  </data>
+  <data name="BtnImp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnImp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnImp.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Name" xml:space="preserve">
+    <value>BtnImp</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnMod.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnMod.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="BtnMod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 44</value>
+  </data>
+  <data name="BtnMod.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnMod.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;BtnMod.Name" xml:space="preserve">
+    <value>BtnMod</value>
+  </data>
+  <data name="&gt;&gt;BtnMod.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnMod.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnMod.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtnGestOrg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnGestOrg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 618</value>
+  </data>
+  <data name="BtnGestOrg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnGestOrg.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnGestOrg.Text" xml:space="preserve">
+    <value>Gestion des organismes</value>
+  </data>
+  <data name="&gt;&gt;BtnGestOrg.Name" xml:space="preserve">
+    <value>BtnGestOrg</value>
+  </data>
+  <data name="&gt;&gt;BtnGestOrg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGestOrg.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnGestOrg.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnGestForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnGestForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 567</value>
+  </data>
+  <data name="BtnGestForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnGestForm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnGestForm.Text" xml:space="preserve">
+    <value>Gestion des formations</value>
+  </data>
+  <data name="&gt;&gt;BtnGestForm.Name" xml:space="preserve">
+    <value>BtnGestForm</value>
+  </data>
+  <data name="&gt;&gt;BtnGestForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGestForm.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnGestForm.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnSupprLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnSupprLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 133</value>
+  </data>
+  <data name="BtnSupprLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnSupprLine.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnSupprLine.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Name" xml:space="preserve">
+    <value>BtnSupprLine</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnSupprLine.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnAddLine.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnAddLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="BtnAddLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 44</value>
+  </data>
+  <data name="BtnAddLine.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnAddLine.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Name" xml:space="preserve">
+    <value>BtnAddLine</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnAddLine.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BtnQuit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnQuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 682</value>
+  </data>
+  <data name="BtnQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnQuit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnQuit.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Name" xml:space="preserve">
+    <value>BtnQuit</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 744</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ColVFORMOBS.Caption" xml:space="preserve">
+    <value>Remarques</value>
+  </data>
+  <data name="ColVFORMOBS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColVFORMOBS.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ColVFORMOBS.Width" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="ColVFORLIB.Caption" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="ColVFORLIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColVFORLIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ColVFORLIB.Width" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="ColVFORTYPE.Caption" xml:space="preserve">
+    <value>Type formation</value>
+  </data>
+  <data name="ColVFORTYPE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColVFORTYPE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ColVFORTYPE.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.Caption" xml:space="preserve">
+    <value>Nom du Lot</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColLOTNGTPLOTID.Caption" xml:space="preserve">
+    <value>NGTPLOTID</value>
+  </data>
+  <data name="ColDFORMDATE.Caption" xml:space="preserve">
+    <value>Date de formation</value>
+  </data>
+  <data name="ColDFORMDATE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColDFORMDATE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ColDFORMDATE.Width" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="RepItemGLUpEditUnite.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="RepItemGLUpEditUnite.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="RepItemGLUpEditUnite.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColUNITEIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="ColUNITENGTPUNITEID.Caption" xml:space="preserve">
+    <value>NGTPUNITEID</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.Caption" xml:space="preserve">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColDFORMDATERECYCLE.Caption" xml:space="preserve">
+    <value>Date recyclage</value>
+  </data>
+  <data name="ColDFORMDATERECYCLE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColDFORMDATERECYCLE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ColDFORMDATERECYCLE.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="ColLOTIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColVPERNOM.Caption" xml:space="preserve">
+    <value>Employé</value>
+  </data>
+  <data name="ColVPERNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColVPERNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColVPERNOM.Width" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="ColNFORMNUM.Caption" xml:space="preserve">
+    <value>NFORMNUM</value>
+  </data>
+  <data name="ColIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVFORMATION.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Empty.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVFORMATION.Appearance.EvenRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVFORMATION.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterCloseButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>122, 114, 113</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>200, 192, 157</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FocusedRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>226, 219, 188</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVFORMATION.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupFooter.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>246, 242, 213</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.GroupRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HideSelectionRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVFORMATION.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="GVFORMATION.Appearance.OddRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="GVFORMATION.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>251, 252, 247</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 7.5pt</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Preview.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>148, 148, 148</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="GVFORMATION.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVFORMATION.Appearance.RowSeparator.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 215, 188</value>
+  </data>
+  <data name="GVFORMATION.Appearance.SelectedRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="GVFORMATION.Appearance.SelectedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVFORMATION.Appearance.TopNewRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVFORMATION.Appearance.VertLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="ColFORMATEUR.Caption" xml:space="preserve">
+    <value>Formateur</value>
+  </data>
+  <data name="ColFORMATEUR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColFORMATEUR.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ColFORMATEUR.Width" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="ColVFICHIER.Caption" xml:space="preserve">
+    <value>VFICHIER</value>
+  </data>
+  <data name="ColChkCHK_VFICHIER.Caption" xml:space="preserve">
+    <value>Fichier téléchargé</value>
+  </data>
+  <data name="RepositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColChkCHK_VFICHIER.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColChkCHK_VFICHIER.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ColChkCHK_VFICHIER.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="ColChkVisibleHab.Caption" xml:space="preserve">
+    <value>Visibilité Habilitation</value>
+  </data>
+  <data name="ColChkVisibleHab.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColChkVisibleHab.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ColChkVisibleHab.Width" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="GCFORMATION.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 45</value>
+  </data>
+  <data name="GCFORMATION.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1395, 711</value>
+  </data>
+  <data name="GCFORMATION.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GCFORMATION.Name" xml:space="preserve">
+    <value>GCFORMATION</value>
+  </data>
+  <data name="&gt;&gt;GCFORMATION.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCFORMATION.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GCFORMATION.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 12</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>993, 30</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Formation du personnel</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1690, 799</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Gestion des formations du personnel</value>
+  </data>
+  <data name="&gt;&gt;ColVFORMOBS.Name" xml:space="preserve">
+    <value>ColVFORMOBS</value>
+  </data>
+  <data name="&gt;&gt;ColVFORMOBS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColVFORLIB.Name" xml:space="preserve">
+    <value>ColVFORLIB</value>
+  </data>
+  <data name="&gt;&gt;ColVFORLIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColVFORTYPE.Name" xml:space="preserve">
+    <value>ColVFORTYPE</value>
+  </data>
+  <data name="&gt;&gt;ColVFORTYPE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColLOTVGTPLOTNOM.Name" xml:space="preserve">
+    <value>ColLOTVGTPLOTNOM</value>
+  </data>
+  <data name="&gt;&gt;ColLOTVGTPLOTNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColLOTNGTPLOTID.Name" xml:space="preserve">
+    <value>ColLOTNGTPLOTID</value>
+  </data>
+  <data name="&gt;&gt;ColLOTNGTPLOTID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColDFORMDATE.Name" xml:space="preserve">
+    <value>ColDFORMDATE</value>
+  </data>
+  <data name="&gt;&gt;ColDFORMDATE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditUnite.Name" xml:space="preserve">
+    <value>RepItemGLUpEditUnite</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditUnite.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditViewUnite.Name" xml:space="preserve">
+    <value>RepItemGLUpEditViewUnite</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditViewUnite.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEIDTMP.Name" xml:space="preserve">
+    <value>ColUNITEIDTMP</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColUNITENGTPUNITEID.Name" xml:space="preserve">
+    <value>ColUNITENGTPUNITEID</value>
+  </data>
+  <data name="&gt;&gt;ColUNITENGTPUNITEID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEVGTPUNITENOM.Name" xml:space="preserve">
+    <value>ColUNITEVGTPUNITENOM</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEVGTPUNITENOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColDFORMDATERECYCLE.Name" xml:space="preserve">
+    <value>ColDFORMDATERECYCLE</value>
+  </data>
+  <data name="&gt;&gt;ColDFORMDATERECYCLE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColLOTIDTMP.Name" xml:space="preserve">
+    <value>ColLOTIDTMP</value>
+  </data>
+  <data name="&gt;&gt;ColLOTIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepIGLUpEditViewLot.Name" xml:space="preserve">
+    <value>RepIGLUpEditViewLot</value>
+  </data>
+  <data name="&gt;&gt;RepIGLUpEditViewLot.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditGTPLot.Name" xml:space="preserve">
+    <value>RepItemGLUpEditGTPLot</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditGTPLot.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColVPERNOM.Name" xml:space="preserve">
+    <value>ColVPERNOM</value>
+  </data>
+  <data name="&gt;&gt;ColVPERNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColNFORMNUM.Name" xml:space="preserve">
+    <value>ColNFORMNUM</value>
+  </data>
+  <data name="&gt;&gt;ColNFORMNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColIDTMP.Name" xml:space="preserve">
+    <value>ColIDTMP</value>
+  </data>
+  <data name="&gt;&gt;ColIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVFORMATION.Name" xml:space="preserve">
+    <value>GVFORMATION</value>
+  </data>
+  <data name="&gt;&gt;GVFORMATION.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColFORMATEUR.Name" xml:space="preserve">
+    <value>ColFORMATEUR</value>
+  </data>
+  <data name="&gt;&gt;ColFORMATEUR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColVFICHIER.Name" xml:space="preserve">
+    <value>ColVFICHIER</value>
+  </data>
+  <data name="&gt;&gt;ColVFICHIER.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColChkCHK_VFICHIER.Name" xml:space="preserve">
+    <value>ColChkCHK_VFICHIER</value>
+  </data>
+  <data name="&gt;&gt;ColChkCHK_VFICHIER.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColChkVisibleHab.Name" xml:space="preserve">
+    <value>ColChkVisibleHab</value>
+  </data>
+  <data name="&gt;&gt;ColChkVisibleHab.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmListeFormation</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

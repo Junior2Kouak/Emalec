@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkPoste35.Text" xml:space="preserve">
+    <value>35 ore in 5 giorni (pianificazione)</value>
+  </data>
+  <data name="chkPoste40.Text" xml:space="preserve">
+    <value>40 ore in 5 giorni (pianificazione)</value>
+  </data>
+  <data name="Label513.Text" xml:space="preserve">
+    <value>Ind 1</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>Ind 2</value>
+  </data>
+  <data name="Frame5.Text" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="CmdAffectChaffChantier.Text" xml:space="preserve">
+    <value>Assegnazione Cantieri dei direttori commerciali</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>Età</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>Anzianità</value>
+  </data>
+  <data name="Label524.Text" xml:space="preserve">
+    <value>Anzianità int.</value>
+  </data>
+  <data name="cboCollege.Items3" xml:space="preserve">
+    <value>Apprendista</value>
+  </data>
+  <data name="lblLabels17.Text" xml:space="preserve">
+    <value>Autorizzazione per la distribuzione sulla posta personale</value>
+  </data>
+  <data name="Label517.Text" xml:space="preserve">
+    <value>Anticipo</value>
+  </data>
+  <data name="chkB.Text" xml:space="preserve">
+    <value>B (VL)</value>
+  </data>
+  <data name="chkC.Text" xml:space="preserve">
+    <value>CACES (piattaforma aerea)</value>
+  </data>
+  <data name="cmdCarte.Text" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="Frame15.Text" xml:space="preserve">
+    <value>Permesso di soggiorno</value>
+  </data>
+  <data name="cmdHabilitation.Text" xml:space="preserve">
+    <value>Scheda di abilitazione</value>
+  </data>
+  <data name="Label514.Text" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CmdTestCompet1.Text" xml:space="preserve">
+    <value>Colloqui</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Civiltà</value>
+  </data>
+  <data name="Frame16.Text" xml:space="preserve">
+    <value>Clausole contrattuali</value>
+  </data>
+  <data name="ChkNonCuccuren.Text" xml:space="preserve">
+    <value>Clausola di non concorrenza</value>
+  </data>
+  <data name="Label550.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Label536.Text" xml:space="preserve">
+    <value>Codice conv coll. DAD-U</value>
+  </data>
+  <data name="Label535.Text" xml:space="preserve">
+    <value>Codice conv. coll.</value>
+  </data>
+  <data name="Label534.Text" xml:space="preserve">
+    <value>Codice INSEE</value>
+  </data>
+  <data name="Label537.Text" xml:space="preserve">
+    <value>Codice attività settore edile</value>
+  </data>
+  <data name="Label515.Text" xml:space="preserve">
+    <value>Coefficiente</value>
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>Istituto secondario</value>
+  </data>
+  <data name="Label528.Text" xml:space="preserve">
+    <value>Comune di nascita</value>
+  </data>
+  <data name="lblCompPrev.Text" xml:space="preserve">
+    <value>Competenze preventive</value>
+  </data>
+  <data name="Frame7.Text" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="lblLabels4.Text" xml:space="preserve">
+    <value>Contratto</value>
+  </data>
+  <data name="Label525.Text" xml:space="preserve">
+    <value>Caporeparto:</value>
+  </data>
+  <data name="Frame10.Text" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="cmdCourrier.Text" xml:space="preserve">
+    <value>Messaggi di posta personali</value>
+  </data>
+  <data name="Label518.Text" xml:space="preserve">
+    <value>Costo orario</value>
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Costi</value>
+  </data>
+  <data name="Label512.Text" xml:space="preserve">
+    <value>CAP + Città</value>
+  </data>
+  <data name="Label540.Text" xml:space="preserve">
+    <value>Conto DIF</value>
+  </data>
+  <data name="Label58.Text" xml:space="preserve">
+    <value>Data di nascita</value>
+  </data>
+  <data name="Label532.Text" xml:space="preserve">
+    <value>Data di validità</value>
+  </data>
+  <data name="Frame8.Text" xml:space="preserve">
+    <value>Date </value>
+  </data>
+  <data name="Label531.Text" xml:space="preserve">
+    <value>Rilasciata da</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>Dipartimento</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Dipartimenti</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dettaglio di un dipendente</value>
+  </data>
+  <data name="Cmd_DetVeh.Text" xml:space="preserve">
+    <value>Dettaglio del veicolo</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Dettagli di un dipendente</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Varie</value>
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Dati sociali</value>
+  </data>
+  <data name="chkE.Text" xml:space="preserve">
+    <value>E (Rimorchio)</value>
+  </data>
+  <data name="Label511.Text" xml:space="preserve">
+    <value>Livello</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>Impiego</value>
+  </data>
+  <data name="cmdEnregistrer.Text" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>Ingresso</value>
+  </data>
+  <data name="Label523.Text" xml:space="preserve">
+    <value>Ingresso intermedio</value>
+  </data>
+  <data name="Label547.Text" xml:space="preserve">
+    <value>Manutenzione infermieristica</value>
+  </data>
+  <data name="cboCollege.Items" xml:space="preserve">
+    <value>ETAM</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>Stato di fatturazione:</value>
+  </data>
+  <data name="framEtat.Text" xml:space="preserve">
+    <value>Stato dell'azione</value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Stato dell'azione:</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="cmdFichePerso.Text" xml:space="preserve">
+    <value>Scheda personale</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Label519.Text" xml:space="preserve">
+    <value>Funzione</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="cmdFormation.Text" xml:space="preserve">
+    <value>Formazione</value>
+  </data>
+  <data name="chkGrp.Text" xml:space="preserve">
+    <value>Gruppo</value>
+  </data>
+  <data name="lblLabels5.Text" xml:space="preserve">
+    <value>GSM personale</value>
+  </data>
+  <data name="Label520.Text" xml:space="preserve">
+    <value>Abilitazione</value>
+  </data>
+  <data name="Frame11.Text" xml:space="preserve">
+    <value>Cronologie</value>
+  </data>
+  <data name="cboCollege.Items1" xml:space="preserve">
+    <value>IAC</value>
+  </data>
+  <data name="ChkTypePoste1.Text" xml:space="preserve">
+    <value>Itinerante</value>
+  </data>
+  <data name="Label552.Text" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Lingue straniere</value>
+  </data>
+  <data name="cboCiv.Items2" xml:space="preserve">
+    <value>M.</value>
+  </data>
+  <data name="lblLabels18.Text" xml:space="preserve">
+    <value>E-mail Pro</value>
+  </data>
+  <data name="ChkManipFluide.Text" xml:space="preserve">
+    <value>Manipolazione dei fluidi refrigeranti</value>
+  </data>
+  <data name="cboCiv.Items1" xml:space="preserve">
+    <value>Sign.na</value>
+  </data>
+  <data name="cboCiv.Items" xml:space="preserve">
+    <value>Sig.ra</value>
+  </data>
+  <data name="Label522.Text" xml:space="preserve">
+    <value>Importo Anticipo</value>
+  </data>
+  <data name="lblLabels14.Text" xml:space="preserve">
+    <value>N°</value>
+  </data>
+  <data name="Label527.Text" xml:space="preserve">
+    <value>N° previdenza sociale.</value>
+  </data>
+  <data name="Label530.Text" xml:space="preserve">
+    <value>Nazionalità</value>
+  </data>
+  <data name="Label542.Text" xml:space="preserve">
+    <value>N. di bambini</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>N. di ore</value>
+  </data>
+  <data name="chkVisuPlanning.Text" xml:space="preserve">
+    <value>Non mostrare questo dipendente nella pianificazione MOZART e non assegnarlo automaticamente alle manutenzioni preventive</value>
+  </data>
+  <data name="Label510.Text" xml:space="preserve">
+    <value>Livello</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="lblLabels13.Text" xml:space="preserve">
+    <value>Nome da nubile</value>
+  </data>
+  <data name="cboAutorisation.Items1" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="ChkObj.Text" xml:space="preserve">
+    <value>Obiettivi</value>
+  </data>
+  <data name="cboAutorisation.Items" xml:space="preserve">
+    <value>SÌ</value>
+  </data>
+  <data name="cboCollege.Items2" xml:space="preserve">
+    <value>Operaio</value>
+  </data>
+  <data name="Label521.Text" xml:space="preserve">
+    <value>Paese</value>
+  </data>
+  <data name="Label529.Text" xml:space="preserve">
+    <value>Paese di nascita</value>
+  </data>
+  <data name="Label546.Text" xml:space="preserve">
+    <value>Consente all'UP di accedere ai cantieri analitici del direttore commerciale</value>
+  </data>
+  <data name="Frame14.Text" xml:space="preserve">
+    <value>Patente di guida</value>
+  </data>
+  <data name="Frame12.Text" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="Label549.Text" xml:space="preserve">
+    <value>Pianificatore:</value>
+  </data>
+  <data name="ChkTypePoste0.Text" xml:space="preserve">
+    <value>Assegnato</value>
+  </data>
+  <data name="lblLabels3.Text" xml:space="preserve">
+    <value>Postazione int</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Label543.Text" xml:space="preserve">
+    <value>Promemoria azione</value>
+  </data>
+  <data name="Frame18.Text" xml:space="preserve">
+    <value>Responsabile regionale delle operazioni tecniche   </value>
+  </data>
+  <data name="apiLabel1.Text" xml:space="preserve">
+    <value>RRET</value>
+  </data>
+  <data name="cmdContrat.Text" xml:space="preserve">
+    <value>Inserimento dei contratti</value>
+  </data>
+  <data name="CmdDepConMait.Text" xml:space="preserve">
+    <value>Inserimento dei dipartimenti</value>
+  </data>
+  <data name="cmdLangues.Text" xml:space="preserve">
+    <value>Inserimento delle lingue</value>
+  </data>
+  <data name="Label516.Text" xml:space="preserve">
+    <value>Salario</value>
+  </data>
+  <data name="lblLabels1.Text" xml:space="preserve">
+    <value>SDA</value>
+  </data>
+  <data name="Label526.Text" xml:space="preserve">
+    <value>Sezione dipendente</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>Servizio</value>
+  </data>
+  <data name="CmdSignature.Text" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="lblLabels16.Text" xml:space="preserve">
+    <value>Firma del corriere</value>
+  </data>
+  <data name="Label551.Text" xml:space="preserve">
+    <value>Sito</value>
+  </data>
+  <data name="lblLabels12.Text" xml:space="preserve">
+    <value>Situazione </value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>Uscita</value>
+  </data>
+  <data name="Frame13.Text" xml:space="preserve">
+    <value>Stato di famiglia</value>
+  </data>
+  <data name="Label538.Text" xml:space="preserve">
+    <value>Tasso AT</value>
+  </data>
+  <data name="Label539.Text" xml:space="preserve">
+    <value>Tasso di conversione</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Tel.</value>
+  </data>
+  <data name="CmdTestCompet0.Text" xml:space="preserve">
+    <value>Test delle conoscenze</value>
+  </data>
+  <data name="Label548.Text" xml:space="preserve">
+    <value>Tutor:</value>
+  </data>
+  <data name="Label533.Text" xml:space="preserve">
+    <value>Tipo di lavoro</value>
+  </data>
+  <data name="Label544.Text" xml:space="preserve">
+    <value>Validità del permesso</value>
+  </data>
+  <data name="Label545.Text" xml:space="preserve">
+    <value>Veicolo:</value>
+  </data>
+  <data name="lblLabels10.Text" xml:space="preserve">
+    <value>Visita medica</value>
+  </data>
+  <data name="cmdVisualiser.Text" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="apiGroupBox1.Text" xml:space="preserve">
+    <value>Altri benefici in natura</value>
+  </data>
+  <data name="apiLabel2.Text" xml:space="preserve">
+    <value>Retribuzione annua lorda</value>
+  </data>
+  <data name="btnPrimeNonCC.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnPrimeCC.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cmdRecherche.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="lblNbMoisContractuel.Text" xml:space="preserve">
+    <value>Numero di mesi contrattuali</value>
+  </data>
+</root>

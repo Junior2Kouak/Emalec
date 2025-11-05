@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="col_HeureSortie" xml:space="preserve">
+    <value>Heure de sortie</value>
+  </data>
+  <data name="col_Etat" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="col_HeureArr" xml:space="preserve">
+    <value>Heure d'arrivée</value>
+  </data>
+  <data name="add_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="col_Serie" xml:space="preserve">
+    <value>Série</value>
+  </data>
+  <data name="Global_erreur" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="col_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="societe" xml:space="preserve">
+    <value>Société</value>
+  </data>
+  <data name="msg_enter_TVA" xml:space="preserve">
+    <value>Un numéro de TVA intra est obligatoire</value>
+  </data>
+  <data name="col_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="col_Mois" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="col_Actif" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="col_DI" xml:space="preserve">
+    <value>DI</value>
+  </data>
+  <data name="col_Filiale" xml:space="preserve">
+    <value>Filiale</value>
+  </data>
+  <data name="col_DateArr" xml:space="preserve">
+    <value>Date d'arrivée</value>
+  </data>
+  <data name="delete_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motif" xml:space="preserve">
+    <value>Motif</value>
+  </data>
+  <data name="col_No" xml:space="preserve">
+    <value>N°</value>
+  </data>
+  <data name="col_TVAIntra" xml:space="preserve">
+    <value>TVA Intra</value>
+  </data>
+  <data name="msg_Select_Pays" xml:space="preserve">
+    <value>Un pays doit être sélectionné</value>
+  </data>
+  <data name="col_DateSortie" xml:space="preserve">
+    <value>Date de sortie</value>
+  </data>
+  <data name="col_Ville" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="col_Site" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="col_Materiel" xml:space="preserve">
+    <value>Matériel</value>
+  </data>
+  <data name="col_Pays" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="col_Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="col_Remarque" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="col_Devis" xml:space="preserve">
+    <value>Devis</value>
+  </data>
+  <data name="col_UETiersUE" xml:space="preserve">
+    <value>UE / Tiers UE</value>
+  </data>
+  <data name="collaborateur" xml:space="preserve">
+    <value>Collaborateur</value>
+  </data>
+  <data name="Global_dans" xml:space="preserve">
+    <value>dans </value>
+  </data>
+  <data name="msg_Code_TVA_intra_invalide" xml:space="preserve">
+    <value>Le format du N° TVA Intra n'est pas conforme</value>
+  </data>
+  <data name="visiteur" xml:space="preserve">
+    <value>Visiteur</value>
+  </data>
+  <data name="arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archives" xml:space="preserve">
+    <value>archivées</value>
+  </data>
+  <data name="archivees" xml:space="preserve">
+    <value>archivés</value>
+  </data>
+  <data name="col_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="non" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="oui" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="Annee" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Numéro</value>
+  </data>
+  <data name="Fourniture" xml:space="preserve">
+    <value>Fourniture</value>
+  </data>
+  <data name="Emplacement" xml:space="preserve">
+    <value>Emplacement</value>
+  </data>
+  <data name="clientsRattaches" xml:space="preserve">
+    <value>Client(s) Rattaché(s)</value>
+  </data>
+  <data name="departement" xml:space="preserve">
+    <value>Département</value>
+  </data>
+  <data name="nom" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="activite" xml:space="preserve">
+    <value>Activité</value>
+  </data>
+  <data name="priorite" xml:space="preserve">
+    <value>Priorité</value>
+  </data>
+  <data name="codeAPE" xml:space="preserve">
+    <value>APE</value>
+  </data>
+  <data name="afficher_contacts" xml:space="preserve">
+    <value>Afficher les contacts</value>
+  </data>
+  <data name="afficher_contacts_archives" xml:space="preserve">
+    <value>Afficher les contacts archivés</value>
+  </data>
+  <data name="quest_archiver_contact" xml:space="preserve">
+    <value>Voulez-vous archiver ce contact ?</value>
+  </data>
+  <data name="createur" xml:space="preserve">
+    <value>Créateur</value>
+  </data>
+  <data name="date_creation" xml:space="preserve">
+    <value>Date Création</value>
+  </data>
+  <data name="modificateur" xml:space="preserve">
+    <value>Modificateur</value>
+  </data>
+  <data name="date_modif" xml:space="preserve">
+    <value>Date Modif</value>
+  </data>
+  <data name="must_fill_com_suivi" xml:space="preserve">
+    <value>Vous devez renseigner le commercial de suivi.</value>
+  </data>
+  <data name="selected" xml:space="preserve">
+    <value>Sélectionné</value>
+  </data>
+  <data name="saved" xml:space="preserve">
+    <value>Enregistrement effectué.</value>
+  </data>
+  <data name="msg_enter_libelle_offre" xml:space="preserve">
+    <value>Veuillez saisir le libellé de l'offre !</value>
+  </data>
+  <data name="Prospecteur" xml:space="preserve">
+    <value>Prospecteur</value>
+  </data>
+  <data name="Groupe" xml:space="preserve">
+    <value>Groupe</value>
+  </data>
+  <data name="Commercial" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="secteur_client" xml:space="preserve">
+    <value>Secteur Client</value>
+  </data>
+  <data name="nb_sites" xml:space="preserve">
+    <value>Nb Sites</value>
+  </data>
+  <data name="pays_inter" xml:space="preserve">
+    <value>Pays d'intervention</value>
+  </data>
+  <data name="commercial_suivi" xml:space="preserve">
+    <value>Commercial de suivi</value>
+  </data>
+  <data name="filiale_concernee" xml:space="preserve">
+    <value>Filiale concernée</value>
+  </data>
+  <data name="Commentaires" xml:space="preserve">
+    <value>Commentaires</value>
+  </data>
+  <data name="orig_de_contact" xml:space="preserve">
+    <value>Origine de contact</value>
+  </data>
+  <data name="col_libelle" xml:space="preserve">
+    <value>Libellé</value>
+  </data>
+  <data name="act_emalec" xml:space="preserve">
+    <value>Activité EMALEC</value>
+  </data>
+  <data name="forfaitaire_preventif" xml:space="preserve">
+    <value>Forfaitaire préventif</value>
+  </data>
+  <data name="defensif" xml:space="preserve">
+    <value>Défensif</value>
+  </data>
+  <data name="type_offre" xml:space="preserve">
+    <value>Type d’offre</value>
+  </data>
+  <data name="DAS_Emalec" xml:space="preserve">
+    <value>DAS EMALEC</value>
+  </data>
+  <data name="estimatif_global" xml:space="preserve">
+    <value>Estimatif global</value>
+  </data>
+  <data name="developpement" xml:space="preserve">
+    <value>Développement</value>
+  </data>
+  <data name="pourc_chance_gain" xml:space="preserve">
+    <value>% de chance de gain</value>
+  </data>
+  <data name="date_1iere_DI" xml:space="preserve">
+    <value>Date 1ière DI</value>
+  </data>
+  <data name="d_action" xml:space="preserve">
+    <value>D. Action</value>
+  </data>
+  <data name="gest_com_prospect" xml:space="preserve">
+    <value>Gestion commerciale des prospects</value>
+  </data>
+  <data name="perimetre_pays" xml:space="preserve">
+    <value>Périmètre pays</value>
+  </data>
+  <data name="date_reponse" xml:space="preserve">
+    <value>Date Réponse</value>
+  </data>
+  <data name="date_demarrage_contrat" xml:space="preserve">
+    <value>Date Démarrage contrat</value>
+  </data>
+  <data name="quest_archi_prospect" xml:space="preserve">
+    <value>Voulez-vous vraiment archiver ce prospect ?</value>
+  </data>
+  <data name="D_RDV" xml:space="preserve">
+    <value>D. RDV</value>
+  </data>
+  <data name="D_Relance" xml:space="preserve">
+    <value>D. Relance</value>
+  </data>
+  <data name="RDV_Realise" xml:space="preserve">
+    <value>RDV Réalisé</value>
+  </data>
+</root>

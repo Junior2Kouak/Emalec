@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grdvPlanning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grdvPlanning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 20</value>
+  </data>
+  <data name="grdvPlanning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1484, 737</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grdvPlanning.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grdvPlanning.Name" xml:space="preserve">
+    <value>grdvPlanning</value>
+  </data>
+  <data name="&gt;&gt;grdvPlanning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grdvPlanning.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grdvPlanning.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnRefresh.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 686</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Actualiser F5</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>pnlTechs</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlTechs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="btnQuit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnQuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 715</value>
+  </data>
+  <data name="btnQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="btnQuit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnQuit.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Name" xml:space="preserve">
+    <value>btnQuit</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.Parent" xml:space="preserve">
+    <value>pnlTechs</value>
+  </data>
+  <data name="&gt;&gt;btnQuit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTechSuiv.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnTechSuiv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 27</value>
+  </data>
+  <data name="btnTechSuiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="btnTechSuiv.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnTechSuiv.Text" xml:space="preserve">
+    <value>\l/</value>
+  </data>
+  <data name="&gt;&gt;btnTechSuiv.Name" xml:space="preserve">
+    <value>btnTechSuiv</value>
+  </data>
+  <data name="&gt;&gt;btnTechSuiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechSuiv.Parent" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;btnTechSuiv.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboTechs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="cboTechs.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboTechs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cboTechs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 23</value>
+  </data>
+  <data name="cboTechs.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cboTechs.Name" xml:space="preserve">
+    <value>cboTechs</value>
+  </data>
+  <data name="&gt;&gt;cboTechs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboTechs.Parent" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;cboTechs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnTechPrec.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnTechPrec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 27</value>
+  </data>
+  <data name="btnTechPrec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="btnTechPrec.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnTechPrec.Text" xml:space="preserve">
+    <value>/l\</value>
+  </data>
+  <data name="&gt;&gt;btnTechPrec.Name" xml:space="preserve">
+    <value>btnTechPrec</value>
+  </data>
+  <data name="&gt;&gt;btnTechPrec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechPrec.Parent" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;btnTechPrec.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSemSuiv.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnSemSuiv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 27</value>
+  </data>
+  <data name="btnSemSuiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="btnSemSuiv.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnSemSuiv.Text" xml:space="preserve">
+    <value>--&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnSemSuiv.Name" xml:space="preserve">
+    <value>btnSemSuiv</value>
+  </data>
+  <data name="&gt;&gt;btnSemSuiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSemSuiv.Parent" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;btnSemSuiv.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSemPrec.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="btnSemPrec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 27</value>
+  </data>
+  <data name="btnSemPrec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="btnSemPrec.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnSemPrec.Text" xml:space="preserve">
+    <value>&lt;--</value>
+  </data>
+  <data name="&gt;&gt;btnSemPrec.Name" xml:space="preserve">
+    <value>btnSemPrec</value>
+  </data>
+  <data name="&gt;&gt;btnSemPrec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSemPrec.Parent" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;btnSemPrec.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlCommandes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlCommandes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 55</value>
+  </data>
+  <data name="pnlCommandes.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnlCommandes.Name" xml:space="preserve">
+    <value>pnlCommandes</value>
+  </data>
+  <data name="&gt;&gt;pnlCommandes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlCommandes.Parent" xml:space="preserve">
+    <value>pnlTechs</value>
+  </data>
+  <data name="&gt;&gt;pnlCommandes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlTechs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlTechs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 749</value>
+  </data>
+  <data name="pnlTechs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlTechs.Name" xml:space="preserve">
+    <value>pnlTechs</value>
+  </data>
+  <data name="&gt;&gt;pnlTechs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTechs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlTechs.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnTechsClim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 0</value>
+  </data>
+  <data name="btnTechsClim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 19</value>
+  </data>
+  <data name="btnTechsClim.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnTechsClim.Text" xml:space="preserve">
+    <value>Climaticiens</value>
+  </data>
+  <data name="&gt;&gt;btnTechsClim.Name" xml:space="preserve">
+    <value>btnTechsClim</value>
+  </data>
+  <data name="&gt;&gt;btnTechsClim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsClim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsClim.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnTechsCFaible.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 0</value>
+  </data>
+  <data name="btnTechsCFaible.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="btnTechsCFaible.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnTechsCFaible.Text" xml:space="preserve">
+    <value>Courant faible</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFaible.Name" xml:space="preserve">
+    <value>btnTechsCFaible</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFaible.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFaible.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFaible.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnTechsCFort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 0</value>
+  </data>
+  <data name="btnTechsCFort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="btnTechsCFort.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnTechsCFort.Text" xml:space="preserve">
+    <value>Courant fort</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFort.Name" xml:space="preserve">
+    <value>btnTechsCFort</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFort.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCFort.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnTechsSecOeuvre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 0</value>
+  </data>
+  <data name="btnTechsSecOeuvre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="btnTechsSecOeuvre.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnTechsSecOeuvre.Text" xml:space="preserve">
+    <value>Second oeuvre</value>
+  </data>
+  <data name="&gt;&gt;btnTechsSecOeuvre.Name" xml:space="preserve">
+    <value>btnTechsSecOeuvre</value>
+  </data>
+  <data name="&gt;&gt;btnTechsSecOeuvre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsSecOeuvre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsSecOeuvre.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnTechsPlomb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>567, 0</value>
+  </data>
+  <data name="btnTechsPlomb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 19</value>
+  </data>
+  <data name="btnTechsPlomb.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnTechsPlomb.Text" xml:space="preserve">
+    <value>Plomberie</value>
+  </data>
+  <data name="&gt;&gt;btnTechsPlomb.Name" xml:space="preserve">
+    <value>btnTechsPlomb</value>
+  </data>
+  <data name="&gt;&gt;btnTechsPlomb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsPlomb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsPlomb.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnTechsMultitech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 0</value>
+  </data>
+  <data name="btnTechsMultitech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="btnTechsMultitech.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnTechsMultitech.Text" xml:space="preserve">
+    <value>Multitech</value>
+  </data>
+  <data name="&gt;&gt;btnTechsMultitech.Name" xml:space="preserve">
+    <value>btnTechsMultitech</value>
+  </data>
+  <data name="&gt;&gt;btnTechsMultitech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsMultitech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsMultitech.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnSelectTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>971, 0</value>
+  </data>
+  <data name="btnSelectTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="btnSelectTech.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnSelectTech.Text" xml:space="preserve">
+    <value>Sélection</value>
+  </data>
+  <data name="&gt;&gt;btnSelectTech.Name" xml:space="preserve">
+    <value>btnSelectTech</value>
+  </data>
+  <data name="&gt;&gt;btnSelectTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelectTech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSelectTech.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1076, 0</value>
+  </data>
+  <data name="btnMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="btnMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnMaps.Text" xml:space="preserve">
+    <value>Trajets</value>
+  </data>
+  <data name="btnMaps.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnMaps.Name" xml:space="preserve">
+    <value>btnMaps</value>
+  </data>
+  <data name="&gt;&gt;btnMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMaps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMaps.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1171, 0</value>
+  </data>
+  <data name="btnDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="btnDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnDistance.Text" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="&gt;&gt;btnDistance.Name" xml:space="preserve">
+    <value>btnDistance</value>
+  </data>
+  <data name="&gt;&gt;btnDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDistance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDistance.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCompetences.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1239, 0</value>
+  </data>
+  <data name="btnCompetences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="btnCompetences.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnCompetences.Text" xml:space="preserve">
+    <value>Compétences</value>
+  </data>
+  <data name="&gt;&gt;btnCompetences.Name" xml:space="preserve">
+    <value>btnCompetences</value>
+  </data>
+  <data name="&gt;&gt;btnCompetences.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCompetences.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCompetences.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCarte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1325, 0</value>
+  </data>
+  <data name="btnCarte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="btnCarte.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnCarte.Text" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="&gt;&gt;btnCarte.Name" xml:space="preserve">
+    <value>btnCarte</value>
+  </data>
+  <data name="&gt;&gt;btnCarte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCarte.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCarte.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnPrintS3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1429, 0</value>
+  </data>
+  <data name="BtnPrintS3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 19</value>
+  </data>
+  <data name="BtnPrintS3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BtnPrintS3.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintS3.Name" xml:space="preserve">
+    <value>BtnPrintS3</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintS3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintS3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintS3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTechsCouvreur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 0</value>
+  </data>
+  <data name="btnTechsCouvreur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="btnTechsCouvreur.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnTechsCouvreur.Text" xml:space="preserve">
+    <value>Couvreur</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCouvreur.Name" xml:space="preserve">
+    <value>btnTechsCouvreur</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCouvreur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCouvreur.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTechsCouvreur.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnTechEI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>803, 0</value>
+  </data>
+  <data name="BtnTechEI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="BtnTechEI.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BtnTechEI.Text" xml:space="preserve">
+    <value>Ext inc.</value>
+  </data>
+  <data name="&gt;&gt;BtnTechEI.Name" xml:space="preserve">
+    <value>BtnTechEI</value>
+  </data>
+  <data name="&gt;&gt;BtnTechEI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnTechEI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnTechEI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnCommerce.Location" type="System.Drawing.Point, System.Drawing">
+    <value>878, 0</value>
+  </data>
+  <data name="BtnCommerce.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="BtnCommerce.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BtnCommerce.Text" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="&gt;&gt;BtnCommerce.Name" xml:space="preserve">
+    <value>BtnCommerce</value>
+  </data>
+  <data name="&gt;&gt;BtnCommerce.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCommerce.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnCommerce.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1701, 749</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form2</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMainPlanning3S</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

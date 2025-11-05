@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2823C4DA-9AA7-495F-8EE9-6BFCC60E87D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MozartLib</RootNamespace>
+    <AssemblyName>MozartLib</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Docs.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mozart .Net\Dlls\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CApiMozarisEntraID.cs" />
+    <Compile Include="CCertifiedPDF.cs" />
+    <Compile Include="CImpersonation.cs" />
+    <Compile Include="CNumerotationAuto.cs" />
+    <Compile Include="CUserConnecte.cs" />
+    <Compile Include="DTO\COMMUN\COMMUNEntities.cs" />
+    <Compile Include="CVpnDetector.cs" />
+    <Compile Include="DTO\COMMUN\TPAYS_PROSPECT.cs" />
+    <Compile Include="DTO\COMMUN\TREF_DOMCOM.cs" />
+    <Compile Include="DTO\COMMUN\TSOCIETE.cs" />
+    <Compile Include="DTO\MULTI\TCONTRATCLIDETAIL.cs" />
+    <Compile Include="DTO\MULTI\TDIRECTION.cs" />
+    <Compile Include="DTO\MULTI\TPROSPOFFRE.cs" />
+    <Compile Include="DTO\MULTI\TPROSPSUIV.cs" />
+    <Compile Include="DTO\MULTI\TPROSP_PAYS.cs" />
+    <Compile Include="DTO\MULTI\TREF_GROUPE.cs" />
+    <Compile Include="DTO\MULTI\TREF_PROSPGROUPE.cs" />
+    <Compile Include="DTO\STATISTIQUE\STATISTIQUEEntities.cs" />
+    <Compile Include="DTO\STATISTIQUE\TSUIVIPROSPECT.cs" />
+    <Compile Include="Entites\CEntiteConstants.cs" />
+    <Compile Include="Entites\COMMUN\TREF_DOMCOM.cs" />
+    <Compile Include="Entites\COMMUN\TREF_TYPEPER.cs" />
+    <Compile Include="Entites\COMMUN\TREF_TYPEPERDETAIL.cs" />
+    <Compile Include="Entites\COMMUN\TSER.cs" />
+    <Compile Include="Entites\COMMUN\TSOCIETE.cs" />
+    <Compile Include="Entites\MULTI\TCLI.cs" />
+    <Compile Include="DTO\COMMUN\TCOMMUNE.cs" />
+    <Compile Include="DTO\COMMUN\TPAYS.cs" />
+    <Compile Include="DTO\COMMUN\TREF_BANQUE.cs" />
+    <Compile Include="DTO\COMMUN\TREF_SECTEUR.cs" />
+    <Compile Include="Entites\COMMUN\TPAYS.cs" />
+    <Compile Include="Entites\MULTI\TPER.cs" />
+    <Compile Include="Entites\MULTI\TPROSP.cs" />
+    <Compile Include="Entites\MULTI\TPROSPCCL.cs" />
+    <Compile Include="MozartDatabase.cs" />
+    <Compile Include="MozartParams.cs" />
+    <Compile Include="DTO\MULTI\MULTIEntities.cs" />
+    <Compile Include="DTO\MULTI\TCAN.cs" />
+    <Compile Include="DTO\MULTI\TCCL.cs" />
+    <Compile Include="DTO\MULTI\TCLI.cs" />
+    <Compile Include="DTO\MULTI\TCLIPER.cs" />
+    <Compile Include="DTO\MULTI\TCLIPRIXTYPCONT.cs" />
+    <Compile Include="DTO\MULTI\TCONT.cs" />
+    <Compile Include="DTO\MULTI\TCONTRATCLI.cs" />
+    <Compile Include="DTO\MULTI\TCSIT.cs" />
+    <Compile Include="DTO\MULTI\TPER.cs" />
+    <Compile Include="DTO\MULTI\TPROSP.cs" />
+    <Compile Include="DTO\MULTI\TPROSPCCL.cs" />
+    <Compile Include="DTO\MULTI\TPROSP_CLI.cs" />
+    <Compile Include="DTO\MULTI\TREF_CTEANA.cs" />
+    <Compile Include="DTO\MULTI\TRSF.cs" />
+    <Compile Include="DTO\MULTI\TSIT.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\COMMUN\TREF_TYPECONTRAT.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\FACILITEAM_NEW.jpg" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\Logo_EMALECFACILITEAM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LOGO_MAGESTIME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LOGO_SCS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LOGOEMALEC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LOGOMPM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LuxLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\LogoOCEATEC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Logos\Logo-EMALEC_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logos\Logo-EMALEC_Icon.png" />
+    <Content Include="Logos\logo_mpm_final.png" />
+    <Content Include="Logos\mozart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

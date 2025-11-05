@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LvlGColNCONTRATEXIST.Caption" xml:space="preserve">
+    <value>Compétence affectée</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RepItemChkCONTRATEXIST.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LvlGColNCONTRATEXIST.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LvlGColNCONTRATEXIST.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LvlGColNTYPECONTRAT.Caption" xml:space="preserve">
+    <value>NTYPECONTRAT</value>
+  </data>
+  <data name="LvlGColVTYPECONTRAT.Caption" xml:space="preserve">
+    <value>Contrat</value>
+  </data>
+  <data name="LvlGColVTYPECONTRAT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LvlGColVTYPECONTRAT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GCListTechByCont.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GCListTechByCont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="GColNPERNUM.Caption" xml:space="preserve">
+    <value>NPERNUM</value>
+  </data>
+  <data name="GColVTECH.Caption" xml:space="preserve">
+    <value>Technicien</value>
+  </data>
+  <data name="GColVTECH.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColVTECH.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GColVTECH.Width" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="GColNCONTRATEXIST.Caption" xml:space="preserve">
+    <value>Affecté</value>
+  </data>
+  <data name="GColNCONTRATEXIST.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColNCONTRATEXIST.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GColNCONTRATEXIST.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="GColVSERLIB.Caption" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="GColVSERLIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColVSERLIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GColVSERLIB.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="GCListTechByCont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 581</value>
+  </data>
+  <data name="GCListTechByCont.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;GCListTechByCont.Name" xml:space="preserve">
+    <value>GCListTechByCont</value>
+  </data>
+  <data name="&gt;&gt;GCListTechByCont.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCListTechByCont.Parent" xml:space="preserve">
+    <value>GrpBoxLstContrat</value>
+  </data>
+  <data name="&gt;&gt;GCListTechByCont.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnExportXLS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="BtnExportXLS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnExportXLS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 139</value>
+  </data>
+  <data name="BtnExportXLS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 41</value>
+  </data>
+  <data name="BtnExportXLS.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnExportXLS.Text" xml:space="preserve">
+    <value>Exporter en EXCEL</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Name" xml:space="preserve">
+    <value>BtnExportXLS</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Parent" xml:space="preserve">
+    <value>GrpboxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnParTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 186</value>
+  </data>
+  <data name="BtnParTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 43</value>
+  </data>
+  <data name="BtnParTech.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnParTech.Text" xml:space="preserve">
+    <value>Par techniciens</value>
+  </data>
+  <data name="&gt;&gt;BtnParTech.Name" xml:space="preserve">
+    <value>BtnParTech</value>
+  </data>
+  <data name="&gt;&gt;BtnParTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnParTech.Parent" xml:space="preserve">
+    <value>GrpboxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnParTech.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 493</value>
+  </data>
+  <data name="BtnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 43</value>
+  </data>
+  <data name="BtnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Name" xml:space="preserve">
+    <value>BtnClose</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.Parent" xml:space="preserve">
+    <value>GrpboxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnClose.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 43</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>GrpboxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpboxActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GrpboxActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 542</value>
+  </data>
+  <data name="GrpboxActions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GrpboxActions.Name" xml:space="preserve">
+    <value>GrpboxActions</value>
+  </data>
+  <data name="&gt;&gt;GrpboxActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpboxActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpboxActions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpBoxLstContrat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpBoxLstContrat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 12</value>
+  </data>
+  <data name="GrpBoxLstContrat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 602</value>
+  </data>
+  <data name="GrpBoxLstContrat.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GrpBoxLstContrat.Text" xml:space="preserve">
+    <value>Liste des techniciens compétents</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxLstContrat.Name" xml:space="preserve">
+    <value>GrpBoxLstContrat</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxLstContrat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxLstContrat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxLstContrat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GCListContrat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GCListContrat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="GColNTYPECONTRAT.Caption" xml:space="preserve">
+    <value>NTYPECONTRAT</value>
+  </data>
+  <data name="GColVCONTDOMLIB.Caption" xml:space="preserve">
+    <value>Domaine</value>
+  </data>
+  <data name="GColVCONTDOMLIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColVCONTDOMLIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GColVTYPECONTRAT.Caption" xml:space="preserve">
+    <value>Contrat</value>
+  </data>
+  <data name="GColVTYPECONTRAT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColVTYPECONTRAT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GCListContrat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 584</value>
+  </data>
+  <data name="GCListContrat.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GCListContrat.Name" xml:space="preserve">
+    <value>GCListContrat</value>
+  </data>
+  <data name="&gt;&gt;GCListContrat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCListContrat.Parent" xml:space="preserve">
+    <value>GrpBoxContrats</value>
+  </data>
+  <data name="&gt;&gt;GCListContrat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpBoxContrats.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpBoxContrats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 12</value>
+  </data>
+  <data name="GrpBoxContrats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 605</value>
+  </data>
+  <data name="GrpBoxContrats.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="GrpBoxContrats.Text" xml:space="preserve">
+    <value>Liste des compétences</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxContrats.Name" xml:space="preserve">
+    <value>GrpBoxContrats</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxContrats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxContrats.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxContrats.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GridColumn1.Caption" xml:space="preserve">
+    <value>GridColumn1</value>
+  </data>
+  <data name="GridColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GridColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GridColumn2.Caption" xml:space="preserve">
+    <value>GridColumn2</value>
+  </data>
+  <data name="GridColumn2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GridColumn2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="SFD.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1456, 775</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Compétences des techniciens par contrat</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNCONTRATEXIST.Name" xml:space="preserve">
+    <value>LvlGColNCONTRATEXIST</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNCONTRATEXIST.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepItemChkCONTRATEXIST.Name" xml:space="preserve">
+    <value>RepItemChkCONTRATEXIST</value>
+  </data>
+  <data name="&gt;&gt;RepItemChkCONTRATEXIST.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVContrats.Name" xml:space="preserve">
+    <value>GVContrats</value>
+  </data>
+  <data name="&gt;&gt;GVContrats.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNCONTDOMNUM.Name" xml:space="preserve">
+    <value>LvlGColNCONTDOMNUM</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNCONTDOMNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNTYPECONTRAT.Name" xml:space="preserve">
+    <value>LvlGColNTYPECONTRAT</value>
+  </data>
+  <data name="&gt;&gt;LvlGColNTYPECONTRAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LvlGColVTYPECONTRAT.Name" xml:space="preserve">
+    <value>LvlGColVTYPECONTRAT</value>
+  </data>
+  <data name="&gt;&gt;LvlGColVTYPECONTRAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVTech.Name" xml:space="preserve">
+    <value>GVTech</value>
+  </data>
+  <data name="&gt;&gt;GVTech.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColNPERNUM.Name" xml:space="preserve">
+    <value>GColNPERNUM</value>
+  </data>
+  <data name="&gt;&gt;GColNPERNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColVTECH.Name" xml:space="preserve">
+    <value>GColVTECH</value>
+  </data>
+  <data name="&gt;&gt;GColVTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColNCONTRATEXIST.Name" xml:space="preserve">
+    <value>GColNCONTRATEXIST</value>
+  </data>
+  <data name="&gt;&gt;GColNCONTRATEXIST.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColVSERLIB.Name" xml:space="preserve">
+    <value>GColVSERLIB</value>
+  </data>
+  <data name="&gt;&gt;GColVSERLIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVListContrat.Name" xml:space="preserve">
+    <value>GVListContrat</value>
+  </data>
+  <data name="&gt;&gt;GVListContrat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColNTYPECONTRAT.Name" xml:space="preserve">
+    <value>GColNTYPECONTRAT</value>
+  </data>
+  <data name="&gt;&gt;GColNTYPECONTRAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColVCONTDOMLIB.Name" xml:space="preserve">
+    <value>GColVCONTDOMLIB</value>
+  </data>
+  <data name="&gt;&gt;GColVCONTDOMLIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColVTYPECONTRAT.Name" xml:space="preserve">
+    <value>GColVTYPECONTRAT</value>
+  </data>
+  <data name="&gt;&gt;GColVTYPECONTRAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridColumn1.Name" xml:space="preserve">
+    <value>GridColumn1</value>
+  </data>
+  <data name="&gt;&gt;GridColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridColumn2.Name" xml:space="preserve">
+    <value>GridColumn2</value>
+  </data>
+  <data name="&gt;&gt;GridColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SFD.Name" xml:space="preserve">
+    <value>SFD</value>
+  </data>
+  <data name="&gt;&gt;SFD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmGestContratCompetByContrat</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

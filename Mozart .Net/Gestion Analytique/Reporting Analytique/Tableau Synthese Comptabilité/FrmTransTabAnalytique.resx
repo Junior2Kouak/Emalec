@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblInfoTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pgbStateDep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 23</value>
+  </data>
+  <data name="GrpProgressBarTab.Text" xml:space="preserve">
+    <value>Statut :</value>
+  </data>
+  <data name="&gt;&gt;GrpDepenseAna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnValidDep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="LblInfoDep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 37</value>
+  </data>
+  <data name="&gt;&gt;GrpSyntheseAna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpSyntheseAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GrpProgressBarTab.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="LblInfoTab.Text" xml:space="preserve">
+    <value>Cette opération nécessite un certain temps de traitement. elle peut durer plusieurs minutes.</value>
+  </data>
+  <data name="&gt;&gt;DTPButoireAna.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnValidTab.Name" xml:space="preserve">
+    <value>BtnValidTab</value>
+  </data>
+  <data name="LblInfoTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxTableauAna.Name" xml:space="preserve">
+    <value>GrpBoxTableauAna</value>
+  </data>
+  <data name="GrpProgressBarDep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoTab.Name" xml:space="preserve">
+    <value>GrpInfoTab</value>
+  </data>
+  <data name="GrpProgressBarDep.Text" xml:space="preserve">
+    <value>Statut :</value>
+  </data>
+  <data name="&gt;&gt;GrpSyntheseAna.Name" xml:space="preserve">
+    <value>GrpSyntheseAna</value>
+  </data>
+  <data name="BtnValidTab.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Transfert analytique</value>
+  </data>
+  <data name="GrpProgressBarDep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 51</value>
+  </data>
+  <data name="pgbStateTab.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pgbStateTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pgbStateTab.Parent" xml:space="preserve">
+    <value>GrpProgressBarTab</value>
+  </data>
+  <data name="DTPButoireAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 27</value>
+  </data>
+  <data name="&gt;&gt;LblInfoDep.Name" xml:space="preserve">
+    <value>LblInfoDep</value>
+  </data>
+  <data name="GrpSyntheseAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 378</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="pgbStateTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 23</value>
+  </data>
+  <data name="&gt;&gt;LblInfoTab.Name" xml:space="preserve">
+    <value>LblInfoTab</value>
+  </data>
+  <data name="lblTitreTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 33</value>
+  </data>
+  <data name="&gt;&gt;GrpSyntheseAna.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarDep.Parent" xml:space="preserve">
+    <value>GrpDepenseAna</value>
+  </data>
+  <data name="BtnValidTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GrpInfoDep.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="LblInfoDep.Text" xml:space="preserve">
+    <value>Cette opération nécessite un certain temps de traitement. elle peut durer plusieurs minutes.</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarDep.Name" xml:space="preserve">
+    <value>GrpProgressBarDep</value>
+  </data>
+  <data name="lblTitreTab.Text" xml:space="preserve">
+    <value>Sélectionner la date limite</value>
+  </data>
+  <data name="&gt;&gt;LblInfoDep.Parent" xml:space="preserve">
+    <value>GrpInfoDep</value>
+  </data>
+  <data name="LblInfoTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="pgbStateTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="BtnValidTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 29</value>
+  </data>
+  <data name="&gt;&gt;BtnValidDep.Parent" xml:space="preserve">
+    <value>GrpDepenseAna</value>
+  </data>
+  <data name="&gt;&gt;pgbStateTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChkRecalcEncours.Text" xml:space="preserve">
+    <value>Ne pas recalculer les en cours</value>
+  </data>
+  <data name="&gt;&gt;LblInfoDep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkRecalcEncours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GrpDepenseAna.Parent" xml:space="preserve">
+    <value>GrpSyntheseAna</value>
+  </data>
+  <data name="&gt;&gt;ChkRecalcEncours.Name" xml:space="preserve">
+    <value>ChkRecalcEncours</value>
+  </data>
+  <data name="GrpProgressBarTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 213</value>
+  </data>
+  <data name="&gt;&gt;BtnValidTab.Parent" xml:space="preserve">
+    <value>GrpBoxTableauAna</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmTransTabAnalytique</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxTableauAna.Parent" xml:space="preserve">
+    <value>GrpSyntheseAna</value>
+  </data>
+  <data name="DTPButoireAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 26</value>
+  </data>
+  <data name="&gt;&gt;GrpDepenseAna.Name" xml:space="preserve">
+    <value>GrpDepenseAna</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarDep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChkRecalcEncours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 107</value>
+  </data>
+  <data name="&gt;&gt;BtnValidDep.Name" xml:space="preserve">
+    <value>BtnValidDep</value>
+  </data>
+  <data name="&gt;&gt;ChkRecalcEncours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnValidDep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;bgwDesign.Name" xml:space="preserve">
+    <value>bgwDesign</value>
+  </data>
+  <data name="LblInfoDep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LblInfoTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblInfoTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pgbStateDep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarDep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bgwDesign.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="LblInfoDep.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnValidDep.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpBoxTableauAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 295</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarTab.Name" xml:space="preserve">
+    <value>GrpProgressBarTab</value>
+  </data>
+  <data name="LblInfoTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 37</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarTab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnValidDep.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;GrpDepenseAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitreTab.Name" xml:space="preserve">
+    <value>lblTitreTab</value>
+  </data>
+  <data name="&gt;&gt;BtnValidTab.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpProgressBarTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 51</value>
+  </data>
+  <data name="GrpInfoDep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 66</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoTab.Parent" xml:space="preserve">
+    <value>GrpBoxTableauAna</value>
+  </data>
+  <data name="GrpDepenseAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 67</value>
+  </data>
+  <data name="BtnValidDep.Text" xml:space="preserve">
+    <value>Lancer le traitement pour les dépenses analytique</value>
+  </data>
+  <data name="GrpInfoDep.Text" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="GrpSyntheseAna.Text" xml:space="preserve">
+    <value>Traitement analytique</value>
+  </data>
+  <data name="LblInfoDep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="GrpInfoDep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 133</value>
+  </data>
+  <data name="GrpBoxTableauAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 67</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpInfoTab.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;GrpSyntheseAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblInfoDep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChkRecalcEncours.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnValidDep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 80</value>
+  </data>
+  <data name="DTPButoireAna.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="GrpInfoTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="GrpProgressBarTab.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pgbStateDep.Name" xml:space="preserve">
+    <value>pgbStateDep</value>
+  </data>
+  <data name="&gt;&gt;DTPButoireAna.Parent" xml:space="preserve">
+    <value>GrpSyntheseAna</value>
+  </data>
+  <data name="ChkRecalcEncours.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pgbStateDep.Parent" xml:space="preserve">
+    <value>GrpProgressBarDep</value>
+  </data>
+  <data name="GrpDepenseAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 295</value>
+  </data>
+  <data name="DTPButoireAna.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>959, 410</value>
+  </data>
+  <data name="GrpDepenseAna.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblTitreTab.Parent" xml:space="preserve">
+    <value>GrpSyntheseAna</value>
+  </data>
+  <data name="GrpProgressBarDep.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxTableauAna.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpInfoTab.Text" xml:space="preserve">
+    <value>Informations</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpSyntheseAna.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnValidTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoDep.Name" xml:space="preserve">
+    <value>GrpInfoDep</value>
+  </data>
+  <data name="&gt;&gt;DTPButoireAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkRecalcEncours.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ChkRecalcEncours.Parent" xml:space="preserve">
+    <value>GrpBoxTableauAna</value>
+  </data>
+  <data name="&gt;&gt;lblTitreTab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pgbStateDep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pgbStateDep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pgbStateDep.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxTableauAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitreTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoDep.Parent" xml:space="preserve">
+    <value>GrpDepenseAna</value>
+  </data>
+  <data name="GrpSyntheseAna.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="GrpDepenseAna.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GrpInfoTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 66</value>
+  </data>
+  <data name="&gt;&gt;pgbStateTab.Name" xml:space="preserve">
+    <value>pgbStateTab</value>
+  </data>
+  <data name="GrpBoxTableauAna.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;DTPButoireAna.Name" xml:space="preserve">
+    <value>DTPButoireAna</value>
+  </data>
+  <data name="BtnValidTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 64</value>
+  </data>
+  <data name="lblTitreTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 31</value>
+  </data>
+  <data name="ChkRecalcEncours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 17</value>
+  </data>
+  <data name="&gt;&gt;GrpProgressBarTab.Parent" xml:space="preserve">
+    <value>GrpBoxTableauAna</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoDep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnValidDep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoDep.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpDepenseAna.Text" xml:space="preserve">
+    <value>Dépenses analytique</value>
+  </data>
+  <data name="GrpProgressBarDep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 213</value>
+  </data>
+  <data name="BtnValidTab.Text" xml:space="preserve">
+    <value>Lancer le traitement pour la synthese du tableau analytique</value>
+  </data>
+  <data name="GrpBoxTableauAna.Text" xml:space="preserve">
+    <value>Synthèse tableau analytique</value>
+  </data>
+  <data name="lblTitreTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LblInfoTab.Parent" xml:space="preserve">
+    <value>GrpInfoTab</value>
+  </data>
+  <data name="lblTitreTab.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bgwDesign.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

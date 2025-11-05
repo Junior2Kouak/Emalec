@@ -1,0 +1,978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;GrpTauxChargeEI.Name" xml:space="preserve">
+    <value>GrpTauxChargeEI</value>
+  </data>
+  <data name="&gt;&gt;LblLine263.Name" xml:space="preserve">
+    <value>LblLine263</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.Angle3" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblLineLeg240.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LblLeg263.Text" xml:space="preserve">
+    <value>Compte 263</value>
+  </data>
+  <data name="GrpLegende.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LblLeg240.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnValid.Parent" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="&gt;&gt;DTPFin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value>en € HT</value>
+  </data>
+  <data name="ChartCtrlCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="Series3.Name" xml:space="preserve">
+    <value>SeriesCaByTech</value>
+  </data>
+  <data name="&gt;&gt;GrpChargeStruct.Name" xml:space="preserve">
+    <value>GrpChargeStruct</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlAna.Parent" xml:space="preserve">
+    <value>GrpAna</value>
+  </data>
+  <data name="LblLeg263.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 26</value>
+  </data>
+  <data name="LblLineLeg263.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 19</value>
+  </data>
+  <data name="GrpAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="ChartCtrlCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCAbyPer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="resource.Text3" xml:space="preserve">
+    <value>En %</value>
+  </data>
+  <data name="BtnPrint.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="LblColLeg240.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 24</value>
+  </data>
+  <data name="&gt;&gt;DTPFin.Parent" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg263.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg240.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpLegende.Text" xml:space="preserve">
+    <value>Légende</value>
+  </data>
+  <data name="&gt;&gt;LblLine263.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="LblTitre.Text" xml:space="preserve">
+    <value>Statistiques facturation Extinction Incendie</value>
+  </data>
+  <data name="LblColLeg263.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 56</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg240.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;BtnValid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ChtCtrlChargeStruct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="&gt;&gt;GrpAna.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 24</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Statistiques facturation Extinction Incendie</value>
+  </data>
+  <data name="ChtCtrlTxChargePlanning.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpFilter.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg240.Name" xml:space="preserve">
+    <value>LblColLeg240</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="RegressionLine3.Name" xml:space="preserve">
+    <value>RegLineCAByPers</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="GrpFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 44</value>
+  </data>
+  <data name="GrpFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 62</value>
+  </data>
+  <data name="LblLeg263.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlTxChargePlanning.Name" xml:space="preserve">
+    <value>ChtCtrlTxChargePlanning</value>
+  </data>
+  <data name="RegressionLine1.Name" xml:space="preserve">
+    <value>RegLineCA</value>
+  </data>
+  <data name="resource.Angle1" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;GrpAna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblLeg240.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="GrpTauxChargeEI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Name" xml:space="preserve">
+    <value>GrpCA</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="BtnValid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 14</value>
+  </data>
+  <data name="LblLine240.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 32</value>
+  </data>
+  <data name="&gt;&gt;DTPDebut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlTxChargePlanning.Parent" xml:space="preserve">
+    <value>GrpTauxChargeEI</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ChartCtrlCAbyPer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg263.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>en € HT</value>
+  </data>
+  <data name="&gt;&gt;LblLeg240.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpAna.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="GrpFilter.Text" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="GrpCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 112</value>
+  </data>
+  <data name="LblLineLeg240.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 25</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrpLegende.Size" type="System.Drawing.Size, System.Drawing">
+    <value>533, 94</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlAna.Name" xml:space="preserve">
+    <value>ChtCtrlAna</value>
+  </data>
+  <data name="ChtCtrlAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCAbyPer.Parent" xml:space="preserve">
+    <value>GrpCAMoyByTech</value>
+  </data>
+  <data name="DTPFin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblLineLeg263.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="LblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 12</value>
+  </data>
+  <data name="&gt;&gt;GrpChargeStruct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCA.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCA.Name" xml:space="preserve">
+    <value>ChartCtrlCA</value>
+  </data>
+  <data name="Series2.Name" xml:space="preserve">
+    <value>SeriesNbTech</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="ChartCtrlCAbyPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="GrpChargeStruct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>958, 670</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DTPFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 22</value>
+  </data>
+  <data name="LblLineLeg240.Text" xml:space="preserve">
+    <value>Courbe tendance 240</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg263.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpChargeStruct.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GrpLegende.Name" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="LblLine240.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 2</value>
+  </data>
+  <data name="&gt;&gt;GrpPer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblLine240.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg240.Name" xml:space="preserve">
+    <value>LblLineLeg240</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="&gt;&gt;DTPDebut.Parent" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="GrpPer.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LblLeg240.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpAna.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg240.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblLine263.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="resource.Angle2" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlChargeStruct.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ChartCtrlPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;LblLine240.Name" xml:space="preserve">
+    <value>LblLine240</value>
+  </data>
+  <data name="ChtCtrlChargeStruct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="LblTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblLine263.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblLeg240.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resource.Font2" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="GrpCAMoyByTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 670</value>
+  </data>
+  <data name="GrpChargeStruct.Text" xml:space="preserve">
+    <value>Charges de structure (Compte 240 + Compte 263)</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlChargeStruct.Parent" xml:space="preserve">
+    <value>GrpChargeStruct</value>
+  </data>
+  <data name="ChtCtrlChargeStruct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrpCA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GrpTauxChargeEI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpTauxChargeEI.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ChartCtrlPer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg263.Name" xml:space="preserve">
+    <value>LblLineLeg263</value>
+  </data>
+  <data name="ChartCtrlPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="ChtCtrlAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="Series1.LegendText" xml:space="preserve">
+    <value>Montant facturé</value>
+  </data>
+  <data name="&gt;&gt;LblLeg263.Name" xml:space="preserve">
+    <value>LblLeg263</value>
+  </data>
+  <data name="GrpLegende.Location" type="System.Drawing.Point, System.Drawing">
+    <value>998, 12</value>
+  </data>
+  <data name="ChtCtrlAna.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;LblLine263.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblLeg263.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlAna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpChargeStruct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCAbyPer.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LblLine240.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCAMoyByTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="LblLineLeg263.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 63</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg240.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Series1.Name" xml:space="preserve">
+    <value>SerieCA</value>
+  </data>
+  <data name="&gt;&gt;GrpFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpLegende.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg263.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="ChartCtrlCAbyPer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ChartCtrlCA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblLeg263.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 56</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="ChartCtrlCA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;DTPDebut.Name" xml:space="preserve">
+    <value>DTPDebut</value>
+  </data>
+  <data name="GrpPer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpCAMoyByTech.Name" xml:space="preserve">
+    <value>GrpCAMoyByTech</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlChargeStruct.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpFilter.Name" xml:space="preserve">
+    <value>GrpFilter</value>
+  </data>
+  <data name="ChartCtrlCAbyPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 24</value>
+  </data>
+  <data name="BtnValid.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblLine263.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 2</value>
+  </data>
+  <data name="DTPDebut.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>958, 391</value>
+  </data>
+  <data name="DTPDebut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 22</value>
+  </data>
+  <data name="LblLeg240.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="GrpCAMoyByTech.Text" xml:space="preserve">
+    <value>Chiffre d’affaires moyen par technico</value>
+  </data>
+  <data name="Series4.Name" xml:space="preserve">
+    <value>SeriesTauxChargePlan</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 27</value>
+  </data>
+  <data name="LblLeg263.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;GrpLegende.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpTauxChargeEI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg263.Name" xml:space="preserve">
+    <value>LblColLeg263</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GrpPer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlAna.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LblLineLeg263.Text" xml:space="preserve">
+    <value>Courbe tendance 263</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPer.Name" xml:space="preserve">
+    <value>ChartCtrlPer</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Du</value>
+  </data>
+  <data name="&gt;&gt;LblLeg240.Name" xml:space="preserve">
+    <value>LblLeg240</value>
+  </data>
+  <data name="&gt;&gt;LblLeg263.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnValid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 36</value>
+  </data>
+  <data name="GrpLegende.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GrpPer.Text" xml:space="preserve">
+    <value>Nombre de Technico-commerciaux</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblLine263.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 69</value>
+  </data>
+  <data name="&gt;&gt;GrpCAMoyByTech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GrpTauxChargeEI.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ChartCtrlPer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 672</value>
+  </data>
+  <data name="GrpFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="LblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>509, 29</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPer.Parent" xml:space="preserve">
+    <value>GrpPer</value>
+  </data>
+  <data name="LblColLeg263.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 26</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 48</value>
+  </data>
+  <data name="LblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GrpPer.Name" xml:space="preserve">
+    <value>GrpPer</value>
+  </data>
+  <data name="LblLeg240.Text" xml:space="preserve">
+    <value>Compte 240</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlTxChargePlanning.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCA.Parent" xml:space="preserve">
+    <value>GrpCA</value>
+  </data>
+  <data name="&gt;&gt;GrpChargeStruct.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RegressionLine2.Name" xml:space="preserve">
+    <value>RegLineNbPers</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpChargeStruct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStatFacturationEI</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPer.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlChargeStruct.Name" xml:space="preserve">
+    <value>ChtCtrlChargeStruct</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;BtnValid.Name" xml:space="preserve">
+    <value>BtnValid</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Name" xml:space="preserve">
+    <value>BtnPrint</value>
+  </data>
+  <data name="ChtCtrlTxChargePlanning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnValid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpLegende.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChtCtrlAna.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="resource.Angle" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="LblLine240.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblColLeg263.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LblLeg263.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 27</value>
+  </data>
+  <data name="GrpPer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="LblColLeg240.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblLineLeg240.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblLineLeg240.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 18</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCAbyPer.Name" xml:space="preserve">
+    <value>ChartCtrlCAbyPer</value>
+  </data>
+  <data name="GrpCA.Text" xml:space="preserve">
+    <value>Chiffre d’affaires facturé (en €ht)</value>
+  </data>
+  <data name="&gt;&gt;DTPFin.Name" xml:space="preserve">
+    <value>DTPFin</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg263.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.Font3" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GrpPer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DTPDebut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 48</value>
+  </data>
+  <data name="GrpChargeStruct.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="GrpAna.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Au</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Name" xml:space="preserve">
+    <value>LblTitre</value>
+  </data>
+  <data name="&gt;&gt;LblLine240.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpTauxChargeEI.Text" xml:space="preserve">
+    <value>Taux de charge du planning EI</value>
+  </data>
+  <data name="&gt;&gt;GrpCAMoyByTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlCA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpTauxChargeEI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>958, 112</value>
+  </data>
+  <data name="GrpCA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg240.Parent" xml:space="preserve">
+    <value>GrpLegende</value>
+  </data>
+  <data name="GrpCAMoyByTech.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="DTPDebut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="GrpLegende.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnValid.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;GrpTauxChargeEI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 273</value>
+  </data>
+  <data name="RegressionLine4.Name" xml:space="preserve">
+    <value>RegLineTxPlanEI</value>
+  </data>
+  <data name="&gt;&gt;GrpAna.Name" xml:space="preserve">
+    <value>GrpAna</value>
+  </data>
+  <data name="LblLeg240.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 618</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1676, 982</value>
+  </data>
+  <data name="&gt;&gt;LblColLeg240.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LblLineLeg263.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpPer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 391</value>
+  </data>
+  <data name="ChtCtrlChargeStruct.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LblLineLeg263.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;GrpCAMoyByTech.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DTPFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 21</value>
+  </data>
+  <data name="ChtCtrlTxChargePlanning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 254</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChtCtrlTxChargePlanning.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Font1" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="GrpAna.Text" xml:space="preserve">
+    <value>Résultat d’exploitation (Compte 240 + Compte 263)</value>
+  </data>
+  <data name="LblColLeg240.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;DTPFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCAMoyByTech.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>Nb technico-commerciaux</value>
+  </data>
+  <data name="ChtCtrlTxChargePlanning.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

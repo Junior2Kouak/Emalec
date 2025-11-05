@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblPeriode.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblNomChaff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 30</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>200, 192, 157</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEVGTPUNITENOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GcDevis.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;LblChaff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GcDevis.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="vactdes.Caption" xml:space="preserve">
+    <value>Description de l'action</value>
+  </data>
+  <data name="GVStat.Appearance.TopNewRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblEtLe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 19</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;LblDateFin.Name" xml:space="preserve">
+    <value>LblDateFin</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="LblDteDebut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GVStat.Name" xml:space="preserve">
+    <value>GVStat</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="&gt;&gt;LblDateFin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblCli.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblCreesTranformes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="vactdes.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GcDevis.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 215, 188</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GcDevis.Name" xml:space="preserve">
+    <value>GcDevis</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.Row.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;vclinom.Name" xml:space="preserve">
+    <value>vclinom</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="&gt;&gt;ColLOTVGTPLOTNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;ddcldat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ndinnum.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ndclnum.Width" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="ndinnum.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ndinnum.Width" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="GVStat.Appearance.FixedLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="LblChaff.Text" xml:space="preserve">
+    <value>Chargé d'affaire :</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblChaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 98</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblDetails.Text" xml:space="preserve">
+    <value>Détail des devis</value>
+  </data>
+  <data name="ndclnum.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditUnite.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.GroupRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Détails des devis</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.VertLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;vsitnom.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="vsitnom.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColLOTIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="ddcldat.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RepIGLUpEditViewLot.Name" xml:space="preserve">
+    <value>RepIGLUpEditViewLot</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.VertLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;GcDevis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold, Underline</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ndclnum.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblChaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCli.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;LblChaff.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblNomChaff.Text" xml:space="preserve">
+    <value>nom chaff</value>
+  </data>
+  <data name="ndinnum.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblDateFin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblCreesTranformes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColLOTIDTMP.Name" xml:space="preserve">
+    <value>ColLOTIDTMP</value>
+  </data>
+  <data name="GVStat.Appearance.VertLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ndclht.Caption" xml:space="preserve">
+    <value>Montant HT</value>
+  </data>
+  <data name="GcDevis.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="ColUNITENGTPUNITEID.Caption" xml:space="preserve">
+    <value>NGTPUNITEID</value>
+  </data>
+  <data name="&gt;&gt;RepIGLUpEditViewLot.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblNomChaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 98</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ndclnum.Caption" xml:space="preserve">
+    <value>N° devis</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="vsitnom.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vsitnom.Caption" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblNomChaff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 7.5pt</value>
+  </data>
+  <data name="LblDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 15.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="ndclht.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVStat.Appearance.FixedLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>122, 114, 113</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPeriode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;vactdes.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColUNITENGTPUNITEID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPeriode.Text" xml:space="preserve">
+    <value>Période :</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GcDevis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 187</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 19</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditGTPLot.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.HorzLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.Preview.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>251, 252, 247</value>
+  </data>
+  <data name="ndclht.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblPeriode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 19</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;LblEtLe.Name" xml:space="preserve">
+    <value>LblEtLe</value>
+  </data>
+  <data name="&gt;&gt;LblPeriode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEtLe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="&gt;&gt;LblCreesTranformes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPeriode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold, Underline</value>
+  </data>
+  <data name="LblEtLe.Text" xml:space="preserve">
+    <value>au</value>
+  </data>
+  <data name="LblCreesTranformes.Text" xml:space="preserve">
+    <value>exec ou cree</value>
+  </data>
+  <data name="LblDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="LblDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="LblEtLe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 58</value>
+  </data>
+  <data name="GVStat.Appearance.Empty.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="LblDateFin.Text" xml:space="preserve">
+    <value>date fin</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblEtLe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="LblDteDebut.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ndclht.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVStat.Appearance.HorzLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GcDevis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1386, 521</value>
+  </data>
+  <data name="LblCreesTranformes.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="LblDateFin.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEIDTMP.Name" xml:space="preserve">
+    <value>ColUNITEIDTMP</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;vclinom.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ndclnum.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditUnite.Name" xml:space="preserve">
+    <value>RepItemGLUpEditUnite</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>226, 219, 188</value>
+  </data>
+  <data name="GVStat.Appearance.TopNewRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.Row.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="vsitnom.Width" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="ndclht.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ddcldat.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="RepItemGLUpEditUnite.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="GVStat.Appearance.HorzLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="&gt;&gt;vsitnom.Name" xml:space="preserve">
+    <value>vsitnom</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ndclnum.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblDateFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblChaff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblCreesTranformes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditViewUnite.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LblChaff.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblChaff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold, Underline</value>
+  </data>
+  <data name="ColUNITEIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;LblNomChaff.Name" xml:space="preserve">
+    <value>LblNomChaff</value>
+  </data>
+  <data name="LblDteDebut.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;GcDevis.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.HorzLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 181</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="GVStat.Appearance.TopNewRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 58</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;LblDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditGTPLot.Name" xml:space="preserve">
+    <value>RepItemGLUpEditGTPLot</value>
+  </data>
+  <data name="LblChaff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 30</value>
+  </data>
+  <data name="ndclht.Summary2" xml:space="preserve">
+    <value>{0:n0} €</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVStat.Appearance.Row.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>148, 148, 148</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblEtLe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColUNITENGTPUNITEID.Name" xml:space="preserve">
+    <value>ColUNITENGTPUNITEID</value>
+  </data>
+  <data name="&gt;&gt;ddcldat.Name" xml:space="preserve">
+    <value>ddcldat</value>
+  </data>
+  <data name="vclinom.Caption" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="&gt;&gt;LblChaff.Name" xml:space="preserve">
+    <value>LblChaff</value>
+  </data>
+  <data name="ndinnum.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="BtnFermer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ndclnum.Summary1" xml:space="preserve">
+    <value>NDCLNUM</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.Caption" xml:space="preserve">
+    <value>Nom du Lot</value>
+  </data>
+  <data name="ndclht.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ddcldat.Width" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="GVStat.Appearance.VertLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="LblDateFin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 19</value>
+  </data>
+  <data name="GVStat.Appearance.TopNewRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>221, 231, 234</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 761</value>
+  </data>
+  <data name="ndclnum.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;LblDetails.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <data name="LblPeriode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 58</value>
+  </data>
+  <data name="ColUNITEVGTPUNITENOM.Caption" xml:space="preserve">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="&gt;&gt;LblDetails.Name" xml:space="preserve">
+    <value>LblDetails</value>
+  </data>
+  <data name="GVStat.Appearance.TopNewRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblEtLe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLUpEditViewUnite.Name" xml:space="preserve">
+    <value>RepItemGLUpEditViewUnite</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblCli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 141</value>
+  </data>
+  <data name="&gt;&gt;LblNomChaff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vclinom.Width" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="vclinom.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ndinnum.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmDetailsDevisParChaff</value>
+  </data>
+  <data name="&gt;&gt;GVStat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LblNomChaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ddcldat.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;LblPeriode.Name" xml:space="preserve">
+    <value>LblPeriode</value>
+  </data>
+  <data name="LblDateFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 19</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 19</value>
+  </data>
+  <data name="GVStat.Appearance.Row.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RepItemGLUpEditGTPLot.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="LblCreesTranformes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;LblDteDebut.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ddcldat.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ndclht.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="LblNomChaff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;LblCli.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPeriode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblDteDebut.Name" xml:space="preserve">
+    <value>LblDteDebut</value>
+  </data>
+  <data name="&gt;&gt;ColLOTNGTPLOTID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ndclht.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblDteDebut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 10pt, style=Bold</value>
+  </data>
+  <data name="GVStat.Appearance.RowSeparator.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="&gt;&gt;LblDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;LblDteDebut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblDateFin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="ColLOTIDTMP.Caption" xml:space="preserve">
+    <value>IDTMP</value>
+  </data>
+  <data name="LblEtLe.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="vactdes.Width" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="LblNomChaff.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ndinnum.Name" xml:space="preserve">
+    <value>ndinnum</value>
+  </data>
+  <data name="&gt;&gt;ndclnum.Name" xml:space="preserve">
+    <value>ndclnum</value>
+  </data>
+  <data name="GVStat.Appearance.EvenRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;LblCreesTranformes.Name" xml:space="preserve">
+    <value>LblCreesTranformes</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.GroupFooter.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>236, 232, 201</value>
+  </data>
+  <data name="&gt;&gt;ndclht.Name" xml:space="preserve">
+    <value>ndclht</value>
+  </data>
+  <data name="GVStat.Appearance.OddRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.FocusedCell.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="ndinnum.Caption" xml:space="preserve">
+    <value>N° Demande d'intervention</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColLOTNGTPLOTID.Name" xml:space="preserve">
+    <value>ColLOTNGTPLOTID</value>
+  </data>
+  <data name="&gt;&gt;ndinnum.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="LblDateFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 58</value>
+  </data>
+  <data name="ndclht.Width" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblDteDebut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 58</value>
+  </data>
+  <data name="&gt;&gt;LblCli.Name" xml:space="preserve">
+    <value>LblCli</value>
+  </data>
+  <data name="ndinnum.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;ndclnum.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RepItemGLUpEditUnite.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="vactdes.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblEtLe.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblCli.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ndclht.Summary1" xml:space="preserve">
+    <value>NDCLHT</value>
+  </data>
+  <data name="GVStat.Appearance.SelectedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GcDevis.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="&gt;&gt;LblCreesTranformes.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 179</value>
+  </data>
+  <data name="ddcldat.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;LblCli.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 7</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>du</value>
+  </data>
+  <data name="LblCli.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="GVStat.Appearance.Row.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="LblDateFin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="ddcldat.Caption" xml:space="preserve">
+    <value>Date du  devis</value>
+  </data>
+  <data name="ndclht.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCli.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Client :</value>
+  </data>
+  <data name="GVStat.Appearance.FixedLine.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vactdes.Name" xml:space="preserve">
+    <value>vactdes</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ndclnum.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.GroupPanel.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>246, 242, 213</value>
+  </data>
+  <data name="&gt;&gt;ColLOTVGTPLOTNOM.Name" xml:space="preserve">
+    <value>ColLOTVGTPLOTNOM</value>
+  </data>
+  <data name="ddcldat.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1551, 810</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButton.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;LblEtLe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 141</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="GVStat.Appearance.VertLine.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>216, 209, 170</value>
+  </data>
+  <data name="LblDteDebut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GVStat.Appearance.FilterCloseButton.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblNomChaff.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GVStat.Appearance.ColumnFilterButtonActive.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColLOTVGTPLOTNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColUNITEVGTPUNITENOM.Name" xml:space="preserve">
+    <value>ColUNITEVGTPUNITENOM</value>
+  </data>
+  <data name="GVStat.Appearance.FixedLine.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="ndclnum.Summary2" xml:space="preserve">
+    <value>Total : {0:n0}</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="RepItemGLUpEditUnite.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.FilterPanel.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="GVStat.Appearance.GroupButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.FocusedRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColLOTNGTPLOTID.Caption" xml:space="preserve">
+    <value>NGTPLOTID</value>
+  </data>
+  <data name="GcDevis.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="GVStat.Appearance.FooterPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;LblDteDebut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColUNITEIDTMP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GVStat.Appearance.HorzLine.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="LblCreesTranformes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 7</value>
+  </data>
+  <data name="GVStat.Appearance.HideSelectionRow.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>237, 230, 203</value>
+  </data>
+  <data name="GVStat.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>242, 244, 236</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;LblPeriode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GVStat.Appearance.FixedLine.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="vclinom.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCli.Text" xml:space="preserve">
+    <value>nom cli</value>
+  </data>
+  <data name="GVStat.Appearance.GroupRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVStat.Appearance.OddRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="LblDteDebut.Text" xml:space="preserve">
+    <value>date début</value>
+  </data>
+  <data name="GVStat.Appearance.Preview.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="ndclnum.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

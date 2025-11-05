@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdEnvoiAttest.Text" xml:space="preserve">
+    <value>Resend service receipt certificate</value>
+  </data>
+  <data name="CalendarFinTrav.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdProcSite.Text" xml:space="preserve">
+    <value>Prevention plan</value>
+  </data>
+  <data name="cmdProcSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optTva1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optTva0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optTva2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels18.Text" xml:space="preserve">
+    <value>VAT 5,5%</value>
+  </data>
+  <data name="lblLabels18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels19.Text" xml:space="preserve">
+    <value>VAT 19,6%</value>
+  </data>
+  <data name="lblLabels19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels25.Text" xml:space="preserve">
+    <value>VAT 0.0%</value>
+  </data>
+  <data name="lblLabels25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmdActAide.Text" xml:space="preserve">
+    <value>Create help action</value>
+  </data>
+  <data name="cmdPJ.Text" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="cmdSuivi.Text" xml:space="preserve">
+    <value>Track record</value>
+  </data>
+  <data name="apiToolTip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdCopier.Text" xml:space="preserve">
+    <value>Copy action</value>
+  </data>
+  <data name="cmdDec.Text" xml:space="preserve">
+    <value>Transfer action on new DI</value>
+  </data>
+  <data name="cmdModifier.Text" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="cmdSupprimer.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="cmdAjouter.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Frame5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdValider.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="cmdValider.ToolTip" xml:space="preserve">
+    <value>Save demand</value>
+  </data>
+  <data name="cmdFact.Text" xml:space="preserve">
+    <value>Quotation</value>
+  </data>
+  <data name="ApiGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="txtPortable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPrenom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTypeSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPays.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEnseigne.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelReg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDirReg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelDem.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtCreateur.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRespSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumDI.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelephone.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVille.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdresse1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAdresse2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApiTelAuto1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApiTelAuto2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ApiTelAuto3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblLabels31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 16</value>
+  </data>
+  <data name="lblLabels31.Text" xml:space="preserve">
+    <value>Portable</value>
+  </data>
+  <data name="lblLabels31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 160</value>
+  </data>
+  <data name="lblLabels30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="lblLabels30.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblLabels30.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="lblLabels30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 224</value>
+  </data>
+  <data name="lblLabels29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="lblLabels29.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblLabels29.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="lblLabels29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="lblLabels28.Text" xml:space="preserve">
+    <value>Teach</value>
+  </data>
+  <data name="lblLabels28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="lblLabels27.Text" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="lblLabels27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="lblLabels16.Text" xml:space="preserve">
+    <value>Dir Reg</value>
+  </data>
+  <data name="lblLabels16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="lblLabels22.Text" xml:space="preserve">
+    <value>Tel Applicant</value>
+  </data>
+  <data name="lblLabels22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="lblLabels17.Text" xml:space="preserve">
+    <value>Input by</value>
+  </data>
+  <data name="lblLabels17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="lblLabels14.Text" xml:space="preserve">
+    <value>Resp site</value>
+  </data>
+  <data name="lblLabels14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lblLabels1.Text" xml:space="preserve">
+    <value>Address 1</value>
+  </data>
+  <data name="lblLabels1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="lblLabels3.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="lblLabels3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 16</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="lblLabels2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="lblLabels13.Text" xml:space="preserve">
+    <value>No request</value>
+  </data>
+  <data name="lblLabels13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="lblLabels12.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblLabels12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>Address 2</value>
+  </data>
+  <data name="lblLabels9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="lblLabels5.Text" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="lblLabels5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="lblLabels0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Frame4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ChkHorsRapportFM.Text" xml:space="preserve">
+    <value>Excluding FM Report</value>
+  </data>
+  <data name="ChkDi_Reccurente.Text" xml:space="preserve">
+    <value>CO for recurring daily action of a shift technician</value>
+  </data>
+  <data name="txtDateFinTrav.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CboVehicule.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdCanMulti.Text" xml:space="preserve">
+    <value>Transfer account</value>
+  </data>
+  <data name="chkTE.Text" xml:space="preserve">
+    <value>Any equipment</value>
+  </data>
+  <data name="chkTE.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPlanningWeb.Text" xml:space="preserve">
+    <value>View the deployment schedule on the Client's website</value>
+  </data>
+  <data name="txtdemAutre.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboclient.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumcde.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboTypeContrat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboRais.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optFact1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="optFact0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="lblRais.Text" xml:space="preserve">
+    <value>Company Name for billing</value>
+  </data>
+  <data name="lblRais.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 14</value>
+  </data>
+  <data name="lblLabels23.Text" xml:space="preserve">
+    <value>Controled Expenses</value>
+  </data>
+  <data name="lblLabels23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 14</value>
+  </data>
+  <data name="lblLabels24.Text" xml:space="preserve">
+    <value>Package contract / quote</value>
+  </data>
+  <data name="lblLabels24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Type billing</value>
+  </data>
+  <data name="Frame6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboCompte.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefCli.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTSite.Text" xml:space="preserve">
+    <value>All sites</value>
+  </data>
+  <data name="chkTSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboNumSite.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDemandeur.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboEnseigne.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboCond.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 16</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Scheduled date of receipt:</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Assign a Work Supervisor:</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="lblLabels32.Text" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="lblLabels32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 16</value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Teach</value>
+  </data>
+  <data name="lblLabels6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblCivDemand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 16</value>
+  </data>
+  <data name="lblLabels26.Text" xml:space="preserve">
+    <value>N°. CDE CLI</value>
+  </data>
+  <data name="lblLabels26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels21.Text" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="lblLabels21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 16</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="lblLabels20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lblLabels15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 16</value>
+  </data>
+  <data name="lblLabels4.Text" xml:space="preserve">
+    <value>Number site</value>
+  </data>
+  <data name="lblLabels4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="lblLabels11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 16</value>
+  </data>
+  <data name="lblLabels10.Text" xml:space="preserve">
+    <value>Issuer</value>
+  </data>
+  <data name="lblLabels10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 16</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="lblLabels8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabels7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>Ref of the DI</value>
+  </data>
+  <data name="lblLabels7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame3.Text" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Frame3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeb.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Frame8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Browser.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 29</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Creating demand</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Creation of requests for intervention</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

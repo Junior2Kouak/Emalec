@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtVille.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="txtVille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 121</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtVille.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txtVille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 20</value>
+  </data>
+  <data name="txtVille.TabIndex" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Name" xml:space="preserve">
+    <value>txtVille</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;txtVille.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboCategorie.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboCategorie.Items" xml:space="preserve">
+    <value>Utilitaire 3m3</value>
+  </data>
+  <data name="cboCategorie.Items1" xml:space="preserve">
+    <value>Utilitaire 6m3</value>
+  </data>
+  <data name="cboCategorie.Items2" xml:space="preserve">
+    <value>Utilitaire 12m3</value>
+  </data>
+  <data name="cboCategorie.Items3" xml:space="preserve">
+    <value>Utilitaire 20m3</value>
+  </data>
+  <data name="cboCategorie.Items4" xml:space="preserve">
+    <value>Citadine 5p</value>
+  </data>
+  <data name="cboCategorie.Items5" xml:space="preserve">
+    <value>Compact 5p</value>
+  </data>
+  <data name="cboCategorie.Items6" xml:space="preserve">
+    <value>Familiale 5p</value>
+  </data>
+  <data name="cboCategorie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 148</value>
+  </data>
+  <data name="cboCategorie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 21</value>
+  </data>
+  <data name="cboCategorie.TabIndex" type="System.Int32, mscorlib">
+    <value>271</value>
+  </data>
+  <data name="&gt;&gt;cboCategorie.Name" xml:space="preserve">
+    <value>cboCategorie</value>
+  </data>
+  <data name="&gt;&gt;cboCategorie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboCategorie.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboCategorie.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="apiLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 155</value>
+  </data>
+  <data name="apiLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="apiLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="apiLabel7.Text" xml:space="preserve">
+    <value>Catégorie louée :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Name" xml:space="preserve">
+    <value>apiLabel7</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 127</value>
+  </data>
+  <data name="apiLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 14</value>
+  </data>
+  <data name="apiLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>269</value>
+  </data>
+  <data name="apiLabel6.Text" xml:space="preserve">
+    <value>Ville :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Name" xml:space="preserve">
+    <value>apiLabel6</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="apiLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 99</value>
+  </data>
+  <data name="apiLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 14</value>
+  </data>
+  <data name="apiLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>268</value>
+  </data>
+  <data name="apiLabel5.Text" xml:space="preserve">
+    <value>Agence de loc :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Name" xml:space="preserve">
+    <value>apiLabel5</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboAgenceLoc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboAgenceLoc.Items" xml:space="preserve">
+    <value>VU</value>
+  </data>
+  <data name="cboAgenceLoc.Items1" xml:space="preserve">
+    <value>VP</value>
+  </data>
+  <data name="cboAgenceLoc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 92</value>
+  </data>
+  <data name="cboAgenceLoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 21</value>
+  </data>
+  <data name="cboAgenceLoc.TabIndex" type="System.Int32, mscorlib">
+    <value>267</value>
+  </data>
+  <data name="&gt;&gt;cboAgenceLoc.Name" xml:space="preserve">
+    <value>cboAgenceLoc</value>
+  </data>
+  <data name="&gt;&gt;cboAgenceLoc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboAgenceLoc.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboAgenceLoc.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboVehicule.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboVehicule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 64</value>
+  </data>
+  <data name="cboVehicule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="cboVehicule.TabIndex" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="&gt;&gt;cboVehicule.Name" xml:space="preserve">
+    <value>cboVehicule</value>
+  </data>
+  <data name="&gt;&gt;cboVehicule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboVehicule.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboVehicule.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="apiLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 71</value>
+  </data>
+  <data name="apiLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 14</value>
+  </data>
+  <data name="apiLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="apiLabel4.Text" xml:space="preserve">
+    <value>Immo véhicule :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Name" xml:space="preserve">
+    <value>apiLabel4</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboStatut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboStatut.Items" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="cboStatut.Items1" xml:space="preserve">
+    <value>Clos</value>
+  </data>
+  <data name="cboStatut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 232</value>
+  </data>
+  <data name="cboStatut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 21</value>
+  </data>
+  <data name="cboStatut.TabIndex" type="System.Int32, mscorlib">
+    <value>263</value>
+  </data>
+  <data name="&gt;&gt;cboStatut.Name" xml:space="preserve">
+    <value>cboStatut</value>
+  </data>
+  <data name="&gt;&gt;cboStatut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboStatut.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboStatut.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="apiLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 239</value>
+  </data>
+  <data name="apiLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 14</value>
+  </data>
+  <data name="apiLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="apiLabel3.Text" xml:space="preserve">
+    <value>Statut :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Name" xml:space="preserve">
+    <value>apiLabel3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboSociete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboSociete.Items" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="cboSociete.Items1" xml:space="preserve">
+    <value>ULYS</value>
+  </data>
+  <data name="cboSociete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 8</value>
+  </data>
+  <data name="cboSociete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 21</value>
+  </data>
+  <data name="cboSociete.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="&gt;&gt;cboSociete.Name" xml:space="preserve">
+    <value>cboSociete</value>
+  </data>
+  <data name="&gt;&gt;cboSociete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboSociete.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboSociete.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="apiLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 15</value>
+  </data>
+  <data name="apiLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 14</value>
+  </data>
+  <data name="apiLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <data name="apiLabel2.Text" xml:space="preserve">
+    <value>Entité :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Name" xml:space="preserve">
+    <value>apiLabel2</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="apiLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 183</value>
+  </data>
+  <data name="apiLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 14</value>
+  </data>
+  <data name="apiLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="apiLabel1.Text" xml:space="preserve">
+    <value>Date de début :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Name" xml:space="preserve">
+    <value>apiLabel1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtDateDebut.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtDateDebut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 177</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtDateDebut.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtDateDebut.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtDateDebut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="txtDateDebut.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebut.Name" xml:space="preserve">
+    <value>txtDateDebut</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebut.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebut.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebut.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmdAnnulerRev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdAnnulerRev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAnnulerRev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 277</value>
+  </data>
+  <data name="cmdAnnulerRev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 28</value>
+  </data>
+  <data name="cmdAnnulerRev.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="cmdAnnulerRev.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerRev.Name" xml:space="preserve">
+    <value>cmdAnnulerRev</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerRev.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerRev.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerRev.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cboEmploye.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cboEmploye.Items" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="cboEmploye.Items1" xml:space="preserve">
+    <value>Télébadge</value>
+  </data>
+  <data name="cboEmploye.Items2" xml:space="preserve">
+    <value>Stationnement</value>
+  </data>
+  <data name="cboEmploye.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 36</value>
+  </data>
+  <data name="cboEmploye.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 21</value>
+  </data>
+  <data name="cboEmploye.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="&gt;&gt;cboEmploye.Name" xml:space="preserve">
+    <value>cboEmploye</value>
+  </data>
+  <data name="&gt;&gt;cboEmploye.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboEmploye.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cboEmploye.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmdValiderRev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdValiderRev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdValiderRev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 277</value>
+  </data>
+  <data name="cmdValiderRev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 28</value>
+  </data>
+  <data name="cmdValiderRev.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdValiderRev.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;cmdValiderRev.Name" xml:space="preserve">
+    <value>cmdValiderRev</value>
+  </data>
+  <data name="&gt;&gt;cmdValiderRev.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdValiderRev.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;cmdValiderRev.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="apiLabel33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 211</value>
+  </data>
+  <data name="apiLabel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="apiLabel33.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="apiLabel33.Text" xml:space="preserve">
+    <value>Date de fin :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel33.Name" xml:space="preserve">
+    <value>apiLabel33</value>
+  </data>
+  <data name="&gt;&gt;apiLabel33.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel33.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel33.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="apiLabel34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="apiLabel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 14</value>
+  </data>
+  <data name="apiLabel34.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="apiLabel34.Text" xml:space="preserve">
+    <value>Collaborateur :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel34.Name" xml:space="preserve">
+    <value>apiLabel34</value>
+  </data>
+  <data name="&gt;&gt;apiLabel34.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel34.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;apiLabel34.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtDateFin.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="txtDateFin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 205</value>
+  </data>
+  <data name="txtDateFin.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtDateFin.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="txtDateFin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="txtDateFin.TabIndex" type="System.Int32, mscorlib">
+    <value>245</value>
+  </data>
+  <data name="&gt;&gt;txtDateFin.Name" xml:space="preserve">
+    <value>txtDateFin</value>
+  </data>
+  <data name="&gt;&gt;txtDateFin.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDateFin.Parent" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;txtDateFin.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="panelRevision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 23</value>
+  </data>
+  <data name="panelRevision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 319</value>
+  </data>
+  <data name="panelRevision.TabIndex" type="System.Int32, mscorlib">
+    <value>276</value>
+  </data>
+  <data name="&gt;&gt;panelRevision.Name" xml:space="preserve">
+    <value>panelRevision</value>
+  </data>
+  <data name="&gt;&gt;panelRevision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelRevision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelRevision.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 6</value>
+  </data>
+  <data name="apiLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 14</value>
+  </data>
+  <data name="apiLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>279</value>
+  </data>
+  <data name="apiLabel8.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Name" xml:space="preserve">
+    <value>apiLabel8</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>329, 354</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmFormulaireLocation</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

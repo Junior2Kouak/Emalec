@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7A478B1-2277-4D03-8594-37CBC41705EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MozartControls</RootNamespace>
+    <AssemblyName>MozartControls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v22.2.Drawing, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPdfViewer.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v22.2.Extensions, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalytiqueChantier\AnalytiqueChantierCst.cs" />
+    <Compile Include="AnalytiqueChantier\frmDetailsCaseWithDetailH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmDetailsCaseWithDetailH.Designer.cs">
+      <DependentUpon>frmDetailsCaseWithDetailH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmDetailsPlanDeCharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmDetailsPlanDeCharge.Designer.cs">
+      <DependentUpon>frmDetailsPlanDeCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmHistoModifAnaChantier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmHistoModifAnaChantier.Designer.cs">
+      <DependentUpon>frmHistoModifAnaChantier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmPlanDeChargeGlobal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalytiqueChantier\frmPlanDeChargeGlobal.Designer.cs">
+      <DependentUpon>frmPlanDeChargeGlobal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionDroitMenuSensible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionDroitMenuSensible.designer.cs">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion Analytique\Reporting Analytique\Tableau Synthese Comptabilite\frmKPIEvolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion Analytique\Reporting Analytique\Tableau Synthese Comptabilite\frmKPIEvolution.Designer.cs">
+      <DependentUpon>frmKPIEvolution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UCGridTva.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGridTva.Designer.cs">
+      <DependentUpon>UCGridTva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCviewerPDF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCviewerPDF.Designer.cs">
+      <DependentUpon>UCviewerPDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mozart.UC\Mozart.UC.vbproj">
+      <Project>{899406f5-3801-4b51-82c6-35e14bbc610e}</Project>
+      <Name>Mozart.UC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MozartLib\MozartLib.csproj">
+      <Project>{2823c4da-9aa7-495f-8ee9-6bfcc60e87d7}</Project>
+      <Name>MozartLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AnalytiqueChantier\frmDetailsCaseWithDetailH.resx">
+      <DependentUpon>frmDetailsCaseWithDetailH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmDetailsPlanDeCharge.en.resx">
+      <DependentUpon>frmDetailsPlanDeCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmDetailsPlanDeCharge.es.resx">
+      <DependentUpon>frmDetailsPlanDeCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmDetailsPlanDeCharge.resx">
+      <DependentUpon>frmDetailsPlanDeCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmHistoModifAnaChantier.en.resx">
+      <DependentUpon>frmHistoModifAnaChantier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmHistoModifAnaChantier.es.resx">
+      <DependentUpon>frmHistoModifAnaChantier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmHistoModifAnaChantier.resx">
+      <DependentUpon>frmHistoModifAnaChantier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmPlanDeChargeGlobal.en.resx">
+      <DependentUpon>frmPlanDeChargeGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmPlanDeChargeGlobal.es.resx">
+      <DependentUpon>frmPlanDeChargeGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalytiqueChantier\frmPlanDeChargeGlobal.resx">
+      <DependentUpon>frmPlanDeChargeGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDroitMenuSensible.en.resx">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDroitMenuSensible.es.resx">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDroitMenuSensible.it.resx">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDroitMenuSensible.resx">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDroitMenuSensible.ro.resx">
+      <DependentUpon>frmGestionDroitMenuSensible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion Analytique\Reporting Analytique\Tableau Synthese Comptabilite\frmKPIEvolution.resx">
+      <DependentUpon>frmKPIEvolution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.en.resx" />
+    <EmbeddedResource Include="Properties\Resources.es.resx" />
+    <EmbeddedResource Include="Properties\Resources.it.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGridTva.resx">
+      <DependentUpon>UCGridTva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCviewerPDF.resx">
+      <DependentUpon>UCviewerPDF.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

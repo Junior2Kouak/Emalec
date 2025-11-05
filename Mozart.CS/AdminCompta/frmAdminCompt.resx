@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdTransfertCession.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdTransfertCession.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 432</value>
+  </data>
+  <data name="cmdTransfertCession.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdTransfertCession.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cmdTransfertCession.Text" xml:space="preserve">
+    <value>Transfert Cessions Analytiques</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertCession.Name" xml:space="preserve">
+    <value>cmdTransfertCession</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertCession.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertCession.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertCession.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdEtat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdEtat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 432</value>
+  </data>
+  <data name="cmdEtat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdEtat.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cmdEtat.Text" xml:space="preserve">
+    <value>Etats pour situation comptable</value>
+  </data>
+  <data name="cmdEtat.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdEtat.Name" xml:space="preserve">
+    <value>cmdEtat</value>
+  </data>
+  <data name="&gt;&gt;cmdEtat.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdEtat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdEtat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdTransfertStock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdTransfertStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 320</value>
+  </data>
+  <data name="cmdTransfertStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdTransfertStock.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmdTransfertStock.Text" xml:space="preserve">
+    <value>Transfert  Stock</value>
+  </data>
+  <data name="cmdTransfertStock.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertStock.Name" xml:space="preserve">
+    <value>cmdTransfertStock</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertStock.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertStock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfertStock.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdXferSalaires.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdXferSalaires.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 208</value>
+  </data>
+  <data name="cmdXferSalaires.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdXferSalaires.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cmdXferSalaires.Text" xml:space="preserve">
+    <value>Transfert Salaires</value>
+  </data>
+  <data name="cmdXferSalaires.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdXferSalaires.Name" xml:space="preserve">
+    <value>cmdXferSalaires</value>
+  </data>
+  <data name="&gt;&gt;cmdXferSalaires.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdXferSalaires.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdXferSalaires.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmdCteAna.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdCteAna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 320</value>
+  </data>
+  <data name="cmdCteAna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdCteAna.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdCteAna.Text" xml:space="preserve">
+    <value>Libellé des cte analytiques</value>
+  </data>
+  <data name="cmdCteAna.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdCteAna.Name" xml:space="preserve">
+    <value>cmdCteAna</value>
+  </data>
+  <data name="&gt;&gt;cmdCteAna.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdCteAna.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCteAna.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmdRepas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdRepas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 320</value>
+  </data>
+  <data name="cmdRepas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdRepas.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdRepas.Text" xml:space="preserve">
+    <value>Transfert RP/GD/KM</value>
+  </data>
+  <data name="cmdRepas.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdRepas.Name" xml:space="preserve">
+    <value>cmdRepas</value>
+  </data>
+  <data name="&gt;&gt;cmdRepas.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdRepas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdRepas.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmdCompte.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdCompte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 320</value>
+  </data>
+  <data name="cmdCompte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdCompte.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdCompte.Text" xml:space="preserve">
+    <value>Compte  par client et chaff</value>
+  </data>
+  <data name="cmdCompte.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdCompte.Name" xml:space="preserve">
+    <value>cmdCompte</value>
+  </data>
+  <data name="&gt;&gt;cmdCompte.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdCompte.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCompte.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmdStatTech.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdStatTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 208</value>
+  </data>
+  <data name="cmdStatTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdStatTech.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdStatTech.Text" xml:space="preserve">
+    <value>Statistique heure Techniciens</value>
+  </data>
+  <data name="cmdStatTech.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdStatTech.Name" xml:space="preserve">
+    <value>cmdStatTech</value>
+  </data>
+  <data name="&gt;&gt;cmdStatTech.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdStatTech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdStatTech.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdTransfererFactures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdTransfererFactures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 208</value>
+  </data>
+  <data name="cmdTransfererFactures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdTransfererFactures.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdTransfererFactures.Text" xml:space="preserve">
+    <value>Transfert Factures</value>
+  </data>
+  <data name="cmdTransfererFactures.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererFactures.Name" xml:space="preserve">
+    <value>cmdTransfererFactures</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererFactures.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererFactures.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererFactures.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmdTransfererHeures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdTransfererHeures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 96</value>
+  </data>
+  <data name="cmdTransfererHeures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdTransfererHeures.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdTransfererHeures.Text" xml:space="preserve">
+    <value>Transfert Heures</value>
+  </data>
+  <data name="cmdTransfererHeures.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererHeures.Name" xml:space="preserve">
+    <value>cmdTransfererHeures</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererHeures.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererHeures.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdTransfererHeures.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmdHeuresCaff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdHeuresCaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 96</value>
+  </data>
+  <data name="cmdHeuresCaff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdHeuresCaff.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdHeuresCaff.Text" xml:space="preserve">
+    <value>Heures des Administratifs</value>
+  </data>
+  <data name="cmdHeuresCaff.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdHeuresCaff.Name" xml:space="preserve">
+    <value>cmdHeuresCaff</value>
+  </data>
+  <data name="&gt;&gt;cmdHeuresCaff.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdHeuresCaff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdHeuresCaff.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmdHeureTech.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdHeureTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 96</value>
+  </data>
+  <data name="cmdHeureTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="cmdHeureTech.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdHeureTech.Text" xml:space="preserve">
+    <value>Heures du Personnel</value>
+  </data>
+  <data name="cmdHeureTech.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdHeureTech.Name" xml:space="preserve">
+    <value>cmdHeureTech</value>
+  </data>
+  <data name="&gt;&gt;cmdHeureTech.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdHeureTech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdHeureTech.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdFermer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 648</value>
+  </data>
+  <data name="cmdFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 57</value>
+  </data>
+  <data name="cmdFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Name" xml:space="preserve">
+    <value>cmdFermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 8</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Administration comptabilité</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="BtnAdminDAF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAdminDAF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAdminDAF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 432</value>
+  </data>
+  <data name="BtnAdminDAF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="BtnAdminDAF.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BtnAdminDAF.Text" xml:space="preserve">
+    <value>Administration DAF</value>
+  </data>
+  <data name="&gt;&gt;BtnAdminDAF.Name" xml:space="preserve">
+    <value>BtnAdminDAF</value>
+  </data>
+  <data name="&gt;&gt;BtnAdminDAF.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnAdminDAF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAdminDAF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHeuresDeplacement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnHeuresDeplacement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHeuresDeplacement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 96</value>
+  </data>
+  <data name="btnHeuresDeplacement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="btnHeuresDeplacement.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnHeuresDeplacement.Text" xml:space="preserve">
+    <value>Transfert Heures de déplacement</value>
+  </data>
+  <data name="btnHeuresDeplacement.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnHeuresDeplacement.Name" xml:space="preserve">
+    <value>btnHeuresDeplacement</value>
+  </data>
+  <data name="&gt;&gt;btnHeuresDeplacement.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnHeuresDeplacement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnHeuresDeplacement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 543</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 73</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnRepartAna_Hr_Pers.Text" xml:space="preserve">
+    <value>Administration analytique du personnel</value>
+  </data>
+  <data name="&gt;&gt;BtnRepartAna_Hr_Pers.Name" xml:space="preserve">
+    <value>BtnRepartAna_Hr_Pers</value>
+  </data>
+  <data name="&gt;&gt;BtnRepartAna_Hr_Pers.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnRepartAna_Hr_Pers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnRepartAna_Hr_Pers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>957, 737</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Administration Comptabilité</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAdminCompt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

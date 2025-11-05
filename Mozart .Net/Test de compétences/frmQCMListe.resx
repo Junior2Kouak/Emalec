@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnCreerTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnCreerTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="BtnCreerTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 45</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnCreerTest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnCreerTest.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerTest.Name" xml:space="preserve">
+    <value>BtnCreerTest</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerTest.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnModifier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnModifier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="BtnModifier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 40</value>
+  </data>
+  <data name="BtnModifier.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnModifier.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;BtnModifier.Name" xml:space="preserve">
+    <value>BtnModifier</value>
+  </data>
+  <data name="&gt;&gt;BtnModifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnModifier.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnModifier.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BtnArchiver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnArchiver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 109</value>
+  </data>
+  <data name="BtnArchiver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 37</value>
+  </data>
+  <data name="BtnArchiver.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnArchiver.Text" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiver.Name" xml:space="preserve">
+    <value>BtnArchiver</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiver.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 783</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 66</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ChkListArchives.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="ChkListArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ChkListArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 711</value>
+  </data>
+  <data name="ChkListArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 66</value>
+  </data>
+  <data name="ChkListArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ChkListArchives.Text" xml:space="preserve">
+    <value>Afficher les QCM archivés</value>
+  </data>
+  <data name="ChkListArchives.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;ChkListArchives.Name" xml:space="preserve">
+    <value>ChkListArchives</value>
+  </data>
+  <data name="&gt;&gt;ChkListArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkListArchives.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChkListArchives.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnRestore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnRestore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 152</value>
+  </data>
+  <data name="BtnRestore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 36</value>
+  </data>
+  <data name="BtnRestore.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnRestore.Text" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="BtnRestore.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BtnRestore.Name" xml:space="preserve">
+    <value>BtnRestore</value>
+  </data>
+  <data name="&gt;&gt;BtnRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRestore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnRestore.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnResultatsByQCM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnResultatsByQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 521</value>
+  </data>
+  <data name="BtnResultatsByQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 55</value>
+  </data>
+  <data name="BtnResultatsByQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnResultatsByQCM.Text" xml:space="preserve">
+    <value>Résultats QCM Technicien</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCM.Name" xml:space="preserve">
+    <value>BtnResultatsByQCM</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCM.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 194</value>
+  </data>
+  <data name="BtnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 37</value>
+  </data>
+  <data name="BtnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnEdit.Text" xml:space="preserve">
+    <value>Edition</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Name" xml:space="preserve">
+    <value>BtnEdit</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnEdit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnResultatsByQCMCandidat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnResultatsByQCMCandidat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 582</value>
+  </data>
+  <data name="BtnResultatsByQCMCandidat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 53</value>
+  </data>
+  <data name="BtnResultatsByQCMCandidat.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnResultatsByQCMCandidat.Text" xml:space="preserve">
+    <value>Résultats QCM Candidat</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCMCandidat.Name" xml:space="preserve">
+    <value>BtnResultatsByQCMCandidat</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCMCandidat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCMCandidat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnResultatsByQCMCandidat.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GCListeQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="GVListeQCM.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Col_NIDQCMNUM.Caption" xml:space="preserve">
+    <value>NIDQCMNUM</value>
+  </data>
+  <data name="Col_NQCMTYPEID.Caption" xml:space="preserve">
+    <value>NQCMTYPEID</value>
+  </data>
+  <data name="Col_VQCMTYPELIB.Caption" xml:space="preserve">
+    <value>Type QCM</value>
+  </data>
+  <data name="Col_VQCMTYPELIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Col_VQCMTYPELIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Col_VQCMTYPELIB.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="Col_VQCMTITRE.Caption" xml:space="preserve">
+    <value>Libellé du QCM</value>
+  </data>
+  <data name="Col_VQCMTITRE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Col_VQCMTITRE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Col_VQCMTITRE.Width" type="System.Int32, mscorlib">
+    <value>600</value>
+  </data>
+  <data name="Col_DQCMCREE.Caption" xml:space="preserve">
+    <value>Date Création QCM</value>
+  </data>
+  <data name="Col_DQCMCREE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Col_DQCMCREE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Col_DQCMCREE.Width" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="Col_BQCMRECRU.Caption" xml:space="preserve">
+    <value>Recrutement</value>
+  </data>
+  <data name="RepositoryItemCheckEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Col_BQCMRECRU.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Col_BQCMRECRU.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Col_BQCMRECRU.Width" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="Col_BQCMACTIF.Caption" xml:space="preserve">
+    <value>BQCMACTIF</value>
+  </data>
+  <data name="Col_VQCMCONSIGNE.Caption" xml:space="preserve">
+    <value>VQCMCONSIGNE</value>
+  </data>
+  <data name="Col_BQCMCORRECTAUTO.Caption" xml:space="preserve">
+    <value>BQCMCORRECTAUTO</value>
+  </data>
+  <data name="GCListeQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 837</value>
+  </data>
+  <data name="GCListeQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;GCListeQCM.Name" xml:space="preserve">
+    <value>GCListeQCM</value>
+  </data>
+  <data name="&gt;&gt;GCListeQCM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCListeQCM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GCListeQCM.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnDupliqQCM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnDupliqQCM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnDupliqQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 237</value>
+  </data>
+  <data name="BtnDupliqQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="BtnDupliqQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="BtnDupliqQCM.Text" xml:space="preserve">
+    <value>Dupliquer</value>
+  </data>
+  <data name="&gt;&gt;BtnDupliqQCM.Name" xml:space="preserve">
+    <value>BtnDupliqQCM</value>
+  </data>
+  <data name="&gt;&gt;BtnDupliqQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDupliqQCM.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnDupliqQCM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnAnalyse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAnalyse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAnalyse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 460</value>
+  </data>
+  <data name="BtnAnalyse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 55</value>
+  </data>
+  <data name="BtnAnalyse.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="BtnAnalyse.Text" xml:space="preserve">
+    <value>Analyse des résultats</value>
+  </data>
+  <data name="&gt;&gt;BtnAnalyse.Name" xml:space="preserve">
+    <value>BtnAnalyse</value>
+  </data>
+  <data name="&gt;&gt;BtnAnalyse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAnalyse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAnalyse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnAffectPers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAffectPers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAffectPers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 385</value>
+  </data>
+  <data name="BtnAffectPers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 45</value>
+  </data>
+  <data name="BtnAffectPers.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="BtnAffectPers.Text" xml:space="preserve">
+    <value>Affectation personnel</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectPers.Name" xml:space="preserve">
+    <value>BtnAffectPers</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectPers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectPers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectPers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnCopyToFiliale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnCopyToFiliale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnCopyToFiliale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 281</value>
+  </data>
+  <data name="BtnCopyToFiliale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 38</value>
+  </data>
+  <data name="BtnCopyToFiliale.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="BtnCopyToFiliale.Text" xml:space="preserve">
+    <value>Copier vers filiale</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyToFiliale.Name" xml:space="preserve">
+    <value>BtnCopyToFiliale</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyToFiliale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyToFiliale.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyToFiliale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnResultSTF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnResultSTF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnResultSTF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 641</value>
+  </data>
+  <data name="BtnResultSTF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 53</value>
+  </data>
+  <data name="BtnResultSTF.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="BtnResultSTF.Text" xml:space="preserve">
+    <value>Résultats QCM STF</value>
+  </data>
+  <data name="&gt;&gt;BtnResultSTF.Name" xml:space="preserve">
+    <value>BtnResultSTF</value>
+  </data>
+  <data name="&gt;&gt;BtnResultSTF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnResultSTF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnResultSTF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1840, 989</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Liste des QCM</value>
+  </data>
+  <data name="&gt;&gt;GVListeQCM.Name" xml:space="preserve">
+    <value>GVListeQCM</value>
+  </data>
+  <data name="&gt;&gt;GVListeQCM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_NIDQCMNUM.Name" xml:space="preserve">
+    <value>Col_NIDQCMNUM</value>
+  </data>
+  <data name="&gt;&gt;Col_NIDQCMNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_NQCMTYPEID.Name" xml:space="preserve">
+    <value>Col_NQCMTYPEID</value>
+  </data>
+  <data name="&gt;&gt;Col_NQCMTYPEID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMTYPELIB.Name" xml:space="preserve">
+    <value>Col_VQCMTYPELIB</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMTYPELIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMTITRE.Name" xml:space="preserve">
+    <value>Col_VQCMTITRE</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMTITRE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_DQCMCREE.Name" xml:space="preserve">
+    <value>Col_DQCMCREE</value>
+  </data>
+  <data name="&gt;&gt;Col_DQCMCREE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMRECRU.Name" xml:space="preserve">
+    <value>Col_BQCMRECRU</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMRECRU.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Name" xml:space="preserve">
+    <value>RepositoryItemCheckEdit1</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemCheckEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMACTIF.Name" xml:space="preserve">
+    <value>Col_BQCMACTIF</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMACTIF.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMCONSIGNE.Name" xml:space="preserve">
+    <value>Col_VQCMCONSIGNE</value>
+  </data>
+  <data name="&gt;&gt;Col_VQCMCONSIGNE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMCORRECTAUTO.Name" xml:space="preserve">
+    <value>Col_BQCMCORRECTAUTO</value>
+  </data>
+  <data name="&gt;&gt;Col_BQCMCORRECTAUTO.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmQCMListe</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

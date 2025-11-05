@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdExcel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 200</value>
+  </data>
+  <data name="cmdExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 57</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdExcel.Text" xml:space="preserve">
+    <value>Export EXCEL</value>
+  </data>
+  <data name="&gt;&gt;cmdExcel.Name" xml:space="preserve">
+    <value>cmdExcel</value>
+  </data>
+  <data name="&gt;&gt;cmdExcel.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdExcel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdExcel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdQuitter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdQuitter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdQuitter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 865</value>
+  </data>
+  <data name="cmdQuitter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 57</value>
+  </data>
+  <data name="cmdQuitter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdQuitter.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdQuitter.Name" xml:space="preserve">
+    <value>cmdQuitter</value>
+  </data>
+  <data name="&gt;&gt;cmdQuitter.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdQuitter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdQuitter.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="lblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 8</value>
+  </data>
+  <data name="lblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 29</value>
+  </data>
+  <data name="lblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblTitre.Text" xml:space="preserve">
+    <value>Délai par planificateur</value>
+  </data>
+  <data name="&gt;&gt;lblTitre.Name" xml:space="preserve">
+    <value>lblTitre</value>
+  </data>
+  <data name="&gt;&gt;lblTitre.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTitre.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="apiLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="apiLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 66</value>
+  </data>
+  <data name="apiLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="apiLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="apiLabel2.Text" xml:space="preserve">
+    <value>Date fin :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Name" xml:space="preserve">
+    <value>apiLabel2</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="apiLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="apiLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 66</value>
+  </data>
+  <data name="apiLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 19</value>
+  </data>
+  <data name="apiLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="apiLabel1.Text" xml:space="preserve">
+    <value>Date début :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Name" xml:space="preserve">
+    <value>apiLabel1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DateEdit_Fin.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DateEdit_Fin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 67</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="DateEdit_Fin.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="DateEdit_Fin.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="DateEdit_Fin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 20</value>
+  </data>
+  <data name="DateEdit_Fin.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Fin.Name" xml:space="preserve">
+    <value>DateEdit_Fin</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Fin.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Fin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Fin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DateEdit_Debut.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="DateEdit_Debut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 67</value>
+  </data>
+  <data name="DateEdit_Debut.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="DateEdit_Debut.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="DateEdit_Debut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 20</value>
+  </data>
+  <data name="DateEdit_Debut.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Debut.Name" xml:space="preserve">
+    <value>DateEdit_Debut</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Debut.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Debut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DateEdit_Debut.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmdValider.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdValider.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdValider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>811, 59</value>
+  </data>
+  <data name="cmdValider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 35</value>
+  </data>
+  <data name="cmdValider.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="cmdValider.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;cmdValider.Name" xml:space="preserve">
+    <value>cmdValider</value>
+  </data>
+  <data name="&gt;&gt;cmdValider.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdValider.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdValider.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GCMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="GCMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 131</value>
+  </data>
+  <data name="GVMain.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GCol_NPERNUM_PLA.Caption" xml:space="preserve">
+    <value>GCol_NPERNUM_PLA</value>
+  </data>
+  <data name="GColNREGCOD.Caption" xml:space="preserve">
+    <value>NREGCOD</value>
+  </data>
+  <data name="GCol_NPERNUM.Caption" xml:space="preserve">
+    <value>NPERNUM</value>
+  </data>
+  <data name="GColDEPARTEMENT.Caption" xml:space="preserve">
+    <value>Département</value>
+  </data>
+  <data name="GColDEPARTEMENT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColDEPARTEMENT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GColDEPARTEMENT.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="GColVPERNOM.Caption" xml:space="preserve">
+    <value>chargé(e) de planification</value>
+  </data>
+  <data name="GColVPERNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColVPERNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GColVPERNOM.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="GColMOY_DELAI_D.Caption" xml:space="preserve">
+    <value>Délai de traitement (D) (en heure)</value>
+  </data>
+  <data name="Repo_HL_Delai_D.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GColMOY_DELAI_D.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Average</value>
+  </data>
+  <data name="GColMOY_DELAI_D.Summary1" xml:space="preserve">
+    <value>MOY_DELAI_D</value>
+  </data>
+  <data name="GColMOY_DELAI_D.Summary2" xml:space="preserve">
+    <value>MOY={0:0.##}</value>
+  </data>
+  <data name="GColMOY_DELAI_D.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColMOY_DELAI_D.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GColMOY_DELAI_D.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Caption" xml:space="preserve">
+    <value>Délai de traitement (Hors D) (en heure)</value>
+  </data>
+  <data name="Repo_HL_Delai_Hors_D.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Average</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Summary1" xml:space="preserve">
+    <value>MOY_DELAI_HORS_D</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Summary2" xml:space="preserve">
+    <value>MOY={0:0.##}</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GCol_MOY_DELAI_HORS_D.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Caption" xml:space="preserve">
+    <value>Délai de planification (en jour)</value>
+  </data>
+  <data name="Repo_HL_Delai_Planif.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Average</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Summary1" xml:space="preserve">
+    <value>MOY_DELAI_PLANIF</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Summary2" xml:space="preserve">
+    <value>MOY={0:n0}</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GColMOY_DELAI_PLANIF.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Caption" xml:space="preserve">
+    <value>Nombre de NOK Planning</value>
+  </data>
+  <data name="Repo_HL_NB_NOK.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Summary1" xml:space="preserve">
+    <value>TOT_NB_NOK</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Summary2" xml:space="preserve">
+    <value>TOTAL={0:0.##}</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK.Width" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Caption" xml:space="preserve">
+    <value>Nombre d'actions avec plus d'un nok Planning</value>
+  </data>
+  <data name="Repo_HL_NB_ACT_NOK_SUP1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Summary1" xml:space="preserve">
+    <value>TOT_NB_NOK_SUP_1</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Summary2" xml:space="preserve">
+    <value>TOTAL={0:0.##}</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GCol_TOT_NB_NOK_SUP_1.Width" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="GCMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 788</value>
+  </data>
+  <data name="GCMain.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;GCMain.Name" xml:space="preserve">
+    <value>GCMain</value>
+  </data>
+  <data name="&gt;&gt;GCMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GCMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpObjectif.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblObjectif.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LblObjectif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="LblObjectif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="LblObjectif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 95</value>
+  </data>
+  <data name="LblObjectif.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblObjectif.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;LblObjectif.Name" xml:space="preserve">
+    <value>LblObjectif</value>
+  </data>
+  <data name="&gt;&gt;LblObjectif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblObjectif.Parent" xml:space="preserve">
+    <value>GrpObjectif</value>
+  </data>
+  <data name="&gt;&gt;LblObjectif.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpObjectif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpObjectif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1457, 141</value>
+  </data>
+  <data name="GrpObjectif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 116</value>
+  </data>
+  <data name="GrpObjectif.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="GrpObjectif.Text" xml:space="preserve">
+    <value>Objectifs</value>
+  </data>
+  <data name="&gt;&gt;GrpObjectif.Name" xml:space="preserve">
+    <value>GrpObjectif</value>
+  </data>
+  <data name="&gt;&gt;GrpObjectif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpObjectif.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpObjectif.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpMemo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblMemo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LblMemo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="LblMemo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="LblMemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 188</value>
+  </data>
+  <data name="LblMemo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblMemo.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;LblMemo.Name" xml:space="preserve">
+    <value>LblMemo</value>
+  </data>
+  <data name="&gt;&gt;LblMemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMemo.Parent" xml:space="preserve">
+    <value>GrpMemo</value>
+  </data>
+  <data name="&gt;&gt;LblMemo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpMemo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpMemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1457, 263</value>
+  </data>
+  <data name="GrpMemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 209</value>
+  </data>
+  <data name="GrpMemo.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="GrpMemo.Text" xml:space="preserve">
+    <value>Mémo</value>
+  </data>
+  <data name="&gt;&gt;GrpMemo.Name" xml:space="preserve">
+    <value>GrpMemo</value>
+  </data>
+  <data name="&gt;&gt;GrpMemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpMemo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpMemo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="sFD.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="sFD.Filter" xml:space="preserve">
+    <value>Fichiers XLSX |*.xlsx</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1921, 931</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Délai par planificateur</value>
+  </data>
+  <data name="&gt;&gt;GVMain.Name" xml:space="preserve">
+    <value>GVMain</value>
+  </data>
+  <data name="&gt;&gt;GVMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCol_NPERNUM_PLA.Name" xml:space="preserve">
+    <value>GCol_NPERNUM_PLA</value>
+  </data>
+  <data name="&gt;&gt;GCol_NPERNUM_PLA.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColNREGCOD.Name" xml:space="preserve">
+    <value>GColNREGCOD</value>
+  </data>
+  <data name="&gt;&gt;GColNREGCOD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCol_NPERNUM.Name" xml:space="preserve">
+    <value>GCol_NPERNUM</value>
+  </data>
+  <data name="&gt;&gt;GCol_NPERNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDEPARTEMENT.Name" xml:space="preserve">
+    <value>GColDEPARTEMENT</value>
+  </data>
+  <data name="&gt;&gt;GColDEPARTEMENT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColVPERNOM.Name" xml:space="preserve">
+    <value>GColVPERNOM</value>
+  </data>
+  <data name="&gt;&gt;GColVPERNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColMOY_DELAI_D.Name" xml:space="preserve">
+    <value>GColMOY_DELAI_D</value>
+  </data>
+  <data name="&gt;&gt;GColMOY_DELAI_D.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_D.Name" xml:space="preserve">
+    <value>Repo_HL_Delai_D</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_D.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCol_MOY_DELAI_HORS_D.Name" xml:space="preserve">
+    <value>GCol_MOY_DELAI_HORS_D</value>
+  </data>
+  <data name="&gt;&gt;GCol_MOY_DELAI_HORS_D.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_Hors_D.Name" xml:space="preserve">
+    <value>Repo_HL_Delai_Hors_D</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_Hors_D.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColMOY_DELAI_PLANIF.Name" xml:space="preserve">
+    <value>GColMOY_DELAI_PLANIF</value>
+  </data>
+  <data name="&gt;&gt;GColMOY_DELAI_PLANIF.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_Planif.Name" xml:space="preserve">
+    <value>Repo_HL_Delai_Planif</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_Delai_Planif.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCol_TOT_NB_NOK.Name" xml:space="preserve">
+    <value>GCol_TOT_NB_NOK</value>
+  </data>
+  <data name="&gt;&gt;GCol_TOT_NB_NOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_NB_NOK.Name" xml:space="preserve">
+    <value>Repo_HL_NB_NOK</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_NB_NOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCol_TOT_NB_NOK_SUP_1.Name" xml:space="preserve">
+    <value>GCol_TOT_NB_NOK_SUP_1</value>
+  </data>
+  <data name="&gt;&gt;GCol_TOT_NB_NOK_SUP_1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_NB_ACT_NOK_SUP1.Name" xml:space="preserve">
+    <value>Repo_HL_NB_ACT_NOK_SUP1</value>
+  </data>
+  <data name="&gt;&gt;Repo_HL_NB_ACT_NOK_SUP1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemHyperLinkEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;sFD.Name" xml:space="preserve">
+    <value>sFD</value>
+  </data>
+  <data name="&gt;&gt;sFD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStatPlanning_Delai_Pla_Reg</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

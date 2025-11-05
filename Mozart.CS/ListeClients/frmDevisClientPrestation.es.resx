@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Command1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 330</value>
+  </data>
+  <data name="Command1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 43</value>
+  </data>
+  <data name="Command1.Text" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="cmdDecoupage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 541</value>
+  </data>
+  <data name="cmdDecoupage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdDecoupage.Text" xml:space="preserve">
+    <value>Desglosado de la obra</value>
+  </data>
+  <data name="cmdAvenant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 469</value>
+  </data>
+  <data name="cmdAvenant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdAvenant.Text" xml:space="preserve">
+    <value>Obras suplementarias</value>
+  </data>
+  <data name="cmdConsult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 668</value>
+  </data>
+  <data name="cmdConsult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdConsult.Text" xml:space="preserve">
+    <value>Consult. Proveedor</value>
+  </data>
+  <data name="cmdFicheHeuretech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 613</value>
+  </data>
+  <data name="cmdFicheHeuretech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdFicheHeuretech.Text" xml:space="preserve">
+    <value>Ficha de horas técnico</value>
+  </data>
+  <data name="cmdPresentation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 264</value>
+  </data>
+  <data name="cmdPresentation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdPresentation.Text" xml:space="preserve">
+    <value>Presentación presupuesto</value>
+  </data>
+  <data name="lblLabels18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 15</value>
+  </data>
+  <data name="lblLabels18.Text" xml:space="preserve">
+    <value>Plazo de preparación :</value>
+  </data>
+  <data name="lblLabels24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 15</value>
+  </data>
+  <data name="lblLabels24.Text" xml:space="preserve">
+    <value>Plazo de realización :</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>días</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>días</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Destinatario :</value>
+  </data>
+  <data name="lblLabels13.Text" xml:space="preserve">
+    <value>(Lugar o Razon Social o Contacto)</value>
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Varios</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="optqui1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optqui1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="optqui0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optqui0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="optqui0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="optqui0.Text" xml:space="preserve">
+    <value>Solicitud cliente</value>
+  </data>
+  <data name="lblLabels25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="lblLabels25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 40</value>
+  </data>
+  <data name="lblLabels25.Text" xml:space="preserve">
+    <value>Origen del presupuesto</value>
+  </data>
+  <data name="lblLabels12.Text" xml:space="preserve">
+    <value>Asunto :</value>
+  </data>
+  <data name="Frame1.Text" xml:space="preserve">
+    <value>Acción</value>
+  </data>
+  <data name="cmdVisualiser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 191</value>
+  </data>
+  <data name="cmdVisualiser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 65</value>
+  </data>
+  <data name="cmdVisualiser.Text" xml:space="preserve">
+    <value>Ver / enviar el presupuesto</value>
+  </data>
+  <data name="txtFields9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>814, 40</value>
+  </data>
+  <data name="txtFields9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 20</value>
+  </data>
+  <data name="txtFields8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 16</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>País :</value>
+  </data>
+  <data name="lblLabels19.Text" xml:space="preserve">
+    <value>Ciudad :</value>
+  </data>
+  <data name="lblLabels3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 16</value>
+  </data>
+  <data name="lblLabels3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="lblLabels3.Text" xml:space="preserve">
+    <value>Dirección1</value>
+  </data>
+  <data name="lblLabels4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="lblLabels4.Text" xml:space="preserve">
+    <value>Código postal :</value>
+  </data>
+  <data name="lblLabels22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 40</value>
+  </data>
+  <data name="lblLabels22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="lblLabels22.Text" xml:space="preserve">
+    <value>Dirección2</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Lugar :</value>
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Lugar de realización</value>
+  </data>
+  <data name="txtCoefMO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 24</value>
+  </data>
+  <data name="txtCoefFOU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 48</value>
+  </data>
+  <data name="txtTotHeure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 80</value>
+  </data>
+  <data name="txtTotFO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 104</value>
+  </data>
+  <data name="txtCoefPVDevis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 128</value>
+  </data>
+  <data name="lblOeuvre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOeuvre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 15</value>
+  </data>
+  <data name="lblOeuvre.Text" xml:space="preserve">
+    <value>Coeficiente Mano de obra</value>
+  </data>
+  <data name="lblFour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 15</value>
+  </data>
+  <data name="lblFour.Text" xml:space="preserve">
+    <value>Coeficiente Suministros</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 15</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Total de Horas</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 15</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Total Suministro (sin coeficiente)</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 15</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Coef de ventas del presupuesto</value>
+  </data>
+  <data name="lblRFA.Text" xml:space="preserve">
+    <value>Descuento de fin de año</value>
+  </data>
+  <data name="Frame10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 161</value>
+  </data>
+  <data name="Frame10.Text" xml:space="preserve">
+    <value>Pagos</value>
+  </data>
+  <data name="optImp3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optImp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 19</value>
+  </data>
+  <data name="optImp3.Text" xml:space="preserve">
+    <value>Presupuesto forfaitaire con totales</value>
+  </data>
+  <data name="optImp0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optImp0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 19</value>
+  </data>
+  <data name="optImp0.Text" xml:space="preserve">
+    <value>Presupuesto con detalles (FO, MO)</value>
+  </data>
+  <data name="optImp1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optImp1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 19</value>
+  </data>
+  <data name="optImp1.Text" xml:space="preserve">
+    <value>Presupuesto sin detalles</value>
+  </data>
+  <data name="optImp2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optImp2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 19</value>
+  </data>
+  <data name="optImp2.Text" xml:space="preserve">
+    <value>Presupuesto forfaitaire</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 15</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Retención de garantía</value>
+  </data>
+  <data name="chkRegularisation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="chkRegularisation.Text" xml:space="preserve">
+    <value>Regularización</value>
+  </data>
+  <data name="CboTauxReussite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 124</value>
+  </data>
+  <data name="cboTVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 48</value>
+  </data>
+  <data name="txtHTInit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 95</value>
+  </data>
+  <data name="txtTVA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="txtTTC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 72</value>
+  </data>
+  <data name="txtTotHT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 24</value>
+  </data>
+  <data name="lblLabels28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 128</value>
+  </data>
+  <data name="lblLabels28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 15</value>
+  </data>
+  <data name="lblLabels28.Text" xml:space="preserve">
+    <value>Porcentaje de éxito :</value>
+  </data>
+  <data name="lblLabels11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 32</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>Tasa TVA :</value>
+  </data>
+  <data name="lblLabels10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="lblLabels10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="lblLabels10.Text" xml:space="preserve">
+    <value>Total sin IVA</value>
+  </data>
+  <data name="lblLabels21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 76</value>
+  </data>
+  <data name="lblLabels21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 15</value>
+  </data>
+  <data name="lblLabels21.Text" xml:space="preserve">
+    <value>Precio con IVA</value>
+  </data>
+  <data name="lblLabels20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 48</value>
+  </data>
+  <data name="lblLabels20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>IVA.</value>
+  </data>
+  <data name="lblLabels14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 98</value>
+  </data>
+  <data name="lblLabels14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="lblLabels14.Text" xml:space="preserve">
+    <value>Total Base Imponible</value>
+  </data>
+  <data name="Frame2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1621, 660</value>
+  </data>
+  <data name="Frame2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 161</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Precio de venta</value>
+  </data>
+  <data name="Frame7.Text" xml:space="preserve">
+    <value>Introducción de la información</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="cmdValider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="cmdValider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 57</value>
+  </data>
+  <data name="cmdValider.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="cmdImprimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 70</value>
+  </data>
+  <data name="cmdImprimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 57</value>
+  </data>
+  <data name="cmdImprimer.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="txtFields10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 40</value>
+  </data>
+  <data name="txtFields11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 13</value>
+  </data>
+  <data name="lblLabels27.Text" xml:space="preserve">
+    <value>País :</value>
+  </data>
+  <data name="lblLabels1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLabels1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="lblLabels1.Text" xml:space="preserve">
+    <value>Número :</value>
+  </data>
+  <data name="lblLabels16.Text" xml:space="preserve">
+    <value>Nombre :</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>Fecha :</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>Solicitante :</value>
+  </data>
+  <data name="lblLabels5.Text" xml:space="preserve">
+    <value>Cuenta :</value>
+  </data>
+  <data name="Frame8.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="cmdPrestation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 393</value>
+  </data>
+  <data name="cmdPrestation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 49</value>
+  </data>
+  <data name="cmdPrestation.Text" xml:space="preserve">
+    <value>Prestación/Servicios</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 29</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Hacer un presupuesto cliente</value>
+  </data>
+  <data name="cmdValObs.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="cmdAnObs.Text" xml:space="preserve">
+    <value>Anular</value>
+  </data>
+  <data name="lblLabels39.Text" xml:space="preserve">
+    <value>Escriba su comentario y confirme</value>
+  </data>
+  <data name="CmdVisu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 131</value>
+  </data>
+  <data name="CmdVisu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 57</value>
+  </data>
+  <data name="CmdVisu.Text" xml:space="preserve">
+    <value>Ver el borrador</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Hacer un presupuesto cliente</value>
+  </data>
+</root>

@@ -1,0 +1,1263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;ColEquipNGTPMAINID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPSITID.Name" xml:space="preserve">
+    <value>ColEquipNGTPSITID</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCInfoEquipement.EmbeddedNavigator.ToolTipIconType" type="DevExpress.Utils.ToolTipIconType, DevExpress.Utils.v22.2">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VGDAuditL.RecordWidth" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RepItemGLNGTPETAGESTID.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GCInfoEquipement.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CatBudg.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GCInfoEquipement.EmbeddedNavigator.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CatBudg.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Height" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.RowSeparator.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RepGVGTPTYPDEP.Name" xml:space="preserve">
+    <value>RepGVGTPTYPDEP</value>
+  </data>
+  <data name="GrpAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 652</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="CatBudg.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldValue.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPSITID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;RepItemGLNGTPETAGESTID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="RowNGTPETAGESTID.Properties.Caption" xml:space="preserve">
+    <value>Etat de gestion du budget</value>
+  </data>
+  <data name="&gt;&gt;RepItemMemoVJUSTIF.Name" xml:space="preserve">
+    <value>RepItemMemoVJUSTIF</value>
+  </data>
+  <data name="GrpAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 8</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPSITQTE.Name" xml:space="preserve">
+    <value>ColEquipNGTPSITQTE</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RowNGTPETAGESTID.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;GCInfoEquipement.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldCaption.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRow.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPEQUIP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.HeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="CatBudg.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.CardCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPORIGID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.Caption" xml:space="preserve">
+    <value>Coût unitaire de remplacement</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceCell.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipVGTPSITOBS.Caption" xml:space="preserve">
+    <value>Observation sur l'équipement du site</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPORIGID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnQuit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Voir frmGTPAudit</value>
+  </data>
+  <data name="BtnQuit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 607</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CatBudg.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipVGTPZONENOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPETAGESTID.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipNGTPMAINID.Caption" xml:space="preserve">
+    <value>NGTPMAINID</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.HeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipVGTPZONENOM.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.RecordValue.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;CVInfoEquipement.Name" xml:space="preserve">
+    <value>CVInfoEquipement</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;VGDAuditL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RepItemMemoVJUSTIF.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.RowSeparator.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GrpAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VGDAuditL.Parent" xml:space="preserve">
+    <value>GrpBudget</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RowHeaderPanel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CatBudg.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RecordValue.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPPRECIS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColGVNGTPETAGESTID.Name" xml:space="preserve">
+    <value>ColGVNGTPETAGESTID</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipVGTPSITOBS.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPEQUIP.Name" xml:space="preserve">
+    <value>ColEquipVGTPEQUIP</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Height" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.Caption" xml:space="preserve">
+    <value>Equipement</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNSITNUM.Name" xml:space="preserve">
+    <value>ColEquipNSITNUM</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.Caption" xml:space="preserve">
+    <value>Année validée par la technique</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceCell.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRecordValue.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPLOTNOM.Name" xml:space="preserve">
+    <value>ColEquipVGTPLOTNOM</value>
+  </data>
+  <data name="GrpAction.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RepItemMemoVGTPORIGNOM.Name" xml:space="preserve">
+    <value>RepItemMemoVGTPORIGNOM</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VGDAuditL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 25</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColGVVGTPETAGESTNOM.Name" xml:space="preserve">
+    <value>ColGVVGTPETAGESTNOM</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.ToolTipTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColGVVGTPETAGESTNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColGVCboVGTPTYPDEPNOM.Caption" xml:space="preserve">
+    <value>Type de dépenses</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;GrpInfoEquipement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPUNITENOM.Name" xml:space="preserve">
+    <value>ColEquipVGTPUNITENOM</value>
+  </data>
+  <data name="&gt;&gt;ColGVCboVGTPTYPDEPNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RecordValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoEquipement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CatBudg.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;RepItemMemoVGTPORIGNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPAUDITBUDGID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GrpInfoEquipement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 37</value>
+  </data>
+  <data name="GrpBudget.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPCOUTUNIT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipNGTPSITID.Caption" xml:space="preserve">
+    <value>NGTPSITID</value>
+  </data>
+  <data name="&gt;&gt;GCInfoEquipement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RepItemGLEditNGTPTYPDEPID.Name" xml:space="preserve">
+    <value>RepItemGLEditNGTPTYPDEPID</value>
+  </data>
+  <data name="ColEquipVGTPSITOBS.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.CardCaption.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPDURVIE.Name" xml:space="preserve">
+    <value>ColEquipNGTPDURVIE</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RecordValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPLOTNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldValue.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GrpInfoEquipement.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GCInfoEquipement.Parent" xml:space="preserve">
+    <value>GrpInfoEquipement</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.CardCaption.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipVGTPUNITENOM.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipVGTPSITOBS.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Properties.Caption" xml:space="preserve">
+    <value>Type de dépenses</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.Caption" xml:space="preserve">
+    <value>Durée de vie théorique</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPTYPDEPID.Name" xml:space="preserve">
+    <value>RowNGTPTYPDEPID</value>
+  </data>
+  <data name="&gt;&gt;BtnQuit.Name" xml:space="preserve">
+    <value>BtnQuit</value>
+  </data>
+  <data name="GrpBudget.Text" xml:space="preserve">
+    <value>Budgets à envisager</value>
+  </data>
+  <data name="RepItemMemoVJUSTIF.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;BtnQuit.Parent" xml:space="preserve">
+    <value>GrpAction</value>
+  </data>
+  <data name="CatBudg.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPSITOBS.Name" xml:space="preserve">
+    <value>ColEquipVGTPSITOBS</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="GrpBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1227, 410</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GrpAction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPZONENOM.Name" xml:space="preserve">
+    <value>ColEquipVGTPZONENOM</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.Caption" xml:space="preserve">
+    <value>Coûts forfait K € ht</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLVETAGESTDEP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.RowSeparator.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.HeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldCaption.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.CardCaption.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Height" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;ColGVCboVGTPTYPDEPNOM.Name" xml:space="preserve">
+    <value>ColGVCboVGTPTYPDEPNOM</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPSITQTE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLVETAGESTDEP.Name" xml:space="preserve">
+    <value>RepItemGLVETAGESTDEP</value>
+  </data>
+  <data name="RepItemGLNGTPETAGESTID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="RepItemMemoVJUSTIF.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.RecordValue.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColEquipNSITNUM.Caption" xml:space="preserve">
+    <value>NSITNUM</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RowHeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Height" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="ColGVVGTPETAGESTNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.Caption" xml:space="preserve">
+    <value>Quantités</value>
+  </data>
+  <data name="&gt;&gt;RepGVGTPTYPDEP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="BtnQuit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpInfoEquipement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1231, 295</value>
+  </data>
+  <data name="&gt;&gt;RowVGTPJUSTIF.Name" xml:space="preserve">
+    <value>RowVGTPJUSTIF</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColEquipNSITNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrpInfoEquipement.Text" xml:space="preserve">
+    <value>Données de base de l'équipement</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPMAINID.Name" xml:space="preserve">
+    <value>ColEquipNGTPMAINID</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.RowSeparator.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RowNGTPETAGESTID.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VGDAuditL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1219, 373</value>
+  </data>
+  <data name="RepItemGLEditNGTPTYPDEPID.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RowVGTPORIGNOM.Properties.Caption" xml:space="preserve">
+    <value>Origine étude</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCInfoEquipement.EmbeddedNavigator.AllowHtmlTextInToolTip" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v22.2">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPANNEETECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPANNEETECH.Name" xml:space="preserve">
+    <value>RowNGTPANNEETECH</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.Caption" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPCOUTUNIT.Name" xml:space="preserve">
+    <value>ColEquipNGTPCOUTUNIT</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRecordValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColGVVGTPETAGESTNOM.Caption" xml:space="preserve">
+    <value>Type de dépenses</value>
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceCell.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoEquipement.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RowVGTPORIGNOM.Name" xml:space="preserve">
+    <value>RowVGTPORIGNOM</value>
+  </data>
+  <data name="ColEquipVGTPSITOBS.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="VGDAuditL.RowHeaderWidth" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;CatBudg.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.CategoryRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left</value>
+  </data>
+  <data name="&gt;&gt;VGDAuditL.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.VGridControl, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPSITOBS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.Caption" xml:space="preserve">
+    <value>Année théorique</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPUNITENOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.CardCaption.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColGVCboNGTPTYPDEPID.Name" xml:space="preserve">
+    <value>ColGVCboNGTPTYPDEPID</value>
+  </data>
+  <data name="BtnQuit.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldValue.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.Caption" xml:space="preserve">
+    <value>Précision</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPORIGID.Name" xml:space="preserve">
+    <value>RowNGTPORIGID</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLEditNGTPTYPDEPID.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GrpBudget.Name" xml:space="preserve">
+    <value>GrpBudget</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RepItemGLEditNGTPTYPDEPID.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="CVInfoEquipement.CardCaptionFormat" xml:space="preserve">
+    <value>Données de base de l'équipement</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPANNEETHEO.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CatBudg.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;RowNGTPETAGESTID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmGTPAuditDetail</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RowHeaderPanel.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPCOUTFORFAIT.Name" xml:space="preserve">
+    <value>RowNGTPCOUTFORFAIT</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRow.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GCInfoEquipement.EmbeddedNavigator.TextLocation" type="DevExpress.XtraEditors.NavigatorButtonsTextLocation, DevExpress.XtraEditors.v22.2">
+    <value>Center</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>993, 25</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPAUDITBUDGID.Name" xml:space="preserve">
+    <value>RowNGTPAUDITBUDGID</value>
+  </data>
+  <data name="ColEquipVGTPZONENOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ColGVVGTPETAGESTNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPETAGESTID.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Tile</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldCaption.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Height" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;GCInfoEquipement.Name" xml:space="preserve">
+    <value>GCInfoEquipement</value>
+  </data>
+  <data name="GrpBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RowNGTPANNEETHEO.Height" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RepItemGLNGTPETAGESTID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="CatBudg.Height" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RowVGTPJUSTIF.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Voir frmGTPAudit</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.RowSeparator.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;GrpInfoEquipement.Name" xml:space="preserve">
+    <value>GrpInfoEquipement</value>
+  </data>
+  <data name="BtnQuit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRecordValue.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPSITOBS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="ColEquipVGTPSITOBS.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipVGTPLOTNOM.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.RowHeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="GCInfoEquipement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1219, 266</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.Caption" xml:space="preserve">
+    <value>Unité de mesure</value>
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;RowNGTPCOUTFORFAIT.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPSITOBS.AppearanceHeader.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;RepItemMemoVJUSTIF.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RepItemGLEditNGTPTYPDEPID.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GrpBudget.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Properties.Caption" xml:space="preserve">
+    <value>Justification</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPETAGESTID.Name" xml:space="preserve">
+    <value>RowNGTPETAGESTID</value>
+  </data>
+  <data name="&gt;&gt;CatBudg.Name" xml:space="preserve">
+    <value>CatBudg</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceCell.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VGDAuditL.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPZONENOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrpBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 338</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;VGDAuditL.Name" xml:space="preserve">
+    <value>VGDAuditL</value>
+  </data>
+  <data name="&gt;&gt;ColGVCboNGTPTYPDEPID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRow.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColGVCboVGTPTYPDEPNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRecordValue.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>Black</value>
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="RowNGTPORIGID.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;RepItemGLNGTPETAGESTID.Name" xml:space="preserve">
+    <value>RepItemGLNGTPETAGESTID</value>
+  </data>
+  <data name="&gt;&gt;ColGVNGTPETAGESTID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CatBudg.Properties.Caption" xml:space="preserve">
+    <value>Budgets à envisager</value>
+  </data>
+  <data name="RepItemMemoVGTPORIGNOM.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>LightGray</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>MistyRose</value>
+  </data>
+  <data name="&gt;&gt;RowVGTPORIGNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.Caption" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="&gt;&gt;RowNGTPANNEETHEO.Name" xml:space="preserve">
+    <value>RowNGTPANNEETHEO</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RowNGTPTYPDEPID.Type" xml:space="preserve">
+    <value>DevExpress.XtraVerticalGrid.Rows.EditorRow, DevExpress.XtraVerticalGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="CatBudg.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="RowNGTPETAGESTID.Height" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1365, 776</value>
+  </data>
+  <data name="GrpInfoEquipement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="GCInfoEquipement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 23</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="ColEquipVGTPUNITENOM.AppearanceHeader.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>224, 224, 224</value>
+  </data>
+  <data name="RowNGTPANNEETECH.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRecordValue.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 9</value>
+  </data>
+  <data name="ColEquipVGTPLOTNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ColEquipNGTPDURVIE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="ColEquipVGTPPRECIS.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VGDAuditL.Appearance.RowHeaderPanel.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RowNGTPCOUTFORFAIT.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipNGTPSITQTE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldCaption.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CVInfoEquipement.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Card.CardView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="RowNGTPTYPDEPID.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipNGTPCOUTUNIT.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ColEquipVGTPEQUIP.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowNGTPAUDITBUDGID.Properties.CustomizationCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColEquipNGTPDURVIE.AppearanceHeader.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="BtnQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 35</value>
+  </data>
+  <data name="RepItemMemoVJUSTIF.Appearance.FontStyleDelta" type="System.Drawing.FontStyle, System.Drawing">
+    <value>Regular</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RowVGTPJUSTIF.Properties.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="&gt;&gt;GrpAction.Name" xml:space="preserve">
+    <value>GrpAction</value>
+  </data>
+  <data name="CatBudg.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColGVCboVGTPTYPDEPNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;GrpBudget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColEquipNGTPDURVIE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRow.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;ColEquipVGTPPRECIS.Name" xml:space="preserve">
+    <value>ColEquipVGTPPRECIS</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt, style=Bold</value>
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>WhiteSmoke</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.HeaderPanel.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CatBudg.Properties.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColGVNGTPETAGESTID.Caption" xml:space="preserve">
+    <value>NGTPETAGESTID</value>
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceHeader.FontSizeDelta" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpBudget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGDAuditL.Appearance.ReadOnlyRow.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="RepGVGTPTYPDEP.Appearance.Row.GradientMode" type="System.Drawing.Drawing2D.LinearGradientMode, System.Drawing">
+    <value>Horizontal</value>
+  </data>
+  <data name="GCInfoEquipement.EmbeddedNavigator.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColEquipNGTPSITQTE.AppearanceHeader.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowNGTPANNEETHEO.Properties.RowEdit" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="RowVGTPORIGNOM.Appearance.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="ColGVCboNGTPTYPDEPID.Caption" xml:space="preserve">
+    <value>NGTPTYPDEPID</value>
+  </data>
+  <data name="CVInfoEquipement.Appearance.FieldValue.Image" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;GrpAction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

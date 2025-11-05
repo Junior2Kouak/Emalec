@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{899406F5-3801-4B51-82C6-35E14BBC610E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MozartUC</RootNamespace>
+    <AssemblyName>Mozart.UC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Mozart.UC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Mozart.UC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Mozart.UC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Mozart.UC.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CAvayaCticlient, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Mozart.CS\Dll\CAvayaCticlient.dll</HintPath>
+    </Reference>
+    <Reference Include="CtiServerConnector, Version=1.0.0.1, Culture=neutral, PublicKeyToken=4e76dc0a6871b322, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\CtiServerConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Interop.TAPI3Lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>Library\Interop.TAPI3Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="apiCheckBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiCombo.designer.vb">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiCombo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="apifrmToolPic.Designer.vb">
+      <DependentUpon>apifrmToolPic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apifrmToolPic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apiGroupBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiLookupEdit.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiRadioButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiSocieteAuto.Designer.vb">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiSocieteAuto.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="apiTBandedGrid.Designer.vb">
+      <DependentUpon>apiTBandedGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiTBandedGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ApiTelAuto.Designer.vb">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApiTelAuto.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="apiTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apiTGrid.designer.vb">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiTGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="apiToolPic.Designer.vb">
+      <DependentUpon>apiToolPic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiToolPic.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="apiTooltip.designer.vb">
+      <DependentUpon>apiTooltip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apiTooltip.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clsUtils.vb" />
+    <Compile Include="MozartUCConstants.vb" />
+    <Compile Include="frmApiRecherche.Designer.vb">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmApiRecherche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MozartUcUtils.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="apiCombo.en.resx">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiCombo.es.resx">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiCombo.it.resx">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiCombo.resx">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiCombo.ro.resx">
+      <DependentUpon>apiCombo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apifrmToolPic.resx">
+      <DependentUpon>apifrmToolPic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiGroupBox.resx">
+      <DependentUpon>apiGroupBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiSocieteAuto.en.resx">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiSocieteAuto.es.resx">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiSocieteAuto.it.resx">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiSocieteAuto.resx">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiSocieteAuto.ro.resx">
+      <DependentUpon>apiSocieteAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTBandedGrid.en.resx">
+      <DependentUpon>apiTBandedGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTBandedGrid.es.resx">
+      <DependentUpon>apiTBandedGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTBandedGrid.resx">
+      <DependentUpon>apiTBandedGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiTelAuto.en.resx">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiTelAuto.es.resx">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiTelAuto.it.resx">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiTelAuto.resx">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApiTelAuto.ro.resx">
+      <DependentUpon>ApiTelAuto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTGrid.en.resx">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTGrid.es.resx">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTGrid.it.resx">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTGrid.resx">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTGrid.ro.resx">
+      <DependentUpon>apiTGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiToolPic.resx">
+      <DependentUpon>apiToolPic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTooltip.es.resx">
+      <DependentUpon>apiTooltip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTooltip.it.resx">
+      <DependentUpon>apiTooltip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apiTooltip.resx">
+      <DependentUpon>apiTooltip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApiRecherche.en.resx">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApiRecherche.es.resx">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApiRecherche.it.resx">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApiRecherche.resx">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApiRecherche.ro.resx">
+      <DependentUpon>frmApiRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\CtiServerConnector.dll" />
+    <Content Include="Library\Interop.TAPI3Lib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MozartLib\MozartLib.csproj">
+      <Project>{2823c4da-9aa7-495f-8ee9-6bfcc60e87d7}</Project>
+      <Name>MozartLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

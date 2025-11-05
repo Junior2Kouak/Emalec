@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LabelSSSerie.Text" xml:space="preserve">
+    <value>Serie secondaria</value>
+  </data>
+  <data name="lblLabels23.Text" xml:space="preserve">
+    <value>(Costo del riciclaggio)</value>
+  </data>
+  <data name="lblLabels17.Text" xml:space="preserve">
+    <value>(Imballaggio dell'ordine: pz, cartone, pallet...)</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>(Pezzo, Kg, Metro, Litro, Giorno...)</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>(prezzo per quantità di unità)</value>
+  </data>
+  <data name="lblLabels14.Text" xml:space="preserve">
+    <value>(Unità di acquisto)</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>(Unità di vendita)</value>
+  </data>
+  <data name="Fram5.Text" xml:space="preserve">
+    <value>Aggiunta/Modifica</value>
+  </data>
+  <data name="cmdAjouter.Text" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="cboTypeId.Items3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lblLabels18.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="fraIndustrie.Text" xml:space="preserve">
+    <value>Complemento di settore</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Concetto:</value>
+  </data>
+  <data name="lblLabels10.Text" xml:space="preserve">
+    <value>Conditnmt </value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Creazione:</value>
+  </data>
+  <data name="lblLabels38.Text" xml:space="preserve">
+    <value>Criticità: </value>
+  </data>
+  <data name="lblLabels12.Text" xml:space="preserve">
+    <value>Data del prezzo:</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>Ultima modifica:</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Ultimo utilizzo in un ordine o ultima uscita dello stock:</value>
+  </data>
+  <data name="lblLabels24.Text" xml:space="preserve">
+    <value>Designazione </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dettagli di una fornitura</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Dettagli di una fornitura</value>
+  </data>
+  <data name="cmdBricoFou.Text" xml:space="preserve">
+    <value>Dettagli del Web Marchand</value>
+  </data>
+  <data name="cboTypeId.Items1" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lblLabels26.Text" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="cmdEnregistrer.Text" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="cmdFicheProdDang.Text" xml:space="preserve">
+    <value>Schede dei prodotti pericolosi</value>
+  </data>
+  <data name="CmdFicheTech.Text" xml:space="preserve">
+    <value>Schede tecniche</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="cbEcoLabel.Text" xml:space="preserve">
+    <value>Prodotto FORNITORE Eco</value>
+  </data>
+  <data name="lblInter.Text" xml:space="preserve">
+    <value>Fornitore:</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Gestione</value>
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Gestione della fornitura</value>
+  </data>
+  <data name="Frame3.Text" xml:space="preserve">
+    <value>Gestione dei fornitori</value>
+  </data>
+  <data name="cmdHistoCF.Text" xml:space="preserve">
+    <value>Cronologia CF</value>
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Immagine</value>
+  </data>
+  <data name="lblLabels27.Text" xml:space="preserve">
+    <value>Kg</value>
+  </data>
+  <data name="lblLabels5.Text" xml:space="preserve">
+    <value>Marchio </value>
+  </data>
+  <data name="cboTypeId.Items" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="lblLabels39.Text" xml:space="preserve">
+    <value>N° piano:</value>
+  </data>
+  <data name="cboCriticite.Items1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="cboPieceRechange.Items1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lblLabels31.Text" xml:space="preserve">
+    <value>Osservazione</value>
+  </data>
+  <data name="cboCriticite.Items" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="cboPieceRechange.Items" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Paese di inserimento:</value>
+  </data>
+  <data name="lblLabels35.Text" xml:space="preserve">
+    <value>Pezzo di ricambio:</value>
+  </data>
+  <data name="lblLabels28.Text" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="lblLabels3.Text" xml:space="preserve">
+    <value>per </value>
+  </data>
+  <data name="Frame5.Text" xml:space="preserve">
+    <value>Prezzo di vendita del cliente</value>
+  </data>
+  <data name="lblLabels32.Text" xml:space="preserve">
+    <value>Prezzo di vendita consigliato</value>
+  </data>
+  <data name="lblLabels34.Text" xml:space="preserve">
+    <value>Prezzo min</value>
+  </data>
+  <data name="lblLabels4.Text" xml:space="preserve">
+    <value>Prezzo unitario:</value>
+  </data>
+  <data name="lblLabels30.Text" xml:space="preserve">
+    <value>PVC</value>
+  </data>
+  <data name="lblCreateur.Text" xml:space="preserve">
+    <value>chi</value>
+  </data>
+  <data name="lblDerUti.Text" xml:space="preserve">
+    <value>chi</value>
+  </data>
+  <data name="lblModif.Text" xml:space="preserve">
+    <value>chi</value>
+  </data>
+  <data name="lblLabels22.Text" xml:space="preserve">
+    <value>Riciclaggio</value>
+  </data>
+  <data name="lblLabels33.Text" xml:space="preserve">
+    <value>Riciclaggio della vendita</value>
+  </data>
+  <data name="lblLabels19.Text" xml:space="preserve">
+    <value>Riferimento del fornitore</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Riferimento del fabbricante</value>
+  </data>
+  <data name="cboTypeId.Items4" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="frameSiteMarchand.Text" xml:space="preserve">
+    <value>Sito commerciale</value>
+  </data>
+  <data name="lblSSSerie.Text" xml:space="preserve">
+    <value>Serie secondaria</value>
+  </data>
+  <data name="lblLabels25.Text" xml:space="preserve">
+    <value>Stock:</value>
+  </data>
+  <data name="cmdSupp.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="lblLabels16.Text" xml:space="preserve">
+    <value>Tipo </value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Tipo di ID:</value>
+  </data>
+  <data name="lblLabels1.Text" xml:space="preserve">
+    <value>Unità </value>
+  </data>
+  <data name="lblLabels36.Text" xml:space="preserve">
+    <value>unità in stock</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>Utilizzo</value>
+  </data>
+  <data name="cmdValider.Text" xml:space="preserve">
+    <value>Convalida</value>
+  </data>
+  <data name="lblVerif.Text" xml:space="preserve">
+    <value>Verifica:</value>
+  </data>
+</root>

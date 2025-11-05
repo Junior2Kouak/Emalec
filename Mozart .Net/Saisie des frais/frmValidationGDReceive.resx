@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BGColVISAFRAISGD.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="BGColVISAFRAISGD.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVISAFRAISGD.Caption" xml:space="preserve">
+    <value>VISA RH</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BGColVISAFRAISGD.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVISAFRAISGD.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="BGColVSITNOM.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVSITNOM.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVSITNOM.Caption" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="BGColVSITNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVSITNOM.Width" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="BGColVSITCP.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVSITCP.Caption" xml:space="preserve">
+    <value>CP</value>
+  </data>
+  <data name="BGColVSITCP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVSITCP.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="BGColVSITVIL.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVSITVIL.Caption" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="BGColVSITVIL.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVSITVIL.Width" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="BGColNREGCOD.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColNREGCOD.Caption" xml:space="preserve">
+    <value>Dép.</value>
+  </data>
+  <data name="BGColNREGCOD.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColNREGCOD.Width" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="BGColVSITPAYS.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVSITPAYS.Caption" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="BGColVSITPAYS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVSITPAYS.Width" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="BGColVTYPEREPASDETAIL.AppearanceCell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVTYPEREPASDETAIL.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVTYPEREPASDETAIL.Caption" xml:space="preserve">
+    <value>Repas / GD</value>
+  </data>
+  <data name="BGColVTYPEREPASDETAIL.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVTYPEREPASDETAIL.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="lblTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lblTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="lblTech.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTech.Text" xml:space="preserve">
+    <value>Technicien :</value>
+  </data>
+  <data name="&gt;&gt;lblTech.Name" xml:space="preserve">
+    <value>lblTech</value>
+  </data>
+  <data name="&gt;&gt;lblTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTech.Parent" xml:space="preserve">
+    <value>GrpSelectPeriode</value>
+  </data>
+  <data name="&gt;&gt;lblTech.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 18</value>
+  </data>
+  <data name="lblSem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="lblSem.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblSem.Text" xml:space="preserve">
+    <value>Choisir la semaine :</value>
+  </data>
+  <data name="&gt;&gt;lblSem.Name" xml:space="preserve">
+    <value>lblSem</value>
+  </data>
+  <data name="&gt;&gt;lblSem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSem.Parent" xml:space="preserve">
+    <value>GrpSelectPeriode</value>
+  </data>
+  <data name="&gt;&gt;lblSem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DateEditChoixSem.EditValue" type="System.DateTime, mscorlib">
+    <value>2017-09-11</value>
+  </data>
+  <data name="DateEditChoixSem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 16</value>
+  </data>
+  <data name="DateEditChoixSem.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="DateEditChoixSem.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="DateEditChoixSem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 22</value>
+  </data>
+  <data name="DateEditChoixSem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DateEditChoixSem.Name" xml:space="preserve">
+    <value>DateEditChoixSem</value>
+  </data>
+  <data name="&gt;&gt;DateEditChoixSem.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DateEditChoixSem.Parent" xml:space="preserve">
+    <value>GrpSelectPeriode</value>
+  </data>
+  <data name="&gt;&gt;DateEditChoixSem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GLookUpTech.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GLookUpTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="GLookUpTech.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
+    <value>Combo</value>
+  </data>
+  <data name="GLookUpTech.Properties.NullText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVListeTechNPERNUM.Caption" xml:space="preserve">
+    <value>NPERNUM</value>
+  </data>
+  <data name="GVListeTechVPERNOM.Caption" xml:space="preserve">
+    <value>Technicien</value>
+  </data>
+  <data name="GVListeTechVPERNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GVListeTechVPERNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GLookUpTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 20</value>
+  </data>
+  <data name="GLookUpTech.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GLookUpTech.Name" xml:space="preserve">
+    <value>GLookUpTech</value>
+  </data>
+  <data name="&gt;&gt;GLookUpTech.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GLookUpTech.Parent" xml:space="preserve">
+    <value>GrpSelectPeriode</value>
+  </data>
+  <data name="&gt;&gt;GLookUpTech.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpSelectPeriode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpSelectPeriode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 6</value>
+  </data>
+  <data name="GrpSelectPeriode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>926, 43</value>
+  </data>
+  <data name="GrpSelectPeriode.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="GrpSelectPeriode.Text" xml:space="preserve">
+    <value>Période</value>
+  </data>
+  <data name="&gt;&gt;GrpSelectPeriode.Name" xml:space="preserve">
+    <value>GrpSelectPeriode</value>
+  </data>
+  <data name="&gt;&gt;GrpSelectPeriode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpSelectPeriode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpSelectPeriode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 9</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>434, 27</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Liste des grands déplacements à valider</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 325</value>
+  </data>
+  <data name="BtnArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnArchives.Text" xml:space="preserve">
+    <value>Archives</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Name" xml:space="preserve">
+    <value>BtnArchives</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnArchives.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnImp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnImp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="BtnImp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnImp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnImp.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Name" xml:space="preserve">
+    <value>BtnImp</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnImp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GBandDate.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColNIDFRAISJOUR.Caption" xml:space="preserve">
+    <value>NIDFRAISJOUR</value>
+  </data>
+  <data name="BGColNIDKMSTECH.Caption" xml:space="preserve">
+    <value>NIDKMSTECH</value>
+  </data>
+  <data name="BGColNIDREPASTECHUNIQUE.Caption" xml:space="preserve">
+    <value>NIDREPASTECHUNIQUE</value>
+  </data>
+  <data name="BGColVPERNOMTECH.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVPERNOMTECH.Caption" xml:space="preserve">
+    <value>Technicien</value>
+  </data>
+  <data name="BGColVPERNOMTECH.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVPERNOMTECH.Width" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="BGColDFRAISJOUR.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColDFRAISJOUR.Caption" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="BGColDFRAISJOUR.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColDFRAISJOUR.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="GBandDate.Name" xml:space="preserve">
+    <value>GBandDate</value>
+  </data>
+  <data name="GBandDate.Width" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="GBandDestination.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GBandDestination.Caption" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="BGColVCLINOM.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVCLINOM.Caption" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="BGColVCLINOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVCLINOM.Width" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="GBandDestination.Name" xml:space="preserve">
+    <value>GBandDestination</value>
+  </data>
+  <data name="GBandDestination.Width" type="System.Int32, mscorlib">
+    <value>649</value>
+  </data>
+  <data name="GBandKms.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GBandKms.Name" xml:space="preserve">
+    <value>GBandKms</value>
+  </data>
+  <data name="GBandKms.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GBandKms.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="GBandIndemnites.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GBandIndemnites.Caption" xml:space="preserve">
+    <value>Indemnités</value>
+  </data>
+  <data name="BGColNMONTANTGD.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColNMONTANTGD.Caption" xml:space="preserve">
+    <value>Montant GD</value>
+  </data>
+  <data name="GBandIndemnites.Name" xml:space="preserve">
+    <value>GBandIndemnites</value>
+  </data>
+  <data name="GBandIndemnites.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="GBandTransfert.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColDFRAISJOURTRANS.Caption" xml:space="preserve">
+    <value>DFRAISJOURTRANS</value>
+  </data>
+  <data name="BGColVCOMMREPAS.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BGColVCOMMREPAS.Caption" xml:space="preserve">
+    <value>Référence paie</value>
+  </data>
+  <data name="BGColVCOMMREPAS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BGColVCOMMREPAS.Width" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="BGColDVISAGD.Caption" xml:space="preserve">
+    <value>DVISAGD</value>
+  </data>
+  <data name="GBandTransfert.Name" xml:space="preserve">
+    <value>GBandTransfert</value>
+  </data>
+  <data name="GBandTransfert.Width" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="BGColNIDKMSTECHUNIQUE.Caption" xml:space="preserve">
+    <value>NIDKMSTECHUNIQUE</value>
+  </data>
+  <data name="BGColBFRAISJOURTRANSVALID.Caption" xml:space="preserve">
+    <value>BFRAISJOURTRANSVALID</value>
+  </data>
+  <data name="BGColNPERNUM.Caption" xml:space="preserve">
+    <value>NPERNUM</value>
+  </data>
+  <data name="BGColVTYPEREPAS.Caption" xml:space="preserve">
+    <value>VTYPEREPAS</value>
+  </data>
+  <data name="BGColBKMSTECHASTREINTE.Caption" xml:space="preserve">
+    <value>BKMSTECHASTREINTE</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GCFraisJourSyntheseGD.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GCFraisJourSyntheseGD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="GCFraisJourSyntheseGD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1334, 673</value>
+  </data>
+  <data name="GCFraisJourSyntheseGD.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GCFraisJourSyntheseGD.Name" xml:space="preserve">
+    <value>GCFraisJourSyntheseGD</value>
+  </data>
+  <data name="&gt;&gt;GCFraisJourSyntheseGD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCFraisJourSyntheseGD.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GCFraisJourSyntheseGD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 55</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 692</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 682</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 45</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 744</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>62</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1504, 846</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Validation des grands déplacements</value>
+  </data>
+  <data name="&gt;&gt;BGColVISAFRAISGD.Name" xml:space="preserve">
+    <value>BGColVISAFRAISGD</value>
+  </data>
+  <data name="&gt;&gt;BGColVISAFRAISGD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITNOM.Name" xml:space="preserve">
+    <value>BGColVSITNOM</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITCP.Name" xml:space="preserve">
+    <value>BGColVSITCP</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITCP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITVIL.Name" xml:space="preserve">
+    <value>BGColVSITVIL</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITVIL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNREGCOD.Name" xml:space="preserve">
+    <value>BGColNREGCOD</value>
+  </data>
+  <data name="&gt;&gt;BGColNREGCOD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITPAYS.Name" xml:space="preserve">
+    <value>BGColVSITPAYS</value>
+  </data>
+  <data name="&gt;&gt;BGColVSITPAYS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVTYPEREPASDETAIL.Name" xml:space="preserve">
+    <value>BGColVTYPEREPASDETAIL</value>
+  </data>
+  <data name="&gt;&gt;BGColVTYPEREPASDETAIL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridLookUpEditListeTech.Name" xml:space="preserve">
+    <value>GridLookUpEditListeTech</value>
+  </data>
+  <data name="&gt;&gt;GridLookUpEditListeTech.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVListeTechNPERNUM.Name" xml:space="preserve">
+    <value>GVListeTechNPERNUM</value>
+  </data>
+  <data name="&gt;&gt;GVListeTechNPERNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GVListeTechVPERNOM.Name" xml:space="preserve">
+    <value>GVListeTechVPERNOM</value>
+  </data>
+  <data name="&gt;&gt;GVListeTechVPERNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGFraisJourSyntheseGD.Name" xml:space="preserve">
+    <value>BGFraisJourSyntheseGD</value>
+  </data>
+  <data name="&gt;&gt;BGFraisJourSyntheseGD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GBandDate.Name" xml:space="preserve">
+    <value>GBandDate</value>
+  </data>
+  <data name="&gt;&gt;GBandDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDFRAISJOUR.Name" xml:space="preserve">
+    <value>BGColNIDFRAISJOUR</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDFRAISJOUR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDKMSTECH.Name" xml:space="preserve">
+    <value>BGColNIDKMSTECH</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDKMSTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDREPASTECHUNIQUE.Name" xml:space="preserve">
+    <value>BGColNIDREPASTECHUNIQUE</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDREPASTECHUNIQUE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVPERNOMTECH.Name" xml:space="preserve">
+    <value>BGColVPERNOMTECH</value>
+  </data>
+  <data name="&gt;&gt;BGColVPERNOMTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColDFRAISJOUR.Name" xml:space="preserve">
+    <value>BGColDFRAISJOUR</value>
+  </data>
+  <data name="&gt;&gt;BGColDFRAISJOUR.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GBandDestination.Name" xml:space="preserve">
+    <value>GBandDestination</value>
+  </data>
+  <data name="&gt;&gt;GBandDestination.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVCLINOM.Name" xml:space="preserve">
+    <value>BGColVCLINOM</value>
+  </data>
+  <data name="&gt;&gt;BGColVCLINOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GBandKms.Name" xml:space="preserve">
+    <value>GBandKms</value>
+  </data>
+  <data name="&gt;&gt;GBandKms.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GBandIndemnites.Name" xml:space="preserve">
+    <value>GBandIndemnites</value>
+  </data>
+  <data name="&gt;&gt;GBandIndemnites.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNMONTANTGD.Name" xml:space="preserve">
+    <value>BGColNMONTANTGD</value>
+  </data>
+  <data name="&gt;&gt;BGColNMONTANTGD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GBandTransfert.Name" xml:space="preserve">
+    <value>GBandTransfert</value>
+  </data>
+  <data name="&gt;&gt;GBandTransfert.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColDFRAISJOURTRANS.Name" xml:space="preserve">
+    <value>BGColDFRAISJOURTRANS</value>
+  </data>
+  <data name="&gt;&gt;BGColDFRAISJOURTRANS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVCOMMREPAS.Name" xml:space="preserve">
+    <value>BGColVCOMMREPAS</value>
+  </data>
+  <data name="&gt;&gt;BGColVCOMMREPAS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColDVISAGD.Name" xml:space="preserve">
+    <value>BGColDVISAGD</value>
+  </data>
+  <data name="&gt;&gt;BGColDVISAGD.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDKMSTECHUNIQUE.Name" xml:space="preserve">
+    <value>BGColNIDKMSTECHUNIQUE</value>
+  </data>
+  <data name="&gt;&gt;BGColNIDKMSTECHUNIQUE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColBFRAISJOURTRANSVALID.Name" xml:space="preserve">
+    <value>BGColBFRAISJOURTRANSVALID</value>
+  </data>
+  <data name="&gt;&gt;BGColBFRAISJOURTRANSVALID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColNPERNUM.Name" xml:space="preserve">
+    <value>BGColNPERNUM</value>
+  </data>
+  <data name="&gt;&gt;BGColNPERNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColVTYPEREPAS.Name" xml:space="preserve">
+    <value>BGColVTYPEREPAS</value>
+  </data>
+  <data name="&gt;&gt;BGColVTYPEREPAS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BGColBKMSTECHASTREINTE.Name" xml:space="preserve">
+    <value>BGColBKMSTECHASTREINTE</value>
+  </data>
+  <data name="&gt;&gt;BGColBKMSTECHASTREINTE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmValidationGDReceive</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

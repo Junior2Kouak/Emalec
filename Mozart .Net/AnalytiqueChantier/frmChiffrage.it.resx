@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value> Gestore</value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>% / PV</value>
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>€ tasse escluse</value>
+  </data>
+  <data name="Label66.Text" xml:space="preserve">
+    <value>Assistenza tecnica ({0}€)</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Assistente ({0}€)</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>UP Automatismo ({0}€)</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>UP Settore edile ({0}€)</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>UP Elettricità ({0}€)</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>UP Meccanica ({0}€)</value>
+  </data>
+  <data name="txtFO.Properties.Mask.EditMask" xml:space="preserve">
+    <value>c0</value>
+  </data>
+  <data name="txtFrais.Properties.Mask.EditMask" xml:space="preserve">
+    <value>c0</value>
+  </data>
+  <data name="txtSTT.Properties.Mask.EditMask" xml:space="preserve">
+    <value>c0</value>
+  </data>
+  <data name="Label61.Text" xml:space="preserve">
+    <value>Cablatore ({0}€)</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Direttore commerciale ({0}€)</value>
+  </data>
+  <data name="Label36.Text" xml:space="preserve">
+    <value>Direttore commerciale</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>Conto pro rata</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>Costo di produzione</value>
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>Costo di gestione con FG</value>
+  </data>
+  <data name="DDATEMODIF.Caption" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Data di inizio del cantiere</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Dettaglio del conteggio</value>
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>Dati globali</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>Studio dei prezzi</value>
+  </data>
+  <data name="btnFermer.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>Forniture</value>
+  </data>
+  <data name="Label43.Text" xml:space="preserve">
+    <value>Spese accessorie</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Spese varie</value>
+  </data>
+  <data name="Label62.Text" xml:space="preserve">
+    <value>Spese di garanzia (1%)</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>Spese generali 17% (FG)</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Spese chilometriche ({0}€)</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>GD operai ({0}€)</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label60.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label65.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="GrpBoxHisto.Text" xml:space="preserve">
+    <value>Cronologia delle modifiche</value>
+  </data>
+  <data name="BtnImprimer.Text" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>Dicitura del conteggio</value>
+  </data>
+  <data name="NTXMARGE.Caption" xml:space="preserve">
+    <value>Margine %</value>
+  </data>
+  <data name="GCol_NMARGENET.Caption" xml:space="preserve">
+    <value>Margine netto</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Margine netto</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>Meccanico ({0}€)</value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>MO degli studi</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>MO di pilotaggio</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>MO produttiva</value>
+  </data>
+  <data name="txtASS.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtBE.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtBE_Auto.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtBE_Elec.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtBE_Meca.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtCHAF.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtGD.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtKM.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtMO.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtMO_AideTec.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtMO_Cabl.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtMO_Meca.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtPA.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="txtPV.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n0</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>n.</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>n.</value>
+  </data>
+  <data name="GroupBox8.Text" xml:space="preserve">
+    <value>Osservazioni su questo conteggio</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Carrelli operaio ({0}€)</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>Prezzo di vendita (PV)</value>
+  </data>
+  <data name="NPV.Caption" xml:space="preserve">
+    <value>Prezzo di vendita</value>
+  </data>
+  <data name="Label39.Text" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>Subappaltato</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>Tecnico del settore edile ({0}€)</value>
+  </data>
+  <data name="GCol_NFOTOT.Caption" xml:space="preserve">
+    <value>Totale delle forniture</value>
+  </data>
+  <data name="GCol_NFRAISANNEXTOT.Caption" xml:space="preserve">
+    <value>Importo totale delle spese accessorie</value>
+  </data>
+  <data name="GCol_NMO_AIDETEC_HTTOT.Caption" xml:space="preserve">
+    <value>Importo totale delle ore Assistenza tecnica</value>
+  </data>
+  <data name="GCol_NMO_CABL_HTTOT.Caption" xml:space="preserve">
+    <value>Importo totale delle ore Cablatore</value>
+  </data>
+  <data name="GCol_NMO_MECA_HTTOT.Caption" xml:space="preserve">
+    <value>Importo totale delle ore Meccanico</value>
+  </data>
+  <data name="GCol_NMOPRODHTTOT.Caption" xml:space="preserve">
+    <value>Importo totale delle ore Produzione</value>
+  </data>
+  <data name="GCol_NMOADMINTOT.Caption" xml:space="preserve">
+    <value>Importo totale MO amministrativa</value>
+  </data>
+  <data name="GCol_NMO_AIDETEC_HRTOT.Caption" xml:space="preserve">
+    <value>Totale N. di ore Assistenza tecnica</value>
+  </data>
+  <data name="GCol_NMO_CABL_HRTOT.Caption" xml:space="preserve">
+    <value>Totale N. di ore Cablatore</value>
+  </data>
+  <data name="GCol_NMO_MECA_HRTOT.Caption" xml:space="preserve">
+    <value>Totale N. di ore Meccanico</value>
+  </data>
+  <data name="GCol_NMOPRODHRTOT.Caption" xml:space="preserve">
+    <value>Totale N. di ore Produzione</value>
+  </data>
+  <data name="GCol_NSTTOT.Caption" xml:space="preserve">
+    <value>Totale subappalto</value>
+  </data>
+  <data name="USR.Caption" xml:space="preserve">
+    <value>Utente</value>
+  </data>
+  <data name="btnValider.Text" xml:space="preserve">
+    <value>Convalida</value>
+  </data>
+</root>

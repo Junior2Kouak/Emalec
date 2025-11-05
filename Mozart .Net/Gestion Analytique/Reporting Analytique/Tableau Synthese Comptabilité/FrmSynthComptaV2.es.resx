@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Síntesis contable</value>
+  </data>
+  <data name="BtnValid.Text" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="BGCENCOURSMANU.Caption" xml:space="preserve">
+    <value>Saldos vivos manual</value>
+  </data>
+  <data name="GBANNEEPREC.Caption" xml:space="preserve">
+    <value>RECORDO #AñO#</value>
+  </data>
+  <data name="BGCPourcCA.Summary3" xml:space="preserve">
+    <value>BGCPourcCA</value>
+  </data>
+  <data name="BGCENCOURS.Caption" xml:space="preserve">
+    <value>Saldos vivos MOZART</value>
+  </data>
+  <data name="GBResultFG.Name" xml:space="preserve">
+    <value>GBResultFG</value>
+  </data>
+  <data name="BGCResultAjust.Summary1" xml:space="preserve">
+    <value>RESULTAJUST</value>
+  </data>
+  <data name="GBBALDEP.Name" xml:space="preserve">
+    <value>GBBALDEP</value>
+  </data>
+  <data name="BGCPourcChargeStruct.Caption" xml:space="preserve">
+    <value>% de horas de estructura</value>
+  </data>
+  <data name="BGCPVRECEPT.Caption" xml:space="preserve">
+    <value>RECEPCION</value>
+  </data>
+  <data name="GBPartFG.Name" xml:space="preserve">
+    <value>GBPartFG</value>
+  </data>
+  <data name="BGColBalAnaTOTREAJUST.Summary3" xml:space="preserve">
+    <value>BGCResultAjust</value>
+  </data>
+  <data name="BGColNDIFFPOURCCALASTMOIS.Caption" xml:space="preserve">
+    <value>+ ou -</value>
+  </data>
+  <data name="GBChaff.Caption" xml:space="preserve">
+    <value>Encargado de negocios</value>
+  </data>
+  <data name="BGCResultAjust.Caption" xml:space="preserve">
+    <value>Resultado ajustado</value>
+  </data>
+  <data name="BGCPourcTotal.Caption" xml:space="preserve">
+    <value>% del resultado total</value>
+  </data>
+  <data name="BGCSectAna.Caption" xml:space="preserve">
+    <value>Resultado seccón ana</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="BGColBalAnaTOTREAJUST.Summary1" xml:space="preserve">
+    <value>TOTREAJUST</value>
+  </data>
+  <data name="GBMOISPREC.Caption" xml:space="preserve">
+    <value>RECORDO #MES#/#AñO#</value>
+  </data>
+  <data name="BtnExportXLS.Text" xml:space="preserve">
+    <value>Exportar en EXCEL</value>
+  </data>
+  <data name="GBProd.Caption" xml:space="preserve">
+    <value>Producción</value>
+  </data>
+  <data name="GBResultFG.Caption" xml:space="preserve">
+    <value>Resultado despues 17% de FG</value>
+  </data>
+  <data name="BtnDepenseAna.Text" xml:space="preserve">
+    <value>Detalle de los gastos</value>
+  </data>
+  <data name="GBMOISPREC.Name" xml:space="preserve">
+    <value>GBMOISPREC</value>
+  </data>
+  <data name="GBBALREAJUSTE.Name" xml:space="preserve">
+    <value>GBBALREAJUSTE</value>
+  </data>
+  <data name="GBBALCOMPTE.Caption" xml:space="preserve">
+    <value>Balanza analítica</value>
+  </data>
+  <data name="BGCPourcFG.Caption" xml:space="preserve">
+    <value>En %</value>
+  </data>
+  <data name="BGCOD.Caption" xml:space="preserve">
+    <value>17% Fgx</value>
+  </data>
+  <data name="BGColBalAnaNCANNUM.Caption" xml:space="preserve">
+    <value>N º</value>
+  </data>
+  <data name="BGColBalAnaVCANLIB.Caption" xml:space="preserve">
+    <value>titulado</value>
+  </data>
+  <data name="GBBALCOMPTE.Name" xml:space="preserve">
+    <value>GBBALCOMPTE</value>
+  </data>
+  <data name="BGCPourcProd.Caption" xml:space="preserve">
+    <value>En % de los VN</value>
+  </data>
+  <data name="BGCLibANA.Caption" xml:space="preserve">
+    <value>Titulado</value>
+  </data>
+  <data name="BGCPourcCA.Caption" xml:space="preserve">
+    <value>En % de los VN</value>
+  </data>
+  <data name="GBBALANNEEPREC.Name" xml:space="preserve">
+    <value>GBBALANNEEPREC</value>
+  </data>
+  <data name="XTPREX.Text" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="BGCCTYPECTE.Caption" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="BGColBalAnaNDEPREEL.Summary3" xml:space="preserve">
+    <value>BGCMttCA</value>
+  </data>
+  <data name="GBCompte.Caption" xml:space="preserve">
+    <value>Cuentas</value>
+  </data>
+  <data name="BGColBalAnaTOTREAJUST.Caption" xml:space="preserve">
+    <value>Resultados ajustado</value>
+  </data>
+  <data name="BGCENCOURSMANU.Summary1" xml:space="preserve">
+    <value>SALDOVIVOMANU</value>
+  </data>
+  <data name="BtnExportPDF.Text" xml:space="preserve">
+    <value>Exportar en PDF</value>
+  </data>
+  <data name="GBREXAN.Caption" xml:space="preserve">
+    <value>% de los VN del año pasado</value>
+  </data>
+  <data name="BGColNDIFFPOURCCALASTYEAR.Caption" xml:space="preserve">
+    <value>+ ou -</value>
+  </data>
+  <data name="LblMois.Text" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="GBREX.Name" xml:space="preserve">
+    <value>GBREX</value>
+  </data>
+  <data name="BGColAnaNPOURCREAJUST.Caption" xml:space="preserve">
+    <value>En % de los VN</value>
+  </data>
+  <data name="BGCChaff.Caption" xml:space="preserve">
+    <value>Encargado de negocios</value>
+  </data>
+  <data name="GBTxChargeStruct.Name" xml:space="preserve">
+    <value>GBTxChargeStruct</value>
+  </data>
+  <data name="GBREXMOIS.Name" xml:space="preserve">
+    <value>GBREXMOIS</value>
+  </data>
+  <data name="GBCompte.Name" xml:space="preserve">
+    <value>GBCompte</value>
+  </data>
+  <data name="BGCPourcChargeStruct.Summary3" xml:space="preserve">
+    <value>BGCPourcChargeStruct</value>
+  </data>
+  <data name="BGCNum.Caption" xml:space="preserve">
+    <value>N º</value>
+  </data>
+  <data name="BGCMttCA.Caption" xml:space="preserve">
+    <value>En €</value>
+  </data>
+  <data name="BGCMttCA.Summary3" xml:space="preserve">
+    <value>BGCMttCA</value>
+  </data>
+  <data name="BGColNPOURCCA.Caption" xml:space="preserve">
+    <value>% del VN</value>
+  </data>
+  <data name="BGColBalAnaOD.Summary1" xml:space="preserve">
+    <value>NOD</value>
+  </data>
+  <data name="GrpPeriode.Text" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="BGColVINTITULE.Caption" xml:space="preserve">
+    <value>titulado</value>
+  </data>
+  <data name="GBBALTAB.Name" xml:space="preserve">
+    <value>GBBALTAB</value>
+  </data>
+  <data name="BGColBalAnaNDEPREEL.Caption" xml:space="preserve">
+    <value>En €</value>
+  </data>
+  <data name="LblAnnee.Text" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="BGCResultAjust.Summary3" xml:space="preserve">
+    <value>BGCResultAjust</value>
+  </data>
+  <data name="XTPBilanCpt.Text" xml:space="preserve">
+    <value>Balance por cuenta</value>
+  </data>
+  <data name="BGColNRESULT.Caption" xml:space="preserve">
+    <value>Resultados</value>
+  </data>
+  <data name="BGColBalAnaNAJUSTE.Caption" xml:space="preserve">
+    <value>Saldos-vivos</value>
+  </data>
+  <data name="BGCOD.Summary1" xml:space="preserve">
+    <value>NOD</value>
+  </data>
+  <data name="GBBILANRESULT.Name" xml:space="preserve">
+    <value>GBBILANRESULT</value>
+  </data>
+  <data name="GBREXMOIS.Caption" xml:space="preserve">
+    <value>% de los VN del mes pasado</value>
+  </data>
+  <data name="GBChaff.Name" xml:space="preserve">
+    <value>GBChaff</value>
+  </data>
+  <data name="GBProd.Name" xml:space="preserve">
+    <value>GBProd</value>
+  </data>
+  <data name="XTPBalanceAna.Text" xml:space="preserve">
+    <value>Balance de gastos generales</value>
+  </data>
+  <data name="BGColBalAnaNSOLDE.Caption" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="GBPartFG.Caption" xml:space="preserve">
+    <value>Part. aux FG</value>
+  </data>
+  <data name="GBREXAN.Name" xml:space="preserve">
+    <value>GBREXAN</value>
+  </data>
+  <data name="GBBILANREAJUSTE.Name" xml:space="preserve">
+    <value>GBBILANREAJUSTE</value>
+  </data>
+  <data name="GBBALANNEEPREC.Caption" xml:space="preserve">
+    <value>RAPPEL #ANNEE#</value>
+  </data>
+  <data name="GBANNEEPREC.Name" xml:space="preserve">
+    <value>GBANNEEPREC</value>
+  </data>
+  <data name="GBBALDEP.Caption" xml:space="preserve">
+    <value>Gastos reales</value>
+  </data>
+  <data name="BGColBalAnaNPOURCDEPREEL.Caption" xml:space="preserve">
+    <value>En % de los VN</value>
+  </data>
+  <data name="BGCRapportAnneePrec.Caption" xml:space="preserve">
+    <value>... / ... %</value>
+  </data>
+  <data name="BGCPourcRapportMoisPrec.Caption" xml:space="preserve">
+    <value>... / ... %</value>
+  </data>
+  <data name="BGColBalAnaDIFFPOURCANNEE.Caption" xml:space="preserve">
+    <value>... / ... %</value>
+  </data>
+  <data name="BGCPartFGMtt.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGColBalAnaNAJUSTE.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGColBalAnaOD.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGColBalAnaTOTREAJUST.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGColBalAnaNSOLDE.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCResultAjust.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCSectAna.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCENCOURSMANU.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCENCOURS.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCOD.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCMttCA.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGColBalAnaNDEPREEL.Summary2" xml:space="preserve">
+    <value>{0:### ### ### ###} </value>
+  </data>
+  <data name="BGCPourcTotal.Summary2" xml:space="preserve">
+    <value>{0:0 %}</value>
+  </data>
+  <data name="BGCPourcProd.Summary2" xml:space="preserve">
+    <value>{0:0 %}</value>
+  </data>
+  <data name="BGCPourcFG.Summary2" xml:space="preserve">
+    <value>{0:0 %}</value>
+  </data>
+  <data name="BGColAnaNPOURCREAJUST.Summary2" xml:space="preserve">
+    <value>{0:0.0 %}</value>
+  </data>
+  <data name="BGColBalAnaNPOURCDEPREEL.Summary2" xml:space="preserve">
+    <value>{0:0.0 %}</value>
+  </data>
+  <data name="BGCPourcChargeStruct.Summary2" xml:space="preserve">
+    <value>{0:c0}</value>
+  </data>
+  <data name="BGColBalAnaPOURCANNEE.Summary2" xml:space="preserve">
+    <value>{0:N2} %</value>
+  </data>
+  <data name="BGCPourcCA.Summary2" xml:space="preserve">
+    <value>{0:P0}</value>
+  </data>
+  <data name="BGCPartFGMtt.Caption" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="BGVLIBGROUPE.Caption" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="BGCENCOURS.Summary1" xml:space="preserve">
+    <value>NACTNUM</value>
+  </data>
+  <data name="BGColBalAnaNAJUSTE.Summary1" xml:space="preserve">
+    <value>NACTNUM</value>
+  </data>
+  <data name="BGCMttCA.Summary1" xml:space="preserve">
+    <value>NCASYNCOMPTA</value>
+  </data>
+  <data name="BGColBalAnaNDEPREEL.Summary1" xml:space="preserve">
+    <value>NDEPREEL</value>
+  </data>
+  <data name="BGColNID.Caption" xml:space="preserve">
+    <value>NID</value>
+  </data>
+  <data name="BGCPartFGMtt.Summary1" xml:space="preserve">
+    <value>NMNTTFG</value>
+  </data>
+  <data name="BGCPourcCA.Summary1" xml:space="preserve">
+    <value>NPOURCCAENCOURS</value>
+  </data>
+  <data name="BGColBalAnaNPOURCDEPREEL.Summary1" xml:space="preserve">
+    <value>NPOURCDEPREEL</value>
+  </data>
+  <data name="BGCPourcFG.Summary1" xml:space="preserve">
+    <value>NPOURCFG</value>
+  </data>
+  <data name="BGCPourcChargeStruct.Summary1" xml:space="preserve">
+    <value>NPOURCHRSTRUCT</value>
+  </data>
+  <data name="BGColAnaNPOURCREAJUST.Summary1" xml:space="preserve">
+    <value>NPOURCREAJUST</value>
+  </data>
+  <data name="BGCPourcTotal.Summary1" xml:space="preserve">
+    <value>NPOURCTOTAJUST</value>
+  </data>
+  <data name="BGCPourcProd.Summary1" xml:space="preserve">
+    <value>NPOURCTOTCA</value>
+  </data>
+  <data name="BGCSectAna.Summary1" xml:space="preserve">
+    <value>NSECANASYNCOMPTA</value>
+  </data>
+  <data name="BGColBalAnaNSOLDE.Summary1" xml:space="preserve">
+    <value>NSOLDE</value>
+  </data>
+  <data name="BGColBalAnaPOURCANNEE.Caption" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="BGColNPOURCCALASTYEAR.Caption" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="BGColNPOURCCALASTMOIS.Caption" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="BGCPourcMoisPrec.Caption" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="BGCPourcAnneePrec.Caption" xml:space="preserve">
+    <value>%</value>
+  </data>
+</root>

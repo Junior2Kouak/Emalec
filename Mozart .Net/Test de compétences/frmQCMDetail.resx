@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>115, 17</value>
+  </metadata>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
+        CAAAAk1TRnQBSQFMAgEBAgEAAZwBAAGcAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBoAA0MBeANqAfkDwgH/A8IB/wPCAf8DwgH/A8IB/wPCAf8DwgH/A8IB/wNf
+        AegDKQE+HAADHAEoA1EBnwNhAdwDYgHpAV0CWgHTA0gBgwMNARKYAAN/Af4D2QH/A9kB/wPZAf8D2QH/
+        A9kB/wPZAf8D2QH/A9kB/wPZAf8DuwH/A9wB/wMrAUIQAAMKAQ0DXgHVAa0CgQH/AawCgQH/AawCgQH/
+        AawCgQH/AawCgQH/AawCgQH/Aa4CgQH/A1IBowMAAQGQAAPTAf8D2wH/A9sB/wPbAf8D2wH/A9sB/wPb
+        Af8D2wH/A9sB/wPbAf8DvgH/A+4B/wNlAfQMAAMQARUDXwH7AakCgQH/AakCgQH/AaoCgQH/AagCgQH/
+        AagCgQH/AaoCgQH/AaoCgQH/AaoCgQH/AasCgQH/A14B3QMAAQGMAAPUAf8D3AH/A9wB/wPcAf8D3AH/
+        A9wB/wPcAf8D3AH/A9wB/wPcAf8D3AH/A9wB/wPEAf8MAAFnAlkB8gGlAoEB/wGlAoEB/wGmAoEB/wGl
+        AoEB/wH9AfwB+wX/AagCgQH/AacCgQH/AagCgQH/AagCgQH/AagCgQH/A1cBuowAA9YB/wPfAf8DrgH/
+        A68B/wOvAf8DrwH/A68B/wPaAf8D3gH/A94B/wPeAf8D3gH/A8YB/wgAA0cBgAGgAoEB/wGhAoEB/wGh
+        AoEB/wGhAoEB/wGgAoEB/wH9AfwB+wX/AaQCgQH/AaMCgQH/AaMCgQH/AaMCgQH/AaQCgQH/AaUCgQH/
+        AxwBJ4gAA9gB/wPgAf8D4QH/A+EB/wPhAf8D4QH/A+EB/wPgAf8D4AH/A+AB/wPgAf8D4AH/A8cB/wgA
+        A2oB+QGcAoEB/wGcAoEB/wGdAoEB/wGdAoEB/wGdAoEB/wGdAoEB/wGeAoEB/wGeAoEB/wGeAoEB/wGf
+        AoEB/wGfAoEB/wGfAoEB/wGgAoEB/wNYAbuIAAPaAf8D4gH/A+QB/wPkAf8D5AH/A+QB/wPkAf8D5AH/
+        A+QB/wPkAf8D5AH/A+IB/wPIAf8EAAMLAQ8BtAGHAYEB/wGxAYIBgQH/AZkCgQH/AZgCgQH/AZgCgQH/
+        AZgCgQH/AfAB5QHeBf8BmQKBAf8BmgKBAf8BmgKBAf8BmwKBAf8BmwKBAf8BmwKBAf8BbQJcAfiIAAPc
+        Af8D5QH/A54B/wOfAf8DnwH/A58B/wOfAf8DnwH/A58B/wOfAf8DoAH/A+YB/wPKAf8EAAMdASkBtgGJ
+        AYEB/wG0AYYBgQH/AbIBhAGBAf8BnQKBAf8BkwKBAf8BlAKBAf8BwAGYAYEF/wHOAa4BmQH/AZUCgQH/
+        AZYCgQH/AZYCgQH/AZYCgQH/AZcCgQH/AZcCgQH/iAAD3QH/A+YB/wPmAf8D5gH/A+YB/wPmAf8D5gH/
+        A+YB/wPmAf8D5gH/A+YB/wPmAf8DywH/BAADGgEkAbcBiwGBAf8BtQGIAYEB/wGzAYYBgQH/AbIBgwGB
+        Af8BrQKBAf8BlgKBAf8BjQKBAf8B7wHmAeAF/wG2AYsBgQH/AZECgQH/AZECgQH/AZECgQH/AZICgQH/
+        AZICgQH/iAAD3wH/A+gB/wPgAf8D4QH/A+EB/wPhAf8D4QH/A+EB/wPhAf8D4QH/A+EB/wPoAf8DzAH/
+        BAADBAEFAbcBiwGBAf8BtgGJAYEB/wG0AYcBgQH/AbMBhQGBAf8BsQGCAYEB/wGvAoEB/wGtAoEB/wGi
+        AoEB/wH+Av0F/wGSAoEB/wGOAoEB/wGQAoEB/wGTAoEB/wNdAfCIAAPhAf8D6gH/A80B/wPOAf8DzgH/
+        A84B/wPOAf8DzgH/A84B/wPOAf8DzgH/A+sB/wPNAf8IAANkAecBtwGLAYEB/wG1AYkBgQH/AbQBhgGB
+        Af8BsQGDAYEB/wGwAYIBgQH/Aa8CgQH/AawCgQH/AfIB6gHlBf8BvgGZAYEB/wGnAoEB/wGlAoEB/wGj
+        AoEB/wNNAZGIAAPjAf8D7AH/A+4B/wPuAf8D7gH/A+4B/wPuAf8D7gH/A+4B/wPuAf8D7gH/A+wB/wPP
+        Af8IAAMqAUEBuAGNAYEB/wG3AYoBgQH/AbUBiAGBAf8B3QHJAbsB/wHmAdcBzQH/Ac0BrwGbAf8B3wHN
+        AcAJ/wGvAoEB/wGnAoEB/wGmAoEB/wGlAoEB/wMFAQeIAAPkAf8D7gH/A54B/wOgAf8DoAH/A6AB/wOg
+        Af8DoAH/A6AB/wOgAf8DoQH/A+8B/wPQAf8MAANZAcIBuAGMAYEB/wG2AYkBgQH/Ad0ByAG6Af8B/QH8
+        AfsJ/wH8AfoB+QH/AcUBowGMAf8BqgKBAf8BqQKBAf8BpwKBAf8DPQFnjAAD5gH/A+8B/wPvAf8D7wH/
+        A+8B/wPvAf8D7wH/A+8B/wPvAf8D7wH/A+8B/wPvAf8DbQH8EAADXAHNAbcBiwGBAf8BtQGJAYEB/wGz
+        AYUBgQH/AbEBgwGBAf8BsAKBAf8BrgKBAf8BrQKBAf8BqwKBAf8BqwKBAf8DSAGEkAADVQGwA+0B/wPu
+        Af8D7gH/A+4B/wPuAf8D7gH/A+4B/wPuAf8D7gH/A+4B/wPqAf8DRAF5FAADPAFmA18B+wG1AYkBgQH/
+        AbMBhQGBAf8BsQGDAYEB/wGwAoEB/wGwAoEB/wNdAe0DIQEw5AADHgErA0QBeQNMAY8DPQFoAxIBGJQA
+        AUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAHAAQMB+AEPBAABwAEBAeABAwQA
+        AcABAQHAAQEEAAHAAQEBwAEBBAABwAEBAYAFAAHAAQEBgAUAAcABAQYAAcABAQYAAcABAQYAAcABAQYA
+        AcABAQGABQABwAEBAYAFAAHAAQEBwAEBBAABwAEBAeABAwQAAcABAQHwAQcEAAL/AfwBHwQACw==
+</value>
+  </data>
+  <metadata name="MenuQCM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="AuDébutDuQuestionnaireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="AuDébutDuQuestionnaireToolStripMenuItem.Text" xml:space="preserve">
+    <value>Au début du questionnaire</value>
+  </data>
+  <data name="ALaFinDuQuestionnaireToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 22</value>
+  </data>
+  <data name="ALaFinDuQuestionnaireToolStripMenuItem.Text" xml:space="preserve">
+    <value>A la fin du questionnaire</value>
+  </data>
+  <data name="ItemNewQuestionQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="ItemNewQuestionQCM.Text" xml:space="preserve">
+    <value>Ajouter une question</value>
+  </data>
+  <data name="ItemAfficheQuestArchi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="ItemAfficheQuestArchi.Text" xml:space="preserve">
+    <value>Afficher les questions archivées</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 6</value>
+  </data>
+  <data name="ItemAnnuleQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="ItemAnnuleQCM.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="MenuQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 76</value>
+  </data>
+  <data name="&gt;&gt;MenuQCM.Name" xml:space="preserve">
+    <value>MenuQCM</value>
+  </data>
+  <data name="&gt;&gt;MenuQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="MenuQuestion.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 17</value>
+  </metadata>
+  <data name="AuDébutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="AuDébutToolStripMenuItem.Text" xml:space="preserve">
+    <value>au début</value>
+  </data>
+  <data name="ÀLaLigneDuDessusToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="ÀLaLigneDuDessusToolStripMenuItem.Text" xml:space="preserve">
+    <value>à la ligne du dessus</value>
+  </data>
+  <data name="ÀLaLigneEnDessousToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="ÀLaLigneEnDessousToolStripMenuItem.Text" xml:space="preserve">
+    <value>à la ligne en dessous</value>
+  </data>
+  <data name="ÀLaFinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 22</value>
+  </data>
+  <data name="ÀLaFinToolStripMenuItem.Text" xml:space="preserve">
+    <value>à la fin</value>
+  </data>
+  <data name="ItemAjoutQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemAjoutQuestion.Text" xml:space="preserve">
+    <value>Ajouter question</value>
+  </data>
+  <data name="ItemUpQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemUpQuestion.Text" xml:space="preserve">
+    <value>Monter question</value>
+  </data>
+  <data name="ItemDownQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemDownQuestion.Text" xml:space="preserve">
+    <value>Descendre question</value>
+  </data>
+  <data name="ToolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="ItemArchiveQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemArchiveQuestion.Text" xml:space="preserve">
+    <value>Archiver question</value>
+  </data>
+  <data name="ItemRestaureQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemRestaureQuestion.Text" xml:space="preserve">
+    <value>Restaurer question</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 6</value>
+  </data>
+  <data name="ItemAnnuleQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 22</value>
+  </data>
+  <data name="ItemAnnuleQuestion.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="MenuQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 148</value>
+  </data>
+  <data name="&gt;&gt;MenuQuestion.Name" xml:space="preserve">
+    <value>MenuQuestion</value>
+  </data>
+  <data name="&gt;&gt;MenuQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkRemarque.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 27</value>
+  </data>
+  <data name="ChkRemarque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ChkRemarque.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ChkRemarque.Text" xml:space="preserve">
+    <value>Cocher cette case pour ajouter une zone de texte libre</value>
+  </data>
+  <data name="&gt;&gt;ChkRemarque.Name" xml:space="preserve">
+    <value>ChkRemarque</value>
+  </data>
+  <data name="&gt;&gt;ChkRemarque.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkRemarque.Parent" xml:space="preserve">
+    <value>GrpReponseLibre</value>
+  </data>
+  <data name="&gt;&gt;ChkRemarque.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpReponseLibre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 503</value>
+  </data>
+  <data name="GrpReponseLibre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 67</value>
+  </data>
+  <data name="GrpReponseLibre.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="GrpReponseLibre.Text" xml:space="preserve">
+    <value>Zone de texte libre</value>
+  </data>
+  <data name="&gt;&gt;GrpReponseLibre.Name" xml:space="preserve">
+    <value>GrpReponseLibre</value>
+  </data>
+  <data name="&gt;&gt;GrpReponseLibre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpReponseLibre.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;GrpReponseLibre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnModif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnModif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 171</value>
+  </data>
+  <data name="BtnModif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 52</value>
+  </data>
+  <data name="BtnModif.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BtnModif.Text" xml:space="preserve">
+    <value>Modifier réponse</value>
+  </data>
+  <data name="&gt;&gt;BtnModif.Name" xml:space="preserve">
+    <value>BtnModif</value>
+  </data>
+  <data name="&gt;&gt;BtnModif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnModif.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;BtnModif.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnSaveRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="BtnSaveRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 57</value>
+  </data>
+  <data name="BtnSaveRep.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="BtnSaveRep.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveRep.Name" xml:space="preserve">
+    <value>BtnSaveRep</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveRep.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveRep.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRestoreRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnRestoreRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 287</value>
+  </data>
+  <data name="btnRestoreRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 52</value>
+  </data>
+  <data name="btnRestoreRep.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnRestoreRep.Text" xml:space="preserve">
+    <value>Restaurer Réponse</value>
+  </data>
+  <data name="btnRestoreRep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreRep.Name" xml:space="preserve">
+    <value>btnRestoreRep</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreRep.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;btnRestoreRep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnArchRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnArchRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
+  </data>
+  <data name="BtnArchRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 52</value>
+  </data>
+  <data name="BtnArchRep.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnArchRep.Text" xml:space="preserve">
+    <value>Archiver Réponse</value>
+  </data>
+  <data name="&gt;&gt;BtnArchRep.Name" xml:space="preserve">
+    <value>BtnArchRep</value>
+  </data>
+  <data name="&gt;&gt;BtnArchRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnArchRep.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;BtnArchRep.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnAjoutRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAjoutRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
+  </data>
+  <data name="BtnAjoutRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 52</value>
+  </data>
+  <data name="BtnAjoutRep.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnAjoutRep.Text" xml:space="preserve">
+    <value>Ajouter réponse</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutRep.Name" xml:space="preserve">
+    <value>BtnAjoutRep</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutRep.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutRep.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="ColIDRep.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColIDRep.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ColIDRep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="NIDQCMREPONSE.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NIDQCMREPONSE.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NIDQCMREPONSE.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="NQCMREPONSEORDER.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="NQCMREPONSEORDER.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NQCMREPONSEORDER.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="VQCMREPONSELIB.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="VQCMREPONSELIB.HeaderText" xml:space="preserve">
+    <value>Réponse</value>
+  </data>
+  <metadata name="BQCMREPONSEVALID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BQCMREPONSEVALID.HeaderText" xml:space="preserve">
+    <value>Réponse correcte</value>
+  </data>
+  <metadata name="BQCMREPONSEACTIF.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="BQCMREPONSEACTIF.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BQCMREPONSEACTIF.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="VQCMREPONSEOBSCORRECT.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="VQCMREPONSEOBSCORRECT.HeaderText" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="DGVReponse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 50</value>
+  </data>
+  <data name="DGVReponse.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="DGVReponse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>733, 447</value>
+  </data>
+  <data name="DGVReponse.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;DGVReponse.Name" xml:space="preserve">
+    <value>DGVReponse</value>
+  </data>
+  <data name="&gt;&gt;DGVReponse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DGVReponse.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;DGVReponse.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ChkListRepArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ChkListRepArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 358</value>
+  </data>
+  <data name="ChkListRepArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 66</value>
+  </data>
+  <data name="ChkListRepArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ChkListRepArchives.Text" xml:space="preserve">
+    <value>Afficher les réponses archivées</value>
+  </data>
+  <data name="&gt;&gt;ChkListRepArchives.Name" xml:space="preserve">
+    <value>ChkListRepArchives</value>
+  </data>
+  <data name="&gt;&gt;ChkListRepArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkListRepArchives.Parent" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;ChkListRepArchives.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GrpBxReponses.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpBxReponses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 12</value>
+  </data>
+  <data name="GrpBxReponses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>846, 587</value>
+  </data>
+  <data name="GrpBxReponses.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="GrpBxReponses.Text" xml:space="preserve">
+    <value>Réponses possibles actives</value>
+  </data>
+  <data name="&gt;&gt;GrpBxReponses.Name" xml:space="preserve">
+    <value>GrpBxReponses</value>
+  </data>
+  <data name="&gt;&gt;GrpBxReponses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBxReponses.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBxReponses.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnAddImage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnAddImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAddImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 407</value>
+  </data>
+  <data name="BtnAddImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnAddImage.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="BtnAddImage.Text" xml:space="preserve">
+    <value>Ajouter de(s) images</value>
+  </data>
+  <data name="&gt;&gt;BtnAddImage.Name" xml:space="preserve">
+    <value>BtnAddImage</value>
+  </data>
+  <data name="&gt;&gt;BtnAddImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddImage.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnAddImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnVideo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 349</value>
+  </data>
+  <data name="BtnVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="BtnVideo.Text" xml:space="preserve">
+    <value>Ajouter une vidéo</value>
+  </data>
+  <data name="&gt;&gt;BtnVideo.Name" xml:space="preserve">
+    <value>BtnVideo</value>
+  </data>
+  <data name="&gt;&gt;BtnVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnVideo.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnVideo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnConsigne.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnConsigne.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnConsigne.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 291</value>
+  </data>
+  <data name="BtnConsigne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnConsigne.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="BtnConsigne.Text" xml:space="preserve">
+    <value>Consigne</value>
+  </data>
+  <data name="&gt;&gt;BtnConsigne.Name" xml:space="preserve">
+    <value>BtnConsigne</value>
+  </data>
+  <data name="&gt;&gt;BtnConsigne.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnConsigne.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnConsigne.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 50</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 23</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ChkQCMCorrectAuto.Text" xml:space="preserve">
+    <value>QCM en correction automatique</value>
+  </data>
+  <data name="&gt;&gt;ChkQCMCorrectAuto.Name" xml:space="preserve">
+    <value>ChkQCMCorrectAuto</value>
+  </data>
+  <data name="&gt;&gt;ChkQCMCorrectAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkQCMCorrectAuto.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;ChkQCMCorrectAuto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 47</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Type :</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CboTypeQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 50</value>
+  </data>
+  <data name="CboTypeQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 24</value>
+  </data>
+  <data name="CboTypeQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;CboTypeQCM.Name" xml:space="preserve">
+    <value>CboTypeQCM</value>
+  </data>
+  <data name="&gt;&gt;CboTypeQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CboTypeQCM.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;CboTypeQCM.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ChkBoxQCMRecru.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 27</value>
+  </data>
+  <data name="ChkBoxQCMRecru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 22</value>
+  </data>
+  <data name="ChkBoxQCMRecru.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ChkBoxQCMRecru.Text" xml:space="preserve">
+    <value>QCM pour le recrutement</value>
+  </data>
+  <data name="&gt;&gt;ChkBoxQCMRecru.Name" xml:space="preserve">
+    <value>ChkBoxQCMRecru</value>
+  </data>
+  <data name="&gt;&gt;ChkBoxQCMRecru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkBoxQCMRecru.Parent" xml:space="preserve">
+    <value>GrpDetailQCM</value>
+  </data>
+  <data name="&gt;&gt;ChkBoxQCMRecru.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpDetailQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 577</value>
+  </data>
+  <data name="GrpDetailQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 67</value>
+  </data>
+  <data name="GrpDetailQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;GrpDetailQCM.Name" xml:space="preserve">
+    <value>GrpDetailQCM</value>
+  </data>
+  <data name="&gt;&gt;GrpDetailQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpDetailQCM.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;GrpDetailQCM.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 585</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 59</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <metadata name="ToolTipTreeList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>468, 17</value>
+  </metadata>
+  <data name="BtnFermer.ToolTip" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LblNomQCM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="LblNomQCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 18</value>
+  </data>
+  <data name="LblNomQCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 29</value>
+  </data>
+  <data name="LblNomQCM.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="LblNomQCM.Text" xml:space="preserve">
+    <value>LblNomQCM</value>
+  </data>
+  <data name="&gt;&gt;LblNomQCM.Name" xml:space="preserve">
+    <value>LblNomQCM</value>
+  </data>
+  <data name="&gt;&gt;LblNomQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblNomQCM.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;LblNomQCM.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnSaveQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 50</value>
+  </data>
+  <data name="BtnSaveQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 57</value>
+  </data>
+  <data name="BtnSaveQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="BtnSaveQuestion.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveQuestion.Name" xml:space="preserve">
+    <value>BtnSaveQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveQuestion.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveQuestion.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ChkListQuestArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ChkListQuestArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 503</value>
+  </data>
+  <data name="ChkListQuestArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 66</value>
+  </data>
+  <data name="ChkListQuestArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ChkListQuestArchives.Text" xml:space="preserve">
+    <value>Afficher les questions archivés</value>
+  </data>
+  <data name="&gt;&gt;ChkListQuestArchives.Name" xml:space="preserve">
+    <value>ChkListQuestArchives</value>
+  </data>
+  <data name="&gt;&gt;ChkListQuestArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkListQuestArchives.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;ChkListQuestArchives.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="treeList1.Appearance.FocusedRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="treeList1.Appearance.FooterPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="treeList1.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="TLColQCM.Caption" xml:space="preserve">
+    <value>QCM</value>
+  </data>
+  <data name="TLColQCM.ImageOptions.Alignment" type="System.Drawing.StringAlignment, System.Drawing">
+    <value>Far</value>
+  </data>
+  <data name="TLColQCM.MinWidth" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="TLColQCM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TLColQCM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TLColQCM.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="TLColNIDCQMQUESTION.Caption" xml:space="preserve">
+    <value>NIDQCMQUESTION</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.Caption" xml:space="preserve">
+    <value>N°</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.MinWidth" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.SortOrder" type="System.Windows.Forms.SortOrder, System.Windows.Forms">
+    <value>Ascending</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TLColNQCMQUESTIONORDER.Width" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="TLColVQUESTIONLIB.Caption" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="TLColVQUESTIONLIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TLColVQUESTIONLIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TLColVQUESTIONLIB.Width" type="System.Int32, mscorlib">
+    <value>453</value>
+  </data>
+  <data name="TLCol_NBIMG.Caption" xml:space="preserve">
+    <value>Nb Images</value>
+  </data>
+  <data name="TLCol_NBIMG.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TLCol_NBIMG.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TLColActif.Caption" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="TLColID.Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="TLColBQCMQUESTIONREM.Caption" xml:space="preserve">
+    <value>Remarque</value>
+  </data>
+  <data name="treeList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 79</value>
+  </data>
+  <data name="treeList1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>705, 492</value>
+  </data>
+  <data name="treeList1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;treeList1.Name" xml:space="preserve">
+    <value>treeList1</value>
+  </data>
+  <data name="&gt;&gt;treeList1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;treeList1.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;treeList1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtnArchiveQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnArchiveQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 171</value>
+  </data>
+  <data name="BtnArchiveQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnArchiveQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BtnArchiveQuestion.Text" xml:space="preserve">
+    <value>Archiver question</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiveQuestion.Name" xml:space="preserve">
+    <value>BtnArchiveQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiveQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiveQuestion.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnArchiveQuestion.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BtnRestaureQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnRestaureQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 229</value>
+  </data>
+  <data name="BtnRestaureQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnRestaureQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="BtnRestaureQuestion.Text" xml:space="preserve">
+    <value>Restaurer question</value>
+  </data>
+  <data name="BtnRestaureQuestion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BtnRestaureQuestion.Name" xml:space="preserve">
+    <value>BtnRestaureQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnRestaureQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRestaureQuestion.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnRestaureQuestion.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnNewQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnNewQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 113</value>
+  </data>
+  <data name="BtnNewQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 52</value>
+  </data>
+  <data name="BtnNewQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="BtnNewQuestion.Text" xml:space="preserve">
+    <value>Ajouter question</value>
+  </data>
+  <data name="&gt;&gt;BtnNewQuestion.Name" xml:space="preserve">
+    <value>BtnNewQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnNewQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnNewQuestion.Parent" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;BtnNewQuestion.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="GrpBoxQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="GrpBoxQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GrpBoxQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>838, 668</value>
+  </data>
+  <data name="GrpBoxQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="GrpBoxQuestion.Text" xml:space="preserve">
+    <value>Liste des questions</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxQuestion.Name" xml:space="preserve">
+    <value>GrpBoxQuestion</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxQuestion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxQuestion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1749, 738</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detail QCM</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemNewQuestionQCM.Name" xml:space="preserve">
+    <value>ItemNewQuestionQCM</value>
+  </data>
+  <data name="&gt;&gt;ItemNewQuestionQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AuDébutDuQuestionnaireToolStripMenuItem.Name" xml:space="preserve">
+    <value>AuDébutDuQuestionnaireToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AuDébutDuQuestionnaireToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ALaFinDuQuestionnaireToolStripMenuItem.Name" xml:space="preserve">
+    <value>ALaFinDuQuestionnaireToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ALaFinDuQuestionnaireToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemAfficheQuestArchi.Name" xml:space="preserve">
+    <value>ItemAfficheQuestArchi</value>
+  </data>
+  <data name="&gt;&gt;ItemAfficheQuestArchi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
+    <value>ToolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemAnnuleQCM.Name" xml:space="preserve">
+    <value>ItemAnnuleQCM</value>
+  </data>
+  <data name="&gt;&gt;ItemAnnuleQCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemAjoutQuestion.Name" xml:space="preserve">
+    <value>ItemAjoutQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemAjoutQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AuDébutToolStripMenuItem.Name" xml:space="preserve">
+    <value>AuDébutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;AuDébutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ÀLaLigneDuDessusToolStripMenuItem.Name" xml:space="preserve">
+    <value>ÀLaLigneDuDessusToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ÀLaLigneDuDessusToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ÀLaLigneEnDessousToolStripMenuItem.Name" xml:space="preserve">
+    <value>ÀLaLigneEnDessousToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ÀLaLigneEnDessousToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ÀLaFinToolStripMenuItem.Name" xml:space="preserve">
+    <value>ÀLaFinToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ÀLaFinToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemUpQuestion.Name" xml:space="preserve">
+    <value>ItemUpQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemUpQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemDownQuestion.Name" xml:space="preserve">
+    <value>ItemDownQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemDownQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Name" xml:space="preserve">
+    <value>ToolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemArchiveQuestion.Name" xml:space="preserve">
+    <value>ItemArchiveQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemArchiveQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemRestaureQuestion.Name" xml:space="preserve">
+    <value>ItemRestaureQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemRestaureQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
+    <value>ToolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItemAnnuleQuestion.Name" xml:space="preserve">
+    <value>ItemAnnuleQuestion</value>
+  </data>
+  <data name="&gt;&gt;ItemAnnuleQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColIDRep.Name" xml:space="preserve">
+    <value>ColIDRep</value>
+  </data>
+  <data name="&gt;&gt;ColIDRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NIDQCMREPONSE.Name" xml:space="preserve">
+    <value>NIDQCMREPONSE</value>
+  </data>
+  <data name="&gt;&gt;NIDQCMREPONSE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NQCMREPONSEORDER.Name" xml:space="preserve">
+    <value>NQCMREPONSEORDER</value>
+  </data>
+  <data name="&gt;&gt;NQCMREPONSEORDER.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VQCMREPONSELIB.Name" xml:space="preserve">
+    <value>VQCMREPONSELIB</value>
+  </data>
+  <data name="&gt;&gt;VQCMREPONSELIB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BQCMREPONSEVALID.Name" xml:space="preserve">
+    <value>BQCMREPONSEVALID</value>
+  </data>
+  <data name="&gt;&gt;BQCMREPONSEVALID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BQCMREPONSEACTIF.Name" xml:space="preserve">
+    <value>BQCMREPONSEACTIF</value>
+  </data>
+  <data name="&gt;&gt;BQCMREPONSEACTIF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VQCMREPONSEOBSCORRECT.Name" xml:space="preserve">
+    <value>VQCMREPONSEOBSCORRECT</value>
+  </data>
+  <data name="&gt;&gt;VQCMREPONSEOBSCORRECT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TLColQCM.Name" xml:space="preserve">
+    <value>TLColQCM</value>
+  </data>
+  <data name="&gt;&gt;TLColQCM.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColNIDCQMQUESTION.Name" xml:space="preserve">
+    <value>TLColNIDCQMQUESTION</value>
+  </data>
+  <data name="&gt;&gt;TLColNIDCQMQUESTION.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColNQCMQUESTIONORDER.Name" xml:space="preserve">
+    <value>TLColNQCMQUESTIONORDER</value>
+  </data>
+  <data name="&gt;&gt;TLColNQCMQUESTIONORDER.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColVQUESTIONLIB.Name" xml:space="preserve">
+    <value>TLColVQUESTIONLIB</value>
+  </data>
+  <data name="&gt;&gt;TLColVQUESTIONLIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLCol_NBIMG.Name" xml:space="preserve">
+    <value>TLCol_NBIMG</value>
+  </data>
+  <data name="&gt;&gt;TLCol_NBIMG.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColActif.Name" xml:space="preserve">
+    <value>TLColActif</value>
+  </data>
+  <data name="&gt;&gt;TLColActif.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColID.Name" xml:space="preserve">
+    <value>TLColID</value>
+  </data>
+  <data name="&gt;&gt;TLColID.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TLColBQCMQUESTIONREM.Name" xml:space="preserve">
+    <value>TLColBQCMQUESTIONREM</value>
+  </data>
+  <data name="&gt;&gt;TLColBQCMQUESTIONREM.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ToolTipTreeList.Name" xml:space="preserve">
+    <value>ToolTipTreeList</value>
+  </data>
+  <data name="&gt;&gt;ToolTipTreeList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmQCMDetail</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

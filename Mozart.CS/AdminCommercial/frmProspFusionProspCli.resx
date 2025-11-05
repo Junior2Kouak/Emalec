@@ -1,0 +1,1230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdFermer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdFermer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 753</value>
+  </data>
+  <data name="cmdFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 57</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Name" xml:space="preserve">
+    <value>cmdFermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="apiTGridProspects.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="apiTGridProspects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 95</value>
+  </data>
+  <data name="apiTGridProspects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 336</value>
+  </data>
+  <data name="apiTGridProspects.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspects.Name" xml:space="preserve">
+    <value>apiTGridProspects</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspects.Type" xml:space="preserve">
+    <value>MozartUC.apiTGrid, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspects.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspects.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 9</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Migration CRM</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="apiTGridClients.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="apiTGridClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 479</value>
+  </data>
+  <data name="apiTGridClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 331</value>
+  </data>
+  <data name="apiTGridClients.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClients.Name" xml:space="preserve">
+    <value>apiTGridClients</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClients.Type" xml:space="preserve">
+    <value>MozartUC.apiTGrid, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClients.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClients.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 68</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 16</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Prospects :</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 452</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Clients :</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>879, 71</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 16</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Prospect principal</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txtPrincipalProspect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtPrincipalProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>844, 95</value>
+  </data>
+  <data name="txtPrincipalProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 20</value>
+  </data>
+  <data name="txtPrincipalProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtPrincipalProspect.Name" xml:space="preserve">
+    <value>txtPrincipalProspect</value>
+  </data>
+  <data name="&gt;&gt;txtPrincipalProspect.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtPrincipalProspect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtPrincipalProspect.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>845, 133</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Prospect(s) à fusionner</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="apiTGridProspectToMerge.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="apiTGridProspectToMerge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>844, 152</value>
+  </data>
+  <data name="apiTGridProspectToMerge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 216</value>
+  </data>
+  <data name="apiTGridProspectToMerge.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspectToMerge.Name" xml:space="preserve">
+    <value>apiTGridProspectToMerge</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspectToMerge.Type" xml:space="preserve">
+    <value>MozartUC.apiTGrid, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspectToMerge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiTGridProspectToMerge.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="apiTGridClientsToAttach.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="apiTGridClientsToAttach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>844, 479</value>
+  </data>
+  <data name="apiTGridClientsToAttach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 273</value>
+  </data>
+  <data name="apiTGridClientsToAttach.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClientsToAttach.Name" xml:space="preserve">
+    <value>apiTGridClientsToAttach</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClientsToAttach.Type" xml:space="preserve">
+    <value>MozartUC.apiTGrid, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClientsToAttach.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiTGridClientsToAttach.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>845, 453</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 16</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Client(s) à rattacher au prospect</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnClientToRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClientToRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnClientToRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 559</value>
+  </data>
+  <data name="btnClientToRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="btnClientToRight.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnClientToRight.Text" xml:space="preserve">
+    <value>--&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnClientToRight.Name" xml:space="preserve">
+    <value>btnClientToRight</value>
+  </data>
+  <data name="&gt;&gt;btnClientToRight.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClientToRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClientToRight.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnClientToLeft.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClientToLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnClientToLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClientToLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 598</value>
+  </data>
+  <data name="btnClientToLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="btnClientToLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnClientToLeft.Text" xml:space="preserve">
+    <value>&lt;--</value>
+  </data>
+  <data name="&gt;&gt;btnClientToLeft.Name" xml:space="preserve">
+    <value>btnClientToLeft</value>
+  </data>
+  <data name="&gt;&gt;btnClientToLeft.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnClientToLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClientToLeft.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnProspeToLeft.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnProspeToLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnProspeToLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProspeToLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 263</value>
+  </data>
+  <data name="btnProspeToLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="btnProspeToLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnProspeToLeft.Text" xml:space="preserve">
+    <value>&lt;--</value>
+  </data>
+  <data name="&gt;&gt;btnProspeToLeft.Name" xml:space="preserve">
+    <value>btnProspeToLeft</value>
+  </data>
+  <data name="&gt;&gt;btnProspeToLeft.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnProspeToLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProspeToLeft.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnProspToRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnProspToRight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnProspToRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProspToRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 224</value>
+  </data>
+  <data name="btnProspToRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="btnProspToRight.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnProspToRight.Text" xml:space="preserve">
+    <value>--&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnProspToRight.Name" xml:space="preserve">
+    <value>btnProspToRight</value>
+  </data>
+  <data name="&gt;&gt;btnProspToRight.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnProspToRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProspToRight.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnSelectPrincProspe.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSelectPrincProspe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btnSelectPrincProspe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSelectPrincProspe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>748, 95</value>
+  </data>
+  <data name="btnSelectPrincProspe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 62</value>
+  </data>
+  <data name="btnSelectPrincProspe.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnSelectPrincProspe.Text" xml:space="preserve">
+    <value>Choisir le prospect principal</value>
+  </data>
+  <data name="&gt;&gt;btnSelectPrincProspe.Name" xml:space="preserve">
+    <value>btnSelectPrincProspe</value>
+  </data>
+  <data name="&gt;&gt;btnSelectPrincProspe.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSelectPrincProspe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSelectPrincProspe.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="apiButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="apiButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 12</value>
+  </data>
+  <data name="apiButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 42</value>
+  </data>
+  <data name="apiButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="apiButton1.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="&gt;&gt;apiButton1.Name" xml:space="preserve">
+    <value>apiButton1</value>
+  </data>
+  <data name="&gt;&gt;apiButton1.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiButton1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdCloseHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="cmdCloseHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCloseHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 325</value>
+  </data>
+  <data name="cmdCloseHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 54</value>
+  </data>
+  <data name="cmdCloseHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cmdCloseHelp.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdCloseHelp.Name" xml:space="preserve">
+    <value>cmdCloseHelp</value>
+  </data>
+  <data name="&gt;&gt;cmdCloseHelp.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdCloseHelp.Parent" xml:space="preserve">
+    <value>apiHelp</value>
+  </data>
+  <data name="&gt;&gt;cmdCloseHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="apiTextBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="apiTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="apiTextBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>986, 287</value>
+  </data>
+  <data name="apiTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="apiTextBox2.Text" xml:space="preserve">
+    <value>Pour fusionner les prospects :
+
+	- Sélectionner le prospect dans le tableau "Prospects", cliquer sur "Choisir le prospect principal"
+	- Sélectionner le prospect dans le tableau "Prospects", cliquer sur la flèche droite au niveau des prospects à fusionner pour l'ajouter dans la liste de droite
+	ou resélectionner le prospect à fusionner dans la liste et cliquer sur la flèche gauche pour l'enlever de la liste
+	- Cliquer sur "Fusionner" pour fusionner les prospects sur le prospect principal
+
+Pour rattacher un ou des clients au prospect :
+
+	- Sélectionner le prospect dans le tableau "Prospects", cliquer sur "Choisir le prospect principal"
+	- De la même manière que pour les prospects, déplacer les clients de la liste de gauche des clients vers la liste droite pour les ajouter, ou les enlever
+	- Cliquer sur "Rattacher" pour rattacher les clients au prospect choisi
+		</value>
+  </data>
+  <data name="&gt;&gt;apiTextBox2.Name" xml:space="preserve">
+    <value>apiTextBox2</value>
+  </data>
+  <data name="&gt;&gt;apiTextBox2.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiTextBox2.Parent" xml:space="preserve">
+    <value>apiHelp</value>
+  </data>
+  <data name="&gt;&gt;apiTextBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="apiHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 770</value>
+  </data>
+  <data name="apiHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 385</value>
+  </data>
+  <data name="apiHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="apiHelp.Text" xml:space="preserve">
+    <value>Comment utiliser cet écran ?</value>
+  </data>
+  <data name="apiHelp.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;apiHelp.Name" xml:space="preserve">
+    <value>apiHelp</value>
+  </data>
+  <data name="&gt;&gt;apiHelp.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiHelp.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnFusionner.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFusionner.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btnFusionner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFusionner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1180, 377</value>
+  </data>
+  <data name="btnFusionner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 54</value>
+  </data>
+  <data name="btnFusionner.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnFusionner.Text" xml:space="preserve">
+    <value>Fusionner les prospects</value>
+  </data>
+  <data name="&gt;&gt;btnFusionner.Name" xml:space="preserve">
+    <value>btnFusionner</value>
+  </data>
+  <data name="&gt;&gt;btnFusionner.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFusionner.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFusionner.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="apiButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="apiButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="apiButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1180, 758</value>
+  </data>
+  <data name="apiButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 52</value>
+  </data>
+  <data name="apiButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="apiButton2.Text" xml:space="preserve">
+    <value>Rattacher les clients</value>
+  </data>
+  <data name="&gt;&gt;apiButton2.Name" xml:space="preserve">
+    <value>apiButton2</value>
+  </data>
+  <data name="&gt;&gt;apiButton2.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiButton2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnArchiverProspe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btnArchiverProspe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnArchiverProspe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 153</value>
+  </data>
+  <data name="btnArchiverProspe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 65</value>
+  </data>
+  <data name="btnArchiverProspe.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnArchiverProspe.Text" xml:space="preserve">
+    <value>Archiver les prospects sélectionnés</value>
+  </data>
+  <data name="&gt;&gt;btnArchiverProspe.Name" xml:space="preserve">
+    <value>btnArchiverProspe</value>
+  </data>
+  <data name="&gt;&gt;btnArchiverProspe.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnArchiverProspe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnArchiverProspe.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDetail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btnDetail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 224</value>
+  </data>
+  <data name="btnDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 54</value>
+  </data>
+  <data name="btnDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnDetail.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="&gt;&gt;btnDetail.Name" xml:space="preserve">
+    <value>btnDetail</value>
+  </data>
+  <data name="&gt;&gt;btnDetail.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDetail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDetail.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdSupprimer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdSupprimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdSupprimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 566</value>
+  </data>
+  <data name="cmdSupprimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 69</value>
+  </data>
+  <data name="cmdSupprimer.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="cmdSupprimer.Text" xml:space="preserve">
+    <value>Archiver les clients sélectionnés</value>
+  </data>
+  <data name="&gt;&gt;cmdSupprimer.Name" xml:space="preserve">
+    <value>cmdSupprimer</value>
+  </data>
+  <data name="&gt;&gt;cmdSupprimer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdSupprimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdSupprimer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdCreateProspect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="cmdCreateProspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCreateProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 93</value>
+  </data>
+  <data name="cmdCreateProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 54</value>
+  </data>
+  <data name="cmdCreateProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="cmdCreateProspect.Text" xml:space="preserve">
+    <value>Créer un prospect</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateProspect.Name" xml:space="preserve">
+    <value>cmdCreateProspect</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateProspect.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateProspect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateProspect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCreateProspectFromClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="btnCreateProspectFromClient.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCreateProspectFromClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 479</value>
+  </data>
+  <data name="btnCreateProspectFromClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 81</value>
+  </data>
+  <data name="btnCreateProspectFromClient.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnCreateProspectFromClient.Text" xml:space="preserve">
+    <value>Créer un prospect à partir du client</value>
+  </data>
+  <data name="&gt;&gt;btnCreateProspectFromClient.Name" xml:space="preserve">
+    <value>btnCreateProspectFromClient</value>
+  </data>
+  <data name="&gt;&gt;btnCreateProspectFromClient.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCreateProspectFromClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCreateProspectFromClient.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiChkProspectTous.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkProspectTous.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiChkProspectTous.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="apiChkProspectTous.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="apiChkProspectTous.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="apiChkProspectTous.Text" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectTous.Name" xml:space="preserve">
+    <value>apiChkProspectTous</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectTous.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectTous.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectTous.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 0</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="apiChkProspectWithoutClient.Text" xml:space="preserve">
+    <value>Sans client(s) rattaché(s)</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithoutClient.Name" xml:space="preserve">
+    <value>apiChkProspectWithoutClient</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithoutClient.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithoutClient.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithoutClient.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiChkProspectWithClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkProspectWithClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 0</value>
+  </data>
+  <data name="apiChkProspectWithClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 17</value>
+  </data>
+  <data name="apiChkProspectWithClient.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="apiChkProspectWithClient.Text" xml:space="preserve">
+    <value>Avec client(s) rattaché(s)</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithClient.Name" xml:space="preserve">
+    <value>apiChkProspectWithClient</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithClient.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithClient.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiChkProspectWithClient.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 68</value>
+  </data>
+  <data name="apiGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 21</value>
+  </data>
+  <data name="apiGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Name" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiChkClientTous.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkClientTous.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiChkClientTous.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="apiChkClientTous.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="apiChkClientTous.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="apiChkClientTous.Text" xml:space="preserve">
+    <value>Tous</value>
+  </data>
+  <data name="&gt;&gt;apiChkClientTous.Name" xml:space="preserve">
+    <value>apiChkClientTous</value>
+  </data>
+  <data name="&gt;&gt;apiChkClientTous.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkClientTous.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiChkClientTous.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="apiChkWithoutProspect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkWithoutProspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiChkWithoutProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>272, 0</value>
+  </data>
+  <data name="apiChkWithoutProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 17</value>
+  </data>
+  <data name="apiChkWithoutProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="apiChkWithoutProspect.Text" xml:space="preserve">
+    <value>Sans prospect rattaché</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithoutProspect.Name" xml:space="preserve">
+    <value>apiChkWithoutProspect</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithoutProspect.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithoutProspect.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithoutProspect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiChkWithProspect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiChkWithProspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiChkWithProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 0</value>
+  </data>
+  <data name="apiChkWithProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="apiChkWithProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="apiChkWithProspect.Text" xml:space="preserve">
+    <value>Associé(s) à un prospect</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithProspect.Name" xml:space="preserve">
+    <value>apiChkWithProspect</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithProspect.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithProspect.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiChkWithProspect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 452</value>
+  </data>
+  <data name="apiGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 21</value>
+  </data>
+  <data name="apiGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Name" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1311, 822</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Migration CRM</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmProspFusionProspCli</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

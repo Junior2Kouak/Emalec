@@ -1,0 +1,4495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboTypeClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboTypeClient.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboTypeClient.Items1" xml:space="preserve">
+    <value>EI</value>
+  </data>
+  <data name="cboTypeClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="cboTypeClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cboTypeClient.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;cboTypeClient.Name" xml:space="preserve">
+    <value>cboTypeClient</value>
+  </data>
+  <data name="&gt;&gt;cboTypeClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboTypeClient.Parent" xml:space="preserve">
+    <value>Frame15</value>
+  </data>
+  <data name="&gt;&gt;cboTypeClient.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboClientEH.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboClientEH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 15</value>
+  </data>
+  <data name="cboClientEH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="cboClientEH.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;cboClientEH.Name" xml:space="preserve">
+    <value>cboClientEH</value>
+  </data>
+  <data name="&gt;&gt;cboClientEH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboClientEH.Parent" xml:space="preserve">
+    <value>Frame15</value>
+  </data>
+  <data name="&gt;&gt;cboClientEH.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkClientColis.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkClientColis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkClientColis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 318</value>
+  </data>
+  <data name="chkClientColis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 19</value>
+  </data>
+  <data name="chkClientColis.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="chkClientColis.Text" xml:space="preserve">
+    <value>Client avec prévention colis</value>
+  </data>
+  <data name="&gt;&gt;chkClientColis.Name" xml:space="preserve">
+    <value>chkClientColis</value>
+  </data>
+  <data name="&gt;&gt;chkClientColis.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkClientColis.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkClientColis.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLabels9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblLabels9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="lblLabels9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="lblLabels9.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>Type de client :</value>
+  </data>
+  <data name="&gt;&gt;lblLabels9.Name" xml:space="preserve">
+    <value>lblLabels9</value>
+  </data>
+  <data name="&gt;&gt;lblLabels9.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLabels9.Parent" xml:space="preserve">
+    <value>Frame15</value>
+  </data>
+  <data name="&gt;&gt;lblLabels9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLabels8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblLabels8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 19</value>
+  </data>
+  <data name="lblLabels8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 15</value>
+  </data>
+  <data name="lblLabels8.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>Provenance :</value>
+  </data>
+  <data name="&gt;&gt;lblLabels8.Name" xml:space="preserve">
+    <value>lblLabels8</value>
+  </data>
+  <data name="&gt;&gt;lblLabels8.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLabels8.Parent" xml:space="preserve">
+    <value>Frame15</value>
+  </data>
+  <data name="&gt;&gt;lblLabels8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Frame15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 194</value>
+  </data>
+  <data name="Frame15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 69</value>
+  </data>
+  <data name="Frame15.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="Frame15.Text" xml:space="preserve">
+    <value>Type de client</value>
+  </data>
+  <data name="&gt;&gt;Frame15.Name" xml:space="preserve">
+    <value>Frame15</value>
+  </data>
+  <data name="&gt;&gt;Frame15.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame15.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame15.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdCreateContEI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdCreateContEI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 400</value>
+  </data>
+  <data name="cmdCreateContEI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 41</value>
+  </data>
+  <data name="cmdCreateContEI.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="cmdCreateContEI.Text" xml:space="preserve">
+    <value>Créer un contrat EI</value>
+  </data>
+  <data name="cmdCreateContEI.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateContEI.Name" xml:space="preserve">
+    <value>cmdCreateContEI</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateContEI.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateContEI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdCreateContEI.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmdModifContEI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdModifContEI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 448</value>
+  </data>
+  <data name="cmdModifContEI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 64</value>
+  </data>
+  <data name="cmdModifContEI.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="cmdModifContEI.Text" xml:space="preserve">
+    <value>Modifier proposition de contrat EI</value>
+  </data>
+  <data name="cmdModifContEI.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdModifContEI.Name" xml:space="preserve">
+    <value>cmdModifContEI</value>
+  </data>
+  <data name="&gt;&gt;cmdModifContEI.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdModifContEI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdModifContEI.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtCliActivite.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCliActivite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="txtCliActivite.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="txtCliActivite.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtCliActivite.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtCliActivite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 75</value>
+  </data>
+  <data name="txtCliActivite.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;txtCliActivite.Name" xml:space="preserve">
+    <value>txtCliActivite</value>
+  </data>
+  <data name="&gt;&gt;txtCliActivite.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCliActivite.Parent" xml:space="preserve">
+    <value>FrameActivite</value>
+  </data>
+  <data name="&gt;&gt;txtCliActivite.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 23</value>
+  </data>
+  <data name="Label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="Label51.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>Activités</value>
+  </data>
+  <data name="&gt;&gt;Label51.Name" xml:space="preserve">
+    <value>Label51</value>
+  </data>
+  <data name="&gt;&gt;Label51.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label51.Parent" xml:space="preserve">
+    <value>FrameActivite</value>
+  </data>
+  <data name="&gt;&gt;Label51.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FrameActivite.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="FrameActivite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 313</value>
+  </data>
+  <data name="FrameActivite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 114</value>
+  </data>
+  <data name="FrameActivite.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="FrameActivite.Text" xml:space="preserve">
+    <value>Informations générales</value>
+  </data>
+  <data name="&gt;&gt;FrameActivite.Name" xml:space="preserve">
+    <value>FrameActivite</value>
+  </data>
+  <data name="&gt;&gt;FrameActivite.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;FrameActivite.Parent" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;FrameActivite.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdPrixbyCont.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdPrixbyCont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 272</value>
+  </data>
+  <data name="cmdPrixbyCont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 63</value>
+  </data>
+  <data name="cmdPrixbyCont.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="cmdPrixbyCont.Text" xml:space="preserve">
+    <value>Modifier les prix par contrat et par pays</value>
+  </data>
+  <data name="&gt;&gt;cmdPrixbyCont.Name" xml:space="preserve">
+    <value>cmdPrixbyCont</value>
+  </data>
+  <data name="&gt;&gt;cmdPrixbyCont.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdPrixbyCont.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdPrixbyCont.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtAuto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 13</value>
+  </data>
+  <data name="txtAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 21</value>
+  </data>
+  <data name="txtAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="txtAuto.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtAuto.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtAuto.Name" xml:space="preserve">
+    <value>txtAuto</value>
+  </data>
+  <data name="&gt;&gt;txtAuto.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtAuto.Parent" xml:space="preserve">
+    <value>Frame6</value>
+  </data>
+  <data name="&gt;&gt;txtAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLabels6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblLabels6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="lblLabels6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>281, 17</value>
+  </data>
+  <data name="lblLabels6.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Nombre de mois d'autonomie sur site</value>
+  </data>
+  <data name="&gt;&gt;lblLabels6.Name" xml:space="preserve">
+    <value>lblLabels6</value>
+  </data>
+  <data name="&gt;&gt;lblLabels6.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLabels6.Parent" xml:space="preserve">
+    <value>Frame6</value>
+  </data>
+  <data name="&gt;&gt;lblLabels6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Frame6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 395</value>
+  </data>
+  <data name="Frame6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 39</value>
+  </data>
+  <data name="Frame6.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Gestion stock sur site</value>
+  </data>
+  <data name="&gt;&gt;Frame6.Name" xml:space="preserve">
+    <value>Frame6</value>
+  </data>
+  <data name="&gt;&gt;Frame6.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame6.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtValid.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtValid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 72</value>
+  </data>
+  <data name="txtValid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 21</value>
+  </data>
+  <data name="txtValid.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="txtValid.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtValid.Name" xml:space="preserve">
+    <value>txtValid</value>
+  </data>
+  <data name="&gt;&gt;txtValid.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValid.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;txtValid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboDroit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboDroit.Items" xml:space="preserve">
+    <value>OUI</value>
+  </data>
+  <data name="cboDroit.Items1" xml:space="preserve">
+    <value>NON</value>
+  </data>
+  <data name="cboDroit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 48</value>
+  </data>
+  <data name="cboDroit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="cboDroit.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="cboDroit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cboDroit.Name" xml:space="preserve">
+    <value>cboDroit</value>
+  </data>
+  <data name="&gt;&gt;cboDroit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboDroit.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;cboDroit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkAccWeb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="chkAccWeb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 23</value>
+  </data>
+  <data name="chkAccWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>297, 18</value>
+  </data>
+  <data name="chkAccWeb.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="chkAccWeb.Text" xml:space="preserve">
+    <value> Gestion des accès web par Reponsable site</value>
+  </data>
+  <data name="&gt;&gt;chkAccWeb.Name" xml:space="preserve">
+    <value>chkAccWeb</value>
+  </data>
+  <data name="&gt;&gt;chkAccWeb.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkAccWeb.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;chkAccWeb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdProfil.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdProfil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 16</value>
+  </data>
+  <data name="cmdProfil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 37</value>
+  </data>
+  <data name="cmdProfil.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="cmdProfil.Text" xml:space="preserve">
+    <value>Création profil web des sites</value>
+  </data>
+  <data name="cmdProfil.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdProfil.Name" xml:space="preserve">
+    <value>cmdProfil</value>
+  </data>
+  <data name="&gt;&gt;cmdProfil.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdProfil.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;cmdProfil.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdEnvoiMail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdEnvoiMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 55</value>
+  </data>
+  <data name="cmdEnvoiMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 48</value>
+  </data>
+  <data name="cmdEnvoiMail.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="cmdEnvoiMail.Text" xml:space="preserve">
+    <value>Envoi MAIL à tous les responsables</value>
+  </data>
+  <data name="cmdEnvoiMail.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdEnvoiMail.Name" xml:space="preserve">
+    <value>cmdEnvoiMail</value>
+  </data>
+  <data name="&gt;&gt;cmdEnvoiMail.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdEnvoiMail.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;cmdEnvoiMail.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 77</value>
+  </data>
+  <data name="Label0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="Label0.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="Label0.Text" xml:space="preserve">
+    <value>Seuil validation</value>
+  </data>
+  <data name="Label0.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label0.Name" xml:space="preserve">
+    <value>Label0</value>
+  </data>
+  <data name="&gt;&gt;Label0.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label0.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;Label0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 51</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Droit création</value>
+  </data>
+  <data name="Label2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Frame10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 280</value>
+  </data>
+  <data name="Frame10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 109</value>
+  </data>
+  <data name="Frame10.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="Frame10.Text" xml:space="preserve">
+    <value> Accès web </value>
+  </data>
+  <data name="&gt;&gt;Frame10.Name" xml:space="preserve">
+    <value>Frame10</value>
+  </data>
+  <data name="&gt;&gt;Frame10.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame10.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtInfosPlanif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtInfosPlanif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="txtInfosPlanif.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtInfosPlanif.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtInfosPlanif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 192</value>
+  </data>
+  <data name="txtInfosPlanif.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;txtInfosPlanif.Name" xml:space="preserve">
+    <value>txtInfosPlanif</value>
+  </data>
+  <data name="&gt;&gt;txtInfosPlanif.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtInfosPlanif.Parent" xml:space="preserve">
+    <value>Frame13</value>
+  </data>
+  <data name="&gt;&gt;txtInfosPlanif.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 269</value>
+  </data>
+  <data name="Frame13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 213</value>
+  </data>
+  <data name="Frame13.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="Frame13.Text" xml:space="preserve">
+    <value>Informations client planification</value>
+  </data>
+  <data name="&gt;&gt;Frame13.Name" xml:space="preserve">
+    <value>Frame13</value>
+  </data>
+  <data name="&gt;&gt;Frame13.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame13.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="optRes0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optRes0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 10</value>
+  </data>
+  <data name="optRes0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 17</value>
+  </data>
+  <data name="optRes0.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="optRes0.Text" xml:space="preserve">
+    <value>Choix de la raison sociale de facturation sur le site</value>
+  </data>
+  <data name="&gt;&gt;optRes0.Name" xml:space="preserve">
+    <value>optRes0</value>
+  </data>
+  <data name="&gt;&gt;optRes0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRes0.Parent" xml:space="preserve">
+    <value>Frame8</value>
+  </data>
+  <data name="&gt;&gt;optRes0.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optRes1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optRes1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="optRes1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 17</value>
+  </data>
+  <data name="optRes1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="optRes1.Text" xml:space="preserve">
+    <value>Choix de la raison sociale de facturation sur la DI</value>
+  </data>
+  <data name="&gt;&gt;optRes1.Name" xml:space="preserve">
+    <value>optRes1</value>
+  </data>
+  <data name="&gt;&gt;optRes1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optRes1.Parent" xml:space="preserve">
+    <value>Frame8</value>
+  </data>
+  <data name="&gt;&gt;optRes1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Frame8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 128</value>
+  </data>
+  <data name="Frame8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 54</value>
+  </data>
+  <data name="Frame8.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;Frame8.Name" xml:space="preserve">
+    <value>Frame8</value>
+  </data>
+  <data name="&gt;&gt;Frame8.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame8.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="optFac2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optFac2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
+  </data>
+  <data name="optFac2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="optFac2.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="optFac2.Text" xml:space="preserve">
+    <value>Multitechnique avec détail des fournitures</value>
+  </data>
+  <data name="&gt;&gt;optFac2.Name" xml:space="preserve">
+    <value>optFac2</value>
+  </data>
+  <data name="&gt;&gt;optFac2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFac2.Parent" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;optFac2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="optFac0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optFac0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="optFac0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="optFac0.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="optFac0.Text" xml:space="preserve">
+    <value>Multitechnique sans détail des fournitures</value>
+  </data>
+  <data name="&gt;&gt;optFac0.Name" xml:space="preserve">
+    <value>optFac0</value>
+  </data>
+  <data name="&gt;&gt;optFac0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFac0.Parent" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;optFac0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="optFac1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optFac1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 82</value>
+  </data>
+  <data name="optFac1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="optFac1.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="optFac1.Text" xml:space="preserve">
+    <value>Régies, particuliers, ...sans détail des fournitures</value>
+  </data>
+  <data name="&gt;&gt;optFac1.Name" xml:space="preserve">
+    <value>optFac1</value>
+  </data>
+  <data name="&gt;&gt;optFac1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFac1.Parent" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;optFac1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="optFac3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optFac3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 103</value>
+  </data>
+  <data name="optFac3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="optFac3.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="optFac3.Text" xml:space="preserve">
+    <value>Régies, particuliers, ...avec détail des fournitures</value>
+  </data>
+  <data name="&gt;&gt;optFac3.Name" xml:space="preserve">
+    <value>optFac3</value>
+  </data>
+  <data name="&gt;&gt;optFac3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFac3.Parent" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;optFac3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="optFac4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="optFac4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 61</value>
+  </data>
+  <data name="optFac4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 17</value>
+  </data>
+  <data name="optFac4.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="optFac4.Text" xml:space="preserve">
+    <value>Multitechnique avec forfait MO/Dépl et détail des fournitures</value>
+  </data>
+  <data name="&gt;&gt;optFac4.Name" xml:space="preserve">
+    <value>optFac4</value>
+  </data>
+  <data name="&gt;&gt;optFac4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optFac4.Parent" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;optFac4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Frame4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 0</value>
+  </data>
+  <data name="Frame4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 129</value>
+  </data>
+  <data name="Frame4.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Modèle de facture : </value>
+  </data>
+  <data name="&gt;&gt;Frame4.Name" xml:space="preserve">
+    <value>Frame4</value>
+  </data>
+  <data name="&gt;&gt;Frame4.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame4.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtInfoFacturation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtInfoFacturation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="txtInfoFacturation.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtInfoFacturation.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtInfoFacturation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 252</value>
+  </data>
+  <data name="txtInfoFacturation.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtInfoFacturation.Name" xml:space="preserve">
+    <value>txtInfoFacturation</value>
+  </data>
+  <data name="&gt;&gt;txtInfoFacturation.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtInfoFacturation.Parent" xml:space="preserve">
+    <value>Frame7</value>
+  </data>
+  <data name="&gt;&gt;txtInfoFacturation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 488</value>
+  </data>
+  <data name="Frame7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 277</value>
+  </data>
+  <data name="Frame7.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Frame7.Text" xml:space="preserve">
+    <value>Informations client facturation </value>
+  </data>
+  <data name="&gt;&gt;Frame7.Name" xml:space="preserve">
+    <value>Frame7</value>
+  </data>
+  <data name="&gt;&gt;Frame7.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame7.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtObs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtObs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="txtObs.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtObs.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtObs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 241</value>
+  </data>
+  <data name="txtObs.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;txtObs.Name" xml:space="preserve">
+    <value>txtObs</value>
+  </data>
+  <data name="&gt;&gt;txtObs.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtObs.Parent" xml:space="preserve">
+    <value>Frame3</value>
+  </data>
+  <data name="&gt;&gt;txtObs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 0</value>
+  </data>
+  <data name="Frame3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 263</value>
+  </data>
+  <data name="Frame3.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Frame3.Text" xml:space="preserve">
+    <value>Informations client assistantes </value>
+  </data>
+  <data name="&gt;&gt;Frame3.Name" xml:space="preserve">
+    <value>Frame3</value>
+  </data>
+  <data name="&gt;&gt;Frame3.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame3.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtCodeAPE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCodeAPE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 23</value>
+  </data>
+  <data name="txtCodeAPE.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="txtCodeAPE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 21</value>
+  </data>
+  <data name="txtCodeAPE.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;txtCodeAPE.Name" xml:space="preserve">
+    <value>txtCodeAPE</value>
+  </data>
+  <data name="&gt;&gt;txtCodeAPE.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodeAPE.Parent" xml:space="preserve">
+    <value>Frame16</value>
+  </data>
+  <data name="&gt;&gt;txtCodeAPE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 756</value>
+  </data>
+  <data name="Frame16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 52</value>
+  </data>
+  <data name="Frame16.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="Frame16.Text" xml:space="preserve">
+    <value>Code APE</value>
+  </data>
+  <data name="&gt;&gt;Frame16.Name" xml:space="preserve">
+    <value>Frame16</value>
+  </data>
+  <data name="&gt;&gt;Frame16.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame16.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame16.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboTechnico.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboTechnico.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="cboTechnico.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 23</value>
+  </data>
+  <data name="cboTechnico.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;cboTechnico.Name" xml:space="preserve">
+    <value>cboTechnico</value>
+  </data>
+  <data name="&gt;&gt;cboTechnico.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboTechnico.Parent" xml:space="preserve">
+    <value>Frame12</value>
+  </data>
+  <data name="&gt;&gt;cboTechnico.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 491</value>
+  </data>
+  <data name="Frame12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 46</value>
+  </data>
+  <data name="Frame12.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="Frame12.Text" xml:space="preserve">
+    <value>Technico commercial activité EI</value>
+  </data>
+  <data name="&gt;&gt;Frame12.Name" xml:space="preserve">
+    <value>Frame12</value>
+  </data>
+  <data name="&gt;&gt;Frame12.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame12.Parent" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;Frame12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkAttachMarchPublic.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkAttachMarchPublic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkAttachMarchPublic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 167</value>
+  </data>
+  <data name="chkAttachMarchPublic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkAttachMarchPublic.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="chkAttachMarchPublic.Text" xml:space="preserve">
+    <value>Attachement avec photos</value>
+  </data>
+  <data name="&gt;&gt;chkAttachMarchPublic.Name" xml:space="preserve">
+    <value>chkAttachMarchPublic</value>
+  </data>
+  <data name="&gt;&gt;chkAttachMarchPublic.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkAttachMarchPublic.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkAttachMarchPublic.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkFormationEI1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkFormationEI1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkFormationEI1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 104</value>
+  </data>
+  <data name="chkFormationEI1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkFormationEI1.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="chkFormationEI1.Text" xml:space="preserve">
+    <value>Client fiche de présence formation EI + accueil PMR</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI1.Name" xml:space="preserve">
+    <value>chkFormationEI1</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI1.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI1.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkCliRapportFM.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkCliRapportFM.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkCliRapportFM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 146</value>
+  </data>
+  <data name="chkCliRapportFM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkCliRapportFM.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="chkCliRapportFM.Text" xml:space="preserve">
+    <value>Client avec rapport FM</value>
+  </data>
+  <data name="&gt;&gt;chkCliRapportFM.Name" xml:space="preserve">
+    <value>chkCliRapportFM</value>
+  </data>
+  <data name="&gt;&gt;chkCliRapportFM.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkCliRapportFM.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkCliRapportFM.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkEIFactDifferee.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkEIFactDifferee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkEIFactDifferee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="chkEIFactDifferee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkEIFactDifferee.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="chkEIFactDifferee.Text" xml:space="preserve">
+    <value>Client EI - Facturation différée</value>
+  </data>
+  <data name="&gt;&gt;chkEIFactDifferee.Name" xml:space="preserve">
+    <value>chkEIFactDifferee</value>
+  </data>
+  <data name="&gt;&gt;chkEIFactDifferee.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkEIFactDifferee.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkEIFactDifferee.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkFormationEI0.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkFormationEI0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkFormationEI0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 83</value>
+  </data>
+  <data name="chkFormationEI0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkFormationEI0.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="chkFormationEI0.Text" xml:space="preserve">
+    <value>Client avec fiche de présence formation EI</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI0.Name" xml:space="preserve">
+    <value>chkFormationEI0</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI0.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI0.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkFormationEI0.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtDate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 363</value>
+  </data>
+  <data name="txtDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 21</value>
+  </data>
+  <data name="txtDate.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Name" xml:space="preserve">
+    <value>txtDate</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDate.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;txtDate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chkCompteur.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkCompteur.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkCompteur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 62</value>
+  </data>
+  <data name="chkCompteur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkCompteur.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="chkCompteur.Text" xml:space="preserve">
+    <value>Relevé des compteurs par les sites sur le web</value>
+  </data>
+  <data name="&gt;&gt;chkCompteur.Name" xml:space="preserve">
+    <value>chkCompteur</value>
+  </data>
+  <data name="&gt;&gt;chkCompteur.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkCompteur.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkCompteur.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cmdAnaGidtCli.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdAnaGidtCli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 38</value>
+  </data>
+  <data name="cmdAnaGidtCli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="cmdAnaGidtCli.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="cmdAnaGidtCli.Text" xml:space="preserve">
+    <value>Analytique</value>
+  </data>
+  <data name="cmdAnaGidtCli.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdAnaGidtCli.Name" xml:space="preserve">
+    <value>cmdAnaGidtCli</value>
+  </data>
+  <data name="&gt;&gt;cmdAnaGidtCli.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAnaGidtCli.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;cmdAnaGidtCli.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chkTypeClient.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkTypeClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkTypeClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="chkTypeClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkTypeClient.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="chkTypeClient.Text" xml:space="preserve">
+    <value>Client avec inventaire à réaliser</value>
+  </data>
+  <data name="&gt;&gt;chkTypeClient.Name" xml:space="preserve">
+    <value>chkTypeClient</value>
+  </data>
+  <data name="&gt;&gt;chkTypeClient.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkTypeClient.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkTypeClient.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="chkGestNumero.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkGestNumero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkGestNumero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 41</value>
+  </data>
+  <data name="chkGestNumero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkGestNumero.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="chkGestNumero.Text" xml:space="preserve">
+    <value>Client géré avec les éléments GIDT</value>
+  </data>
+  <data name="&gt;&gt;chkGestNumero.Name" xml:space="preserve">
+    <value>chkGestNumero</value>
+  </data>
+  <data name="&gt;&gt;chkGestNumero.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkGestNumero.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkGestNumero.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblLabels7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblLabels7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 363</value>
+  </data>
+  <data name="lblLabels7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 17</value>
+  </data>
+  <data name="lblLabels7.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>Date de création du client</value>
+  </data>
+  <data name="&gt;&gt;lblLabels7.Name" xml:space="preserve">
+    <value>lblLabels7</value>
+  </data>
+  <data name="&gt;&gt;lblLabels7.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLabels7.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;lblLabels7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Name" xml:space="preserve">
+    <value>ChkNumCdeUniqueDi</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Name" xml:space="preserve">
+    <value>BtnAideHeureArrEXE</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Name" xml:space="preserve">
+    <value>ChkHrArrExeAttach</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Name" xml:space="preserve">
+    <value>cmdAideImpaye</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Name" xml:space="preserve">
+    <value>chkRelance</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Name" xml:space="preserve">
+    <value>chkP3</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkP3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Name" xml:space="preserve">
+    <value>ChkPDP_Action</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Frame9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 543</value>
+  </data>
+  <data name="Frame9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 391</value>
+  </data>
+  <data name="Frame9.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Frame9.Text" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="&gt;&gt;Frame9.Name" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;Frame9.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame9.Parent" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;Frame9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 294</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="ChkNumCdeUniqueDi.Text" xml:space="preserve">
+    <value>Client avec N° de commande unique par DI</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Name" xml:space="preserve">
+    <value>ChkNumCdeUniqueDi</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkNumCdeUniqueDi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 259</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="BtnAideHeureArrEXE.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Name" xml:space="preserve">
+    <value>BtnAideHeureArrEXE</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;BtnAideHeureArrEXE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkHrArrExeAttach.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ChkHrArrExeAttach.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="ChkHrArrExeAttach.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkHrArrExeAttach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 257</value>
+  </data>
+  <data name="ChkHrArrExeAttach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 31</value>
+  </data>
+  <data name="ChkHrArrExeAttach.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="ChkHrArrExeAttach.Text" xml:space="preserve">
+    <value>Client avec gestion des heures d'arrivées et départs sur les attachements</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Name" xml:space="preserve">
+    <value>ChkHrArrExeAttach</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkHrArrExeAttach.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdAideImpaye.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAideImpaye.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAideImpaye.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 205</value>
+  </data>
+  <data name="cmdAideImpaye.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdAideImpaye.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="cmdAideImpaye.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Name" xml:space="preserve">
+    <value>cmdAideImpaye</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;cmdAideImpaye.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkRelance.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkRelance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkRelance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRelance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 209</value>
+  </data>
+  <data name="chkRelance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkRelance.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="chkRelance.Text" xml:space="preserve">
+    <value>Client avec relance automatique des impayées</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Name" xml:space="preserve">
+    <value>chkRelance</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkRelance.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkP3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkP3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="chkP3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 233</value>
+  </data>
+  <data name="chkP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="chkP3.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="chkP3.Text" xml:space="preserve">
+    <value>Contrat avec gestion d'un budget P3</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Name" xml:space="preserve">
+    <value>chkP3</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkP3.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;chkP3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ChkPDP_Action.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ChkPDP_Action.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt, style=Bold</value>
+  </data>
+  <data name="ChkPDP_Action.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkPDP_Action.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 188</value>
+  </data>
+  <data name="ChkPDP_Action.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 18</value>
+  </data>
+  <data name="ChkPDP_Action.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="ChkPDP_Action.Text" xml:space="preserve">
+    <value>Client avec signature PDP à chaque intervention</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Name" xml:space="preserve">
+    <value>ChkPDP_Action</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Type" xml:space="preserve">
+    <value>MozartUC.apiCheckBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.Parent" xml:space="preserve">
+    <value>Frame9</value>
+  </data>
+  <data name="&gt;&gt;ChkPDP_Action.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboCommercial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboCommercial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="cboCommercial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 23</value>
+  </data>
+  <data name="cboCommercial.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;cboCommercial.Name" xml:space="preserve">
+    <value>cboCommercial</value>
+  </data>
+  <data name="&gt;&gt;cboCommercial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboCommercial.Parent" xml:space="preserve">
+    <value>Frame11</value>
+  </data>
+  <data name="&gt;&gt;cboCommercial.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 435</value>
+  </data>
+  <data name="Frame11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 49</value>
+  </data>
+  <data name="Frame11.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Frame11.Text" xml:space="preserve">
+    <value>Commercial ayant ramené ce client</value>
+  </data>
+  <data name="&gt;&gt;Frame11.Name" xml:space="preserve">
+    <value>Frame11</value>
+  </data>
+  <data name="&gt;&gt;Frame11.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame11.Parent" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;Frame11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdAide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 144</value>
+  </data>
+  <data name="cmdAide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 24</value>
+  </data>
+  <data name="cmdAide.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="cmdAide.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAide.Name" xml:space="preserve">
+    <value>cmdAide</value>
+  </data>
+  <data name="&gt;&gt;cmdAide.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAide.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cmdAide.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboLangueAbrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboLangueAbrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 144</value>
+  </data>
+  <data name="cboLangueAbrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="cboLangueAbrev.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="cboLangueAbrev.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cboLangueAbrev.Name" xml:space="preserve">
+    <value>cboLangueAbrev</value>
+  </data>
+  <data name="&gt;&gt;cboLangueAbrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboLangueAbrev.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cboLangueAbrev.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboLangue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboLangue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 144</value>
+  </data>
+  <data name="cboLangue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 23</value>
+  </data>
+  <data name="cboLangue.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;cboLangue.Name" xml:space="preserve">
+    <value>cboLangue</value>
+  </data>
+  <data name="&gt;&gt;cboLangue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboLangue.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cboLangue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtCedex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCedex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 15</value>
+  </data>
+  <data name="txtCedex.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="txtCedex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="txtCedex.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtCedex.Name" xml:space="preserve">
+    <value>txtCedex</value>
+  </data>
+  <data name="&gt;&gt;txtCedex.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCedex.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;txtCedex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCPCedex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCPCedex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="txtCPCedex.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="txtCPCedex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
+  </data>
+  <data name="txtCPCedex.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtCPCedex.Name" xml:space="preserve">
+    <value>txtCPCedex</value>
+  </data>
+  <data name="&gt;&gt;txtCPCedex.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCPCedex.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;txtCPCedex.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 37</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 15</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Ex : CEDEX ou CEDEX 03</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 37</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Ex: 69347</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label55.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="Label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="Label55.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>Complément</value>
+  </data>
+  <data name="&gt;&gt;Label55.Name" xml:space="preserve">
+    <value>Label55</value>
+  </data>
+  <data name="&gt;&gt;Label55.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label55.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;Label55.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label56.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label56.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="Label56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="Label56.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>CP</value>
+  </data>
+  <data name="&gt;&gt;Label56.Name" xml:space="preserve">
+    <value>Label56</value>
+  </data>
+  <data name="&gt;&gt;Label56.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label56.Parent" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;Label56.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Frame14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 220</value>
+  </data>
+  <data name="Frame14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 54</value>
+  </data>
+  <data name="Frame14.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Frame14.Text" xml:space="preserve">
+    <value>Informations CEDEX</value>
+  </data>
+  <data name="&gt;&gt;Frame14.Name" xml:space="preserve">
+    <value>Frame14</value>
+  </data>
+  <data name="&gt;&gt;Frame14.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame14.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Frame14.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboVille.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboVille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 88</value>
+  </data>
+  <data name="cboVille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 23</value>
+  </data>
+  <data name="cboVille.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cboVille.Name" xml:space="preserve">
+    <value>cboVille</value>
+  </data>
+  <data name="&gt;&gt;cboVille.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboVille.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cboVille.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtAD1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtAD1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 40</value>
+  </data>
+  <data name="txtAD1.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txtAD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 21</value>
+  </data>
+  <data name="txtAD1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtAD1.Name" xml:space="preserve">
+    <value>txtAD1</value>
+  </data>
+  <data name="&gt;&gt;txtAD1.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtAD1.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;txtAD1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtAD2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtAD2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 64</value>
+  </data>
+  <data name="txtAD2.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txtAD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 21</value>
+  </data>
+  <data name="txtAD2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtAD2.Name" xml:space="preserve">
+    <value>txtAD2</value>
+  </data>
+  <data name="&gt;&gt;txtAD2.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtAD2.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;txtAD2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtCP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 88</value>
+  </data>
+  <data name="txtCP.MaxLength" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtCP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 21</value>
+  </data>
+  <data name="txtCP.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtCP.Name" xml:space="preserve">
+    <value>txtCP</value>
+  </data>
+  <data name="&gt;&gt;txtCP.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCP.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;txtCP.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cboPays.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboPays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 115</value>
+  </data>
+  <data name="cboPays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 23</value>
+  </data>
+  <data name="cboPays.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cboPays.Name" xml:space="preserve">
+    <value>cboPays</value>
+  </data>
+  <data name="&gt;&gt;cboPays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboPays.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cboPays.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtVille.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtVille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 88</value>
+  </data>
+  <data name="txtVille.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="txtVille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 21</value>
+  </data>
+  <data name="txtVille.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtVille.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Name" xml:space="preserve">
+    <value>txtVille</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtVille.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;txtVille.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdRecherche.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdRecherche.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 88</value>
+  </data>
+  <data name="cmdRecherche.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 23</value>
+  </data>
+  <data name="cmdRecherche.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdRecherche.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;cmdRecherche.Name" xml:space="preserve">
+    <value>cmdRecherche</value>
+  </data>
+  <data name="&gt;&gt;cmdRecherche.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdRecherche.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;cmdRecherche.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtNom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtNom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="txtNom.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="txtNom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 21</value>
+  </data>
+  <data name="txtNom.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtNom.Name" xml:space="preserve">
+    <value>txtNom</value>
+  </data>
+  <data name="&gt;&gt;txtNom.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNom.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;txtNom.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Label53.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 145</value>
+  </data>
+  <data name="Label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 16</value>
+  </data>
+  <data name="Label53.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="&gt;&gt;Label53.Name" xml:space="preserve">
+    <value>Label53</value>
+  </data>
+  <data name="&gt;&gt;Label53.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label53.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Label53.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
+  </data>
+  <data name="Label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="Label50.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>Adresse 2 </value>
+  </data>
+  <data name="&gt;&gt;Label50.Name" xml:space="preserve">
+    <value>Label50</value>
+  </data>
+  <data name="&gt;&gt;Label50.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label50.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Label50.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label512.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label512.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label512.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="Label512.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
+  </data>
+  <data name="Label512.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Label512.Text" xml:space="preserve">
+    <value>CP + Ville </value>
+  </data>
+  <data name="&gt;&gt;Label512.Name" xml:space="preserve">
+    <value>Label512</value>
+  </data>
+  <data name="&gt;&gt;Label512.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label512.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Label512.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label513.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label513.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label513.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="Label513.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="Label513.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Label513.Text" xml:space="preserve">
+    <value>Adresse 1 </value>
+  </data>
+  <data name="&gt;&gt;Label513.Name" xml:space="preserve">
+    <value>Label513</value>
+  </data>
+  <data name="&gt;&gt;Label513.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label513.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Label513.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Label521.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label521.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label521.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 117</value>
+  </data>
+  <data name="Label521.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="Label521.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Label521.Text" xml:space="preserve">
+    <value>Pays </value>
+  </data>
+  <data name="&gt;&gt;Label521.Name" xml:space="preserve">
+    <value>Label521</value>
+  </data>
+  <data name="&gt;&gt;Label521.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label521.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Label521.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblLabels20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblLabels20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="lblLabels20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="lblLabels20.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>Nom </value>
+  </data>
+  <data name="&gt;&gt;lblLabels20.Name" xml:space="preserve">
+    <value>lblLabels20</value>
+  </data>
+  <data name="&gt;&gt;lblLabels20.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblLabels20.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;lblLabels20.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Name" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Frame2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="Frame2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 291</value>
+  </data>
+  <data name="Frame2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Coordonnées</value>
+  </data>
+  <data name="&gt;&gt;Frame2.Name" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;Frame2.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame2.Parent" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;Frame2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Name" xml:space="preserve">
+    <value>chkTypoPart</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Name" xml:space="preserve">
+    <value>chkTypoPro</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 175</value>
+  </data>
+  <data name="apiGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 39</value>
+  </data>
+  <data name="apiGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="apiGroupBox2.Text" xml:space="preserve">
+    <value>Typologie</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Name" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.Parent" xml:space="preserve">
+    <value>Frame2</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkTypoPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTypoPart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkTypoPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 17</value>
+  </data>
+  <data name="chkTypoPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 19</value>
+  </data>
+  <data name="chkTypoPart.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="chkTypoPart.Text" xml:space="preserve">
+    <value>Particulier</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Name" xml:space="preserve">
+    <value>chkTypoPart</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkTypoPro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTypoPro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkTypoPro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 17</value>
+  </data>
+  <data name="chkTypoPro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 19</value>
+  </data>
+  <data name="chkTypoPro.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="chkTypoPro.Text" xml:space="preserve">
+    <value>Professionnel</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Name" xml:space="preserve">
+    <value>chkTypoPro</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Type" xml:space="preserve">
+    <value>MozartUC.apiRadioButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.Parent" xml:space="preserve">
+    <value>apiGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;chkTypoPro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Frame5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Frame5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Frame5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 940</value>
+  </data>
+  <data name="Frame5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Frame5.Text" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="&gt;&gt;Frame5.Name" xml:space="preserve">
+    <value>Frame5</value>
+  </data>
+  <data name="&gt;&gt;Frame5.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame5.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 19</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="cmdGMAOUsedHelp.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdGMAOUsedHelp.Name" xml:space="preserve">
+    <value>cmdGMAOUsedHelp</value>
+  </data>
+  <data name="&gt;&gt;cmdGMAOUsedHelp.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdGMAOUsedHelp.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;cmdGMAOUsedHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboExistPasserelleMozaris.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboExistPasserelleMozaris.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboExistPasserelleMozaris.Items1" xml:space="preserve">
+    <value>EI</value>
+  </data>
+  <data name="cboExistPasserelleMozaris.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 76</value>
+  </data>
+  <data name="cboExistPasserelleMozaris.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="cboExistPasserelleMozaris.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;cboExistPasserelleMozaris.Name" xml:space="preserve">
+    <value>cboExistPasserelleMozaris</value>
+  </data>
+  <data name="&gt;&gt;cboExistPasserelleMozaris.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboExistPasserelleMozaris.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;cboExistPasserelleMozaris.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboSaisieSurGMAO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboSaisieSurGMAO.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboSaisieSurGMAO.Items1" xml:space="preserve">
+    <value>EI</value>
+  </data>
+  <data name="cboSaisieSurGMAO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 48</value>
+  </data>
+  <data name="cboSaisieSurGMAO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 23</value>
+  </data>
+  <data name="cboSaisieSurGMAO.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;cboSaisieSurGMAO.Name" xml:space="preserve">
+    <value>cboSaisieSurGMAO</value>
+  </data>
+  <data name="&gt;&gt;cboSaisieSurGMAO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboSaisieSurGMAO.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;cboSaisieSurGMAO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboUsedGMAO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="cboUsedGMAO.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboUsedGMAO.Items1" xml:space="preserve">
+    <value>EI</value>
+  </data>
+  <data name="cboUsedGMAO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 20</value>
+  </data>
+  <data name="cboUsedGMAO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 23</value>
+  </data>
+  <data name="cboUsedGMAO.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;cboUsedGMAO.Name" xml:space="preserve">
+    <value>cboUsedGMAO</value>
+  </data>
+  <data name="&gt;&gt;cboUsedGMAO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboUsedGMAO.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;cboUsedGMAO.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="apiLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 81</value>
+  </data>
+  <data name="apiLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 13</value>
+  </data>
+  <data name="apiLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="apiLabel10.Text" xml:space="preserve">
+    <value>Existence passerelle Mozaris :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel10.Name" xml:space="preserve">
+    <value>apiLabel10</value>
+  </data>
+  <data name="&gt;&gt;apiLabel10.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel10.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="apiLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 53</value>
+  </data>
+  <data name="apiLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 13</value>
+  </data>
+  <data name="apiLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="apiLabel9.Text" xml:space="preserve">
+    <value>Saisie sur GMAO client :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel9.Name" xml:space="preserve">
+    <value>apiLabel9</value>
+  </data>
+  <data name="&gt;&gt;apiLabel9.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel9.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="apiLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 28</value>
+  </data>
+  <data name="apiLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 13</value>
+  </data>
+  <data name="apiLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="apiLabel8.Text" xml:space="preserve">
+    <value>GMAO utilisée par le client :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Name" xml:space="preserve">
+    <value>apiLabel8</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.Parent" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="apiGroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="apiGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 814</value>
+  </data>
+  <data name="apiGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>442, 126</value>
+  </data>
+  <data name="apiGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="apiGroupBox3.Text" xml:space="preserve">
+    <value>GMAO Client</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox3.Name" xml:space="preserve">
+    <value>apiGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox3.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox3.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Name" xml:space="preserve">
+    <value>txtRatio</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Name" xml:space="preserve">
+    <value>txtTotFactMan</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Name" xml:space="preserve">
+    <value>apiLabel13</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Name" xml:space="preserve">
+    <value>apiLabel14</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Name" xml:space="preserve">
+    <value>txtTotCurFourSeul</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Name" xml:space="preserve">
+    <value>txtTotContratFact</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Name" xml:space="preserve">
+    <value>txtTotPrevSeulRemonteeDI</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Name" xml:space="preserve">
+    <value>txtTotPrevSeul</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Name" xml:space="preserve">
+    <value>cmdAideTotCur</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Name" xml:space="preserve">
+    <value>cmdAideTotFact</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Name" xml:space="preserve">
+    <value>cmdAideRemonteeDI</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Name" xml:space="preserve">
+    <value>cmdAideTotSaisieManuelle</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Name" xml:space="preserve">
+    <value>cmdMAJCtPrev</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Name" xml:space="preserve">
+    <value>apiLabel7</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Name" xml:space="preserve">
+    <value>apiLabel6</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Name" xml:space="preserve">
+    <value>apiLabel5</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Name" xml:space="preserve">
+    <value>apiLabel4</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Name" xml:space="preserve">
+    <value>txtDateFinCtPrev</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Name" xml:space="preserve">
+    <value>apiLabel3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Name" xml:space="preserve">
+    <value>txtDateDebCtPrev</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Name" xml:space="preserve">
+    <value>apiLabel2</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Name" xml:space="preserve">
+    <value>txtTypeFact</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Name" xml:space="preserve">
+    <value>apiLabel1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="apiGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="apiGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 440</value>
+  </data>
+  <data name="apiGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 310</value>
+  </data>
+  <data name="apiGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="apiGroupBox1.Text" xml:space="preserve">
+    <value>Contrat préventif</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Name" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.Parent" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;apiGroupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Frame1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 32</value>
+  </data>
+  <data name="Frame1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1397, 946</value>
+  </data>
+  <data name="Frame1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Name" xml:space="preserve">
+    <value>Frame1</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Frame1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Frame1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtRatio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtRatio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 217</value>
+  </data>
+  <data name="txtRatio.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v22.2" name="DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="txtRatio.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtRatio.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtRatio.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Name" xml:space="preserve">
+    <value>txtRatio</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtRatio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTotFactMan.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTotFactMan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 134</value>
+  </data>
+  <data name="txtTotFactMan.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="txtTotFactMan.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtTotFactMan.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotFactMan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtTotFactMan.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Name" xml:space="preserve">
+    <value>txtTotFactMan</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotFactMan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="apiLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 220</value>
+  </data>
+  <data name="apiLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 13</value>
+  </data>
+  <data name="apiLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="apiLabel13.Text" xml:space="preserve">
+    <value>Ratio (Préventif seul / Total Facturation) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Name" xml:space="preserve">
+    <value>apiLabel13</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 166</value>
+  </data>
+  <data name="apiLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 13</value>
+  </data>
+  <data name="apiLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="apiLabel14.Text" xml:space="preserve">
+    <value>Total contrat "Facturation" (Remontée DI) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Name" xml:space="preserve">
+    <value>apiLabel14</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTotCurFourSeul.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTotCurFourSeul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 191</value>
+  </data>
+  <data name="txtTotCurFourSeul.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="txtTotCurFourSeul.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtTotCurFourSeul.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotCurFourSeul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtTotCurFourSeul.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Name" xml:space="preserve">
+    <value>txtTotCurFourSeul</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotCurFourSeul.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtTotContratFact.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTotContratFact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 163</value>
+  </data>
+  <data name="txtTotContratFact.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="txtTotContratFact.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtTotContratFact.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotContratFact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtTotContratFact.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Name" xml:space="preserve">
+    <value>txtTotContratFact</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotContratFact.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 107</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtTotPrevSeulRemonteeDI.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Name" xml:space="preserve">
+    <value>txtTotPrevSeulRemonteeDI</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeulRemonteeDI.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtTotPrevSeul.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTotPrevSeul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 80</value>
+  </data>
+  <data name="txtTotPrevSeul.Properties.Mask.EditMask" xml:space="preserve">
+    <value>n2</value>
+  </data>
+  <data name="txtTotPrevSeul.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v22.2">
+    <value>Numeric</value>
+  </data>
+  <data name="txtTotPrevSeul.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotPrevSeul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 20</value>
+  </data>
+  <data name="txtTotPrevSeul.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Name" xml:space="preserve">
+    <value>txtTotPrevSeul</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTotPrevSeul.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmdAideTotCur.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAideTotCur.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAideTotCur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 188</value>
+  </data>
+  <data name="cmdAideTotCur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdAideTotCur.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="cmdAideTotCur.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Name" xml:space="preserve">
+    <value>cmdAideTotCur</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotCur.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmdAideTotFact.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAideTotFact.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAideTotFact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 162</value>
+  </data>
+  <data name="cmdAideTotFact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdAideTotFact.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="cmdAideTotFact.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Name" xml:space="preserve">
+    <value>cmdAideTotFact</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotFact.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmdAideRemonteeDI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAideRemonteeDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAideRemonteeDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 104</value>
+  </data>
+  <data name="cmdAideRemonteeDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdAideRemonteeDI.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="cmdAideRemonteeDI.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Name" xml:space="preserve">
+    <value>cmdAideRemonteeDI</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideRemonteeDI.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 77</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="cmdAideTotSaisieManuelle.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Name" xml:space="preserve">
+    <value>cmdAideTotSaisieManuelle</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdAideTotSaisieManuelle.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmdMAJCtPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdMAJCtPrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdMAJCtPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 271</value>
+  </data>
+  <data name="cmdMAJCtPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="cmdMAJCtPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="cmdMAJCtPrev.Text" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Name" xml:space="preserve">
+    <value>cmdMAJCtPrev</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdMAJCtPrev.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="apiLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 194</value>
+  </data>
+  <data name="apiLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 13</value>
+  </data>
+  <data name="apiLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="apiLabel7.Text" xml:space="preserve">
+    <value>Total curatif / fourn. au forfait seul (Calcul) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Name" xml:space="preserve">
+    <value>apiLabel7</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="apiLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 137</value>
+  </data>
+  <data name="apiLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 13</value>
+  </data>
+  <data name="apiLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="apiLabel6.Text" xml:space="preserve">
+    <value>Total contrat "Facturation" (Saisie manuelle) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Name" xml:space="preserve">
+    <value>apiLabel6</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="apiLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 110</value>
+  </data>
+  <data name="apiLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 13</value>
+  </data>
+  <data name="apiLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="apiLabel5.Text" xml:space="preserve">
+    <value>Total préventif seul (Remontée DI) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Name" xml:space="preserve">
+    <value>apiLabel5</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="apiLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 83</value>
+  </data>
+  <data name="apiLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 13</value>
+  </data>
+  <data name="apiLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="apiLabel4.Text" xml:space="preserve">
+    <value>Total préventif seul (Saisie manuelle) :</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Name" xml:space="preserve">
+    <value>apiLabel4</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtDateFinCtPrev.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDateFinCtPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtDateFinCtPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 51</value>
+  </data>
+  <data name="txtDateFinCtPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 21</value>
+  </data>
+  <data name="txtDateFinCtPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Name" xml:space="preserve">
+    <value>txtDateFinCtPrev</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtDateFinCtPrev.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="apiLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 56</value>
+  </data>
+  <data name="apiLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="apiLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="apiLabel3.Text" xml:space="preserve">
+    <value>au</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Name" xml:space="preserve">
+    <value>apiLabel3</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtDateDebCtPrev.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtDateDebCtPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtDateDebCtPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 51</value>
+  </data>
+  <data name="txtDateDebCtPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 21</value>
+  </data>
+  <data name="txtDateDebCtPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Name" xml:space="preserve">
+    <value>txtDateDebCtPrev</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtDateDebCtPrev.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="apiLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 56</value>
+  </data>
+  <data name="apiLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 13</value>
+  </data>
+  <data name="apiLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="apiLabel2.Text" xml:space="preserve">
+    <value>Dates période contractuelle</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Name" xml:space="preserve">
+    <value>apiLabel2</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtTypeFact.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTypeFact.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtTypeFact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 24</value>
+  </data>
+  <data name="txtTypeFact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 21</value>
+  </data>
+  <data name="txtTypeFact.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Name" xml:space="preserve">
+    <value>txtTypeFact</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Type" xml:space="preserve">
+    <value>MozartUC.apiTextBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTypeFact.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="apiLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="apiLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="apiLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="apiLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 29</value>
+  </data>
+  <data name="apiLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="apiLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="apiLabel1.Text" xml:space="preserve">
+    <value>Type de facturation</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Name" xml:space="preserve">
+    <value>apiLabel1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.Parent" xml:space="preserve">
+    <value>apiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;apiLabel1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cmdFermer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 921</value>
+  </data>
+  <data name="cmdFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 57</value>
+  </data>
+  <data name="cmdFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Name" xml:space="preserve">
+    <value>cmdFermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmdEnregistrer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdEnregistrer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="cmdEnregistrer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 57</value>
+  </data>
+  <data name="cmdEnregistrer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdEnregistrer.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="&gt;&gt;cmdEnregistrer.Name" xml:space="preserve">
+    <value>cmdEnregistrer</value>
+  </data>
+  <data name="&gt;&gt;cmdEnregistrer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdEnregistrer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdEnregistrer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 0</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Détails d'un client</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>MozartUC.apiLabel, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmdBudget.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdBudget.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdBudget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 539</value>
+  </data>
+  <data name="cmdBudget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 46</value>
+  </data>
+  <data name="cmdBudget.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="cmdBudget.Text" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="&gt;&gt;cmdBudget.Name" xml:space="preserve">
+    <value>cmdBudget</value>
+  </data>
+  <data name="&gt;&gt;cmdBudget.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdBudget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdBudget.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdPrestation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdPrestation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdPrestation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 338</value>
+  </data>
+  <data name="cmdPrestation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 56</value>
+  </data>
+  <data name="cmdPrestation.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="cmdPrestation.Text" xml:space="preserve">
+    <value>Gestion des prestations</value>
+  </data>
+  <data name="&gt;&gt;cmdPrestation.Name" xml:space="preserve">
+    <value>cmdPrestation</value>
+  </data>
+  <data name="&gt;&gt;cmdPrestation.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdPrestation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdPrestation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Name" xml:space="preserve">
+    <value>cmdAnnulerPrest</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Name" xml:space="preserve">
+    <value>cmdValidePrest</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Name" xml:space="preserve">
+    <value>lstPresta</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1508, 174</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 650</value>
+  </data>
+  <data name="apiGrpBoxPrestation.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Text" xml:space="preserve">
+    <value>Sélection des prestations autorisées</value>
+  </data>
+  <data name="apiGrpBoxPrestation.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;apiGrpBoxPrestation.Name" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;apiGrpBoxPrestation.Type" xml:space="preserve">
+    <value>MozartUC.apiGroupBox, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;apiGrpBoxPrestation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;apiGrpBoxPrestation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdAnnulerPrest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdAnnulerPrest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAnnulerPrest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 605</value>
+  </data>
+  <data name="cmdAnnulerPrest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="cmdAnnulerPrest.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="cmdAnnulerPrest.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Name" xml:space="preserve">
+    <value>cmdAnnulerPrest</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;cmdAnnulerPrest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdValidePrest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdValidePrest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdValidePrest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 605</value>
+  </data>
+  <data name="cmdValidePrest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 32</value>
+  </data>
+  <data name="cmdValidePrest.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="cmdValidePrest.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Name" xml:space="preserve">
+    <value>cmdValidePrest</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;cmdValidePrest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lstPresta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="lstPresta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 580</value>
+  </data>
+  <data name="lstPresta.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Name" xml:space="preserve">
+    <value>lstPresta</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.Parent" xml:space="preserve">
+    <value>apiGrpBoxPrestation</value>
+  </data>
+  <data name="&gt;&gt;lstPresta.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnContrat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnContrat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnContrat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 176</value>
+  </data>
+  <data name="BtnContrat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 57</value>
+  </data>
+  <data name="BtnContrat.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="BtnContrat.Text" xml:space="preserve">
+    <value>Contrat</value>
+  </data>
+  <data name="&gt;&gt;BtnContrat.Name" xml:space="preserve">
+    <value>BtnContrat</value>
+  </data>
+  <data name="&gt;&gt;BtnContrat.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnContrat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnContrat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1867, 990</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Détails d'un client</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmDetailsClient</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

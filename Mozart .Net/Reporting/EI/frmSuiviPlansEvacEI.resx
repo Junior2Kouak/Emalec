@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GCStat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 58</value>
+  </data>
+  <data name="GVStat.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="VCLINOM.Caption" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VCLINOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VCLINOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VCLINOM.Width" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="VSITNOM.Caption" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="VSITNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSITNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="VSITNOM.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="DIAction.Caption" xml:space="preserve">
+    <value>DI/Action</value>
+  </data>
+  <data name="DIAction.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DIAction.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DIAction.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DDEMANDE.Caption" xml:space="preserve">
+    <value>Demande du client</value>
+  </data>
+  <data name="DDEMANDE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DDEMANDE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DDEMANDE.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DCONSTATSITE.Caption" xml:space="preserve">
+    <value>Constat sur site</value>
+  </data>
+  <data name="DCONSTATSITE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DCONSTATSITE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="DCONSTATSITE.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DINTERVENTION.Caption" xml:space="preserve">
+    <value>Intervention pour relevé de plan sur site</value>
+  </data>
+  <data name="DINTERVENTION.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DINTERVENTION.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DINTERVENTION.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRELEVE.Caption" xml:space="preserve">
+    <value>Relevé de plan</value>
+  </data>
+  <data name="DRELEVE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRELEVE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DRELEVE.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTRELEVE1.Caption" xml:space="preserve">
+    <value>1° Transfert du relevé de plan à l'imprimeur</value>
+  </data>
+  <data name="DTRANSFERTRELEVE1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTRELEVE1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="DTRANSFERTRELEVE1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOUR1.Caption" xml:space="preserve">
+    <value>1° Retour de l'imprimeur</value>
+  </data>
+  <data name="DRETOUR1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOUR1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="DRETOUR1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTTECH1.Caption" xml:space="preserve">
+    <value>1° Transfert vers le tech</value>
+  </data>
+  <data name="DTRANSFERTTECH1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTTECH1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DTRANSFERTTECH1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOURTECH1.Caption" xml:space="preserve">
+    <value>1° retour du tech</value>
+  </data>
+  <data name="DRETOURTECH1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOURTECH1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DRETOURTECH1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTRELEVE2.Caption" xml:space="preserve">
+    <value>2° Transfert du relevé de plan à l'imprimeur</value>
+  </data>
+  <data name="DTRANSFERTRELEVE2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTRELEVE2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="DTRANSFERTRELEVE2.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOUR2.Caption" xml:space="preserve">
+    <value>2° Retour de l'imprimeur</value>
+  </data>
+  <data name="DRETOUR2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOUR2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="DRETOUR2.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTTECH2.Caption" xml:space="preserve">
+    <value>2° Transfert vers le tech</value>
+  </data>
+  <data name="DTRANSFERTTECH2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTTECH2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="DTRANSFERTTECH2.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOURTECH2.Caption" xml:space="preserve">
+    <value>2° retour du tech</value>
+  </data>
+  <data name="DRETOURTECH2.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOURTECH2.VisibleIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="DRETOURTECH2.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTTECH3.Caption" xml:space="preserve">
+    <value>1° Transfert du relevé de plan à l'imprimeur</value>
+  </data>
+  <data name="DTRANSFERTTECH3.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTTECH3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="DTRANSFERTTECH3.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOUR3.Caption" xml:space="preserve">
+    <value>3° Retour de l'imprimeur</value>
+  </data>
+  <data name="DRETOUR3.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOUR3.VisibleIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="DRETOUR3.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTRELEVEFINAL.Caption" xml:space="preserve">
+    <value>Transfert du relevé vers le tech pour validation finale</value>
+  </data>
+  <data name="DTRANSFERTRELEVEFINAL.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTRELEVEFINAL.VisibleIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="DTRANSFERTRELEVEFINAL.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DRETOURTECHFINAL.Caption" xml:space="preserve">
+    <value>Retour du tech ou du client</value>
+  </data>
+  <data name="DRETOURTECHFINAL.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRETOURTECHFINAL.VisibleIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="DRETOURTECHFINAL.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="DTRANSFERTREALISATIONPLAN.Caption" xml:space="preserve">
+    <value>Transfert vers l'imprimeur pour réalisation plan</value>
+  </data>
+  <data name="DTRANSFERTREALISATIONPLAN.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DTRANSFERTREALISATIONPLAN.VisibleIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="DRECEPTIONPLAN.Caption" xml:space="preserve">
+    <value>Réception du plan chez EMALEC</value>
+  </data>
+  <data name="DRECEPTIONPLAN.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DRECEPTIONPLAN.VisibleIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="DRECEPTIONPLAN.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="DENVOIPLAN.Caption" xml:space="preserve">
+    <value>Envoi du plan au tech ou au magasin</value>
+  </data>
+  <data name="DENVOIPLAN.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DENVOIPLAN.VisibleIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="DENVOIPLAN.Width" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="GCStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1687, 761</value>
+  </data>
+  <data name="GCStat.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;GCStat.Name" xml:space="preserve">
+    <value>GCStat</value>
+  </data>
+  <data name="&gt;&gt;GCStat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCStat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GCStat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAccesDI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnAccesDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 174</value>
+  </data>
+  <data name="btnAccesDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 40</value>
+  </data>
+  <data name="btnAccesDI.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnAccesDI.Text" xml:space="preserve">
+    <value>Accès DI</value>
+  </data>
+  <data name="&gt;&gt;btnAccesDI.Name" xml:space="preserve">
+    <value>btnAccesDI</value>
+  </data>
+  <data name="&gt;&gt;btnAccesDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAccesDI.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;btnAccesDI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 100</value>
+  </data>
+  <data name="btnDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 40</value>
+  </data>
+  <data name="btnDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnDetails.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="&gt;&gt;btnDetails.Name" xml:space="preserve">
+    <value>btnDetails</value>
+  </data>
+  <data name="&gt;&gt;btnDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDetails.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;btnDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnActif.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnActif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 398</value>
+  </data>
+  <data name="btnActif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="btnActif.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnActif.Text" xml:space="preserve">
+    <value>Retour à l'actif</value>
+  </data>
+  <data name="btnActif.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnActif.Name" xml:space="preserve">
+    <value>btnActif</value>
+  </data>
+  <data name="&gt;&gt;btnActif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnActif.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;btnActif.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnConsultArchives.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnConsultArchives.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 342</value>
+  </data>
+  <data name="btnConsultArchives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 50</value>
+  </data>
+  <data name="btnConsultArchives.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnConsultArchives.Text" xml:space="preserve">
+    <value>Consulter les archives</value>
+  </data>
+  <data name="&gt;&gt;btnConsultArchives.Name" xml:space="preserve">
+    <value>btnConsultArchives</value>
+  </data>
+  <data name="&gt;&gt;btnConsultArchives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConsultArchives.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;btnConsultArchives.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 248</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 42</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="BtnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 42</value>
+  </data>
+  <data name="BtnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnPrint.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Name" xml:space="preserve">
+    <value>BtnPrint</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnPrint.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 700</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 50</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 769</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="LblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="LblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 19</value>
+  </data>
+  <data name="LblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="LblTitre.Text" xml:space="preserve">
+    <value>Suivi des plans d'évacuation EI</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Name" xml:space="preserve">
+    <value>LblTitre</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1676, 831</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Suivi des plans d'évacuation EI</value>
+  </data>
+  <data name="&gt;&gt;GVStat.Name" xml:space="preserve">
+    <value>GVStat</value>
+  </data>
+  <data name="&gt;&gt;GVStat.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NACTNUM.Name" xml:space="preserve">
+    <value>NACTNUM</value>
+  </data>
+  <data name="&gt;&gt;NACTNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VCLINOM.Name" xml:space="preserve">
+    <value>VCLINOM</value>
+  </data>
+  <data name="&gt;&gt;VCLINOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSITNOM.Name" xml:space="preserve">
+    <value>VSITNOM</value>
+  </data>
+  <data name="&gt;&gt;VSITNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DIAction.Name" xml:space="preserve">
+    <value>DIAction</value>
+  </data>
+  <data name="&gt;&gt;DIAction.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DDEMANDE.Name" xml:space="preserve">
+    <value>DDEMANDE</value>
+  </data>
+  <data name="&gt;&gt;DDEMANDE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DCONSTATSITE.Name" xml:space="preserve">
+    <value>DCONSTATSITE</value>
+  </data>
+  <data name="&gt;&gt;DCONSTATSITE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DINTERVENTION.Name" xml:space="preserve">
+    <value>DINTERVENTION</value>
+  </data>
+  <data name="&gt;&gt;DINTERVENTION.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRELEVE.Name" xml:space="preserve">
+    <value>DRELEVE</value>
+  </data>
+  <data name="&gt;&gt;DRELEVE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVE1.Name" xml:space="preserve">
+    <value>DTRANSFERTRELEVE1</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVE1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR1.Name" xml:space="preserve">
+    <value>DRETOUR1</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH1.Name" xml:space="preserve">
+    <value>DTRANSFERTTECH1</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECH1.Name" xml:space="preserve">
+    <value>DRETOURTECH1</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECH1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVE2.Name" xml:space="preserve">
+    <value>DTRANSFERTRELEVE2</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVE2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR2.Name" xml:space="preserve">
+    <value>DRETOUR2</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH2.Name" xml:space="preserve">
+    <value>DTRANSFERTTECH2</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECH2.Name" xml:space="preserve">
+    <value>DRETOURTECH2</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECH2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH3.Name" xml:space="preserve">
+    <value>DTRANSFERTTECH3</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTTECH3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR3.Name" xml:space="preserve">
+    <value>DRETOUR3</value>
+  </data>
+  <data name="&gt;&gt;DRETOUR3.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVEFINAL.Name" xml:space="preserve">
+    <value>DTRANSFERTRELEVEFINAL</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTRELEVEFINAL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECHFINAL.Name" xml:space="preserve">
+    <value>DRETOURTECHFINAL</value>
+  </data>
+  <data name="&gt;&gt;DRETOURTECHFINAL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTREALISATIONPLAN.Name" xml:space="preserve">
+    <value>DTRANSFERTREALISATIONPLAN</value>
+  </data>
+  <data name="&gt;&gt;DTRANSFERTREALISATIONPLAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DRECEPTIONPLAN.Name" xml:space="preserve">
+    <value>DRECEPTIONPLAN</value>
+  </data>
+  <data name="&gt;&gt;DRECEPTIONPLAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DENVOIPLAN.Name" xml:space="preserve">
+    <value>DENVOIPLAN</value>
+  </data>
+  <data name="&gt;&gt;DENVOIPLAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSuiviPlansEvacEI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

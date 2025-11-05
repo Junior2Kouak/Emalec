@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gridBand2.Caption" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="ColCAPAINTERNE.Caption" xml:space="preserve">
+    <value>CAPACITE INTERNE</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColCAPAINTERNE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColTXCHARGE.Caption" xml:space="preserve">
+    <value>TAUX DE CHARGE (%)</value>
+  </data>
+  <data name="ColTXCHARGE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColTXCHARGEAN.Caption" xml:space="preserve">
+    <value>TAUX DE CHARGE annuel (%)</value>
+  </data>
+  <data name="ColTXCHARGEAN.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridBand2.Name" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="gridBand2.Width" type="System.Int32, mscorlib">
+    <value>225</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gridPlanning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gridPlanning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="bandedGridView1.Appearance.Empty.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="bandedGridView1.Appearance.EvenRow.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="bandedGridView1.Appearance.FilterPanel.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="bandedGridView1.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gridBand1.Caption" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="ColCANNUM.Caption" xml:space="preserve">
+    <value>N°</value>
+  </data>
+  <data name="ColCANNUM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColCANNUM.Width" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="ColCHAFF.Caption" xml:space="preserve">
+    <value>Chaff</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="ColCHAFF.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="ColCHAFF.Summary1" xml:space="preserve">
+    <value>CHAFF</value>
+  </data>
+  <data name="ColCHAFF.Summary2" xml:space="preserve">
+    <value>TOTAL :</value>
+  </data>
+  <data name="ColCHAFF.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColCHAFF.Width" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="ColMONTANT.Caption" xml:space="preserve">
+    <value>Montant du marché</value>
+  </data>
+  <data name="ColMONTANT.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColMONTANT.Summary1" xml:space="preserve">
+    <value>NPVHT</value>
+  </data>
+  <data name="ColMONTANT.Summary2" xml:space="preserve">
+    <value>{0:0.##}</value>
+  </data>
+  <data name="ColMONTANT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColMONTANT.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ColINTITULE.Caption" xml:space="preserve">
+    <value>Intitulé</value>
+  </data>
+  <data name="ColINTITULE.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="ColINTITULE.Summary1" xml:space="preserve">
+    <value>VCANLIB</value>
+  </data>
+  <data name="ColINTITULE.Summary2" xml:space="preserve">
+    <value>CHARGE :</value>
+  </data>
+  <data name="ColINTITULE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColINTITULE.Width" type="System.Int32, mscorlib">
+    <value>280</value>
+  </data>
+  <data name="ColCHARGEPREV.Caption" xml:space="preserve">
+    <value>CHARGE PREVISIONNELLE</value>
+  </data>
+  <data name="gridBand1.Name" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="gridBand1.Width" type="System.Int32, mscorlib">
+    <value>468</value>
+  </data>
+  <data name="bandHeures.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bandHeures.Caption" xml:space="preserve">
+    <value>HEURES</value>
+  </data>
+  <data name="ColHEURES.Caption" xml:space="preserve">
+    <value>HEURES</value>
+  </data>
+  <data name="ColHEURES.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColHEURES.Summary1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ColHEURES.Summary2" xml:space="preserve">
+    <value>SUM={0:0.##}</value>
+  </data>
+  <data name="ColHDEVIS.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ColHDEVIS.Caption" xml:space="preserve">
+    <value>Chiffrage</value>
+  </data>
+  <data name="ColHDEVIS.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColHDEVIS.Summary1" xml:space="preserve">
+    <value>NHDEVIS</value>
+  </data>
+  <data name="ColHDEVIS.Summary2" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ColHDEVIS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColHDEVIS.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ColHREA.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ColHREA.Caption" xml:space="preserve">
+    <value>Réalisées</value>
+  </data>
+  <data name="ColHREA.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColHREA.Summary1" xml:space="preserve">
+    <value>NHREA</value>
+  </data>
+  <data name="ColHREA.Summary2" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ColHREA.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColHREA.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ColHREST.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ColHREST.Caption" xml:space="preserve">
+    <value>Restantes</value>
+  </data>
+  <data name="ColHREST.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColHREST.Summary1" xml:space="preserve">
+    <value>NHREST</value>
+  </data>
+  <data name="ColHREST.Summary2" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ColHREST.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColHREST.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ColHTOT.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ColHTOT.Caption" xml:space="preserve">
+    <value>Totales</value>
+  </data>
+  <data name="ColHTOT.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColHTOT.Summary1" xml:space="preserve">
+    <value>NHTOT</value>
+  </data>
+  <data name="ColHTOT.Summary2" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ColHTOT.Summary3" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="ColHTOT.Summary4" xml:space="preserve">
+    <value>NHTOT</value>
+  </data>
+  <data name="ColHTOT.Summary5" xml:space="preserve">
+    <value>CAPACITE INTERNE :</value>
+  </data>
+  <data name="ColHTOT.Summary6" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="ColHTOT.Summary7" xml:space="preserve">
+    <value>NHTOT</value>
+  </data>
+  <data name="ColHTOT.Summary8" xml:space="preserve">
+    <value>TAUX DE CHARGE (%) :</value>
+  </data>
+  <data name="ColHTOT.Summary9" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="ColHTOT.Summary10" xml:space="preserve">
+    <value>NHTOT</value>
+  </data>
+  <data name="ColHTOT.Summary11" xml:space="preserve">
+    <value>TAUX DE CHARGE annuel (%) :</value>
+  </data>
+  <data name="ColHTOT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColHTOT.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="bandHeures.Name" xml:space="preserve">
+    <value>bandHeures</value>
+  </data>
+  <data name="bandHeures.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="bandChargePrevisionnelle.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="bandChargePrevisionnelle.Caption" xml:space="preserve">
+    <value>CHARGE PREVISIONNELLE</value>
+  </data>
+  <data name="bandChargePrevisionnelle.Name" xml:space="preserve">
+    <value>bandChargePrevisionnelle</value>
+  </data>
+  <data name="bandChargePrevisionnelle.Width" type="System.Int32, mscorlib">
+    <value>466</value>
+  </data>
+  <data name="gridBand4.Caption" xml:space="preserve">
+    <value>gridBand4</value>
+  </data>
+  <data name="ColRELIQUAT.Caption" xml:space="preserve">
+    <value>Reliquat</value>
+  </data>
+  <data name="ColRELIQUAT.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Sum</value>
+  </data>
+  <data name="ColRELIQUAT.Summary1" xml:space="preserve">
+    <value>RELIQUAT</value>
+  </data>
+  <data name="ColRELIQUAT.Summary2" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ColRELIQUAT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColRELIQUAT.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gridBand4.Name" xml:space="preserve">
+    <value>gridBand4</value>
+  </data>
+  <data name="gridBand4.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="gridPlanning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1330, 569</value>
+  </data>
+  <data name="gridPlanning.TabIndex" type="System.Int32, mscorlib">
+    <value>235</value>
+  </data>
+  <data name="&gt;&gt;gridPlanning.Name" xml:space="preserve">
+    <value>gridPlanning</value>
+  </data>
+  <data name="&gt;&gt;gridPlanning.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridPlanning.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gridPlanning.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdFermer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="cmdFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="cmdFermer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 524</value>
+  </data>
+  <data name="cmdFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 57</value>
+  </data>
+  <data name="cmdFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>234</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Name" xml:space="preserve">
+    <value>cmdFermer</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Type" xml:space="preserve">
+    <value>MozartUC.apiButton, Mozart.UC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdFermer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnExportXLS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnExportXLS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnExportXLS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 90</value>
+  </data>
+  <data name="BtnExportXLS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 42</value>
+  </data>
+  <data name="BtnExportXLS.TabIndex" type="System.Int32, mscorlib">
+    <value>236</value>
+  </data>
+  <data name="BtnExportXLS.Text" xml:space="preserve">
+    <value>Export EXCEL</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Name" xml:space="preserve">
+    <value>BtnExportXLS</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnExportXLS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1443, 593</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Plan de charge global</value>
+  </data>
+  <data name="&gt;&gt;gridBand2.Name" xml:space="preserve">
+    <value>gridBand2</value>
+  </data>
+  <data name="&gt;&gt;gridBand2.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColCAPAINTERNE.Name" xml:space="preserve">
+    <value>ColCAPAINTERNE</value>
+  </data>
+  <data name="&gt;&gt;ColCAPAINTERNE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColTXCHARGE.Name" xml:space="preserve">
+    <value>ColTXCHARGE</value>
+  </data>
+  <data name="&gt;&gt;ColTXCHARGE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColTXCHARGEAN.Name" xml:space="preserve">
+    <value>ColTXCHARGEAN</value>
+  </data>
+  <data name="&gt;&gt;ColTXCHARGEAN.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bandedGridView1.Name" xml:space="preserve">
+    <value>bandedGridView1</value>
+  </data>
+  <data name="&gt;&gt;bandedGridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand1.Name" xml:space="preserve">
+    <value>gridBand1</value>
+  </data>
+  <data name="&gt;&gt;gridBand1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColCANNUM.Name" xml:space="preserve">
+    <value>ColCANNUM</value>
+  </data>
+  <data name="&gt;&gt;ColCANNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColCHAFF.Name" xml:space="preserve">
+    <value>ColCHAFF</value>
+  </data>
+  <data name="&gt;&gt;ColCHAFF.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColMONTANT.Name" xml:space="preserve">
+    <value>ColMONTANT</value>
+  </data>
+  <data name="&gt;&gt;ColMONTANT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColINTITULE.Name" xml:space="preserve">
+    <value>ColINTITULE</value>
+  </data>
+  <data name="&gt;&gt;ColINTITULE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColCHARGEPREV.Name" xml:space="preserve">
+    <value>ColCHARGEPREV</value>
+  </data>
+  <data name="&gt;&gt;ColCHARGEPREV.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bandHeures.Name" xml:space="preserve">
+    <value>bandHeures</value>
+  </data>
+  <data name="&gt;&gt;bandHeures.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColHEURES.Name" xml:space="preserve">
+    <value>ColHEURES</value>
+  </data>
+  <data name="&gt;&gt;ColHEURES.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColHDEVIS.Name" xml:space="preserve">
+    <value>ColHDEVIS</value>
+  </data>
+  <data name="&gt;&gt;ColHDEVIS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColHREA.Name" xml:space="preserve">
+    <value>ColHREA</value>
+  </data>
+  <data name="&gt;&gt;ColHREA.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColHREST.Name" xml:space="preserve">
+    <value>ColHREST</value>
+  </data>
+  <data name="&gt;&gt;ColHREST.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColHTOT.Name" xml:space="preserve">
+    <value>ColHTOT</value>
+  </data>
+  <data name="&gt;&gt;ColHTOT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bandChargePrevisionnelle.Name" xml:space="preserve">
+    <value>bandChargePrevisionnelle</value>
+  </data>
+  <data name="&gt;&gt;bandChargePrevisionnelle.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridBand4.Name" xml:space="preserve">
+    <value>gridBand4</value>
+  </data>
+  <data name="&gt;&gt;gridBand4.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.GridBand, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ColRELIQUAT.Name" xml:space="preserve">
+    <value>ColRELIQUAT</value>
+  </data>
+  <data name="&gt;&gt;ColRELIQUAT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPlanDeChargeGlobal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

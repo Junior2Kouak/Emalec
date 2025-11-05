@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detaliu angajat</value>
+  </data>
+  <data name="CmdTestCompet1.Text" xml:space="preserve">
+    <value>Discuții</value>
+  </data>
+  <data name="CmdTestCompet0.Text" xml:space="preserve">
+    <value>Testarea cunoștințelor</value>
+  </data>
+  <data name="cmdCourrier.Text" xml:space="preserve">
+    <value>Corespondență personală</value>
+  </data>
+  <data name="cmdFormation.Text" xml:space="preserve">
+    <value>Instruire</value>
+  </data>
+  <data name="cmdCarte.Text" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="cmdFichePerso.Text" xml:space="preserve">
+    <value>Fișă personală</value>
+  </data>
+  <data name="cmdVisualiser.Text" xml:space="preserve">
+    <value>Vizualizați</value>
+  </data>
+  <data name="cmdEnregistrer.Text" xml:space="preserve">
+    <value>Salvați</value>
+  </data>
+  <data name="cmdFermer.Text" xml:space="preserve">
+    <value>Închideți</value>
+  </data>
+  <data name="Frame11.Text" xml:space="preserve">
+    <value>Istorice</value>
+  </data>
+  <data name="ChkTypePoste1.Text" xml:space="preserve">
+    <value>Itinerant</value>
+  </data>
+  <data name="ChkTypePoste0.Text" xml:space="preserve">
+    <value>Repartizat</value>
+  </data>
+  <data name="CmdDepConMait.Text" xml:space="preserve">
+    <value>Introducere departamente</value>
+  </data>
+  <data name="cmdLangues.Text" xml:space="preserve">
+    <value>Introducere limbi</value>
+  </data>
+  <data name="chkGrp.Text" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="chkE.Text" xml:space="preserve">
+    <value>E (Remorcă)</value>
+  </data>
+  <data name="chkC.Text" xml:space="preserve">
+    <value>CACES (Nacelă)</value>
+  </data>
+  <data name="chkB.Text" xml:space="preserve">
+    <value>B (VL)</value>
+  </data>
+  <data name="Frame14.Text" xml:space="preserve">
+    <value>Permis de conducere</value>
+  </data>
+  <data name="cmdContrat.Text" xml:space="preserve">
+    <value>Introducere contracte</value>
+  </data>
+  <data name="Label551.Text" xml:space="preserve">
+    <value>Amplasament</value>
+  </data>
+  <data name="Label550.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Departamente</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Limbi străine</value>
+  </data>
+  <data name="lblCompPrev.Text" xml:space="preserve">
+    <value>Competențe măsuri preventive</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>Departament</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>Departament</value>
+  </data>
+  <data name="Label519.Text" xml:space="preserve">
+    <value>Funcție</value>
+  </data>
+  <data name="Frame2.Text" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="lblLabels6.Text" xml:space="preserve">
+    <value>Raportul acțiunii</value>
+  </data>
+  <data name="lblLabels7.Text" xml:space="preserve">
+    <value>Raport facturare</value>
+  </data>
+  <data name="framEtat.Text" xml:space="preserve">
+    <value>Raportul acțiunii</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>Adr 2</value>
+  </data>
+  <data name="Label512.Text" xml:space="preserve">
+    <value>CP + Oraș</value>
+  </data>
+  <data name="Label513.Text" xml:space="preserve">
+    <value>Adr 1</value>
+  </data>
+  <data name="Label521.Text" xml:space="preserve">
+    <value>Țară</value>
+  </data>
+  <data name="Frame5.Text" xml:space="preserve">
+    <value>Adresă</value>
+  </data>
+  <data name="lblLabels13.Text" xml:space="preserve">
+    <value>Numele înaintea căsătoriei</value>
+  </data>
+  <data name="Label527.Text" xml:space="preserve">
+    <value>Nr. securitate</value>
+  </data>
+  <data name="Label526.Text" xml:space="preserve">
+    <value>Secțiune pentru salariat</value>
+  </data>
+  <data name="lblLabels20.Text" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Formulă de adresare</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Prenume</value>
+  </data>
+  <data name="Frame7.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="lblLabels17.Text" xml:space="preserve">
+    <value>Authorization for distribution to personal email</value>
+  </data>
+  <data name="lblLabels3.Text" xml:space="preserve">
+    <value>Post intern</value>
+  </data>
+  <data name="lblLabels5.Text" xml:space="preserve">
+    <value>GSM personal</value>
+  </data>
+  <data name="lblLabels8.Text" xml:space="preserve">
+    <value>e-mail</value>
+  </data>
+  <data name="lblLabels0.Text" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Frame10.Text" xml:space="preserve">
+    <value>Coordonate</value>
+  </data>
+  <data name="Cmd_DetVeh.Text" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="ChkObj.Text" xml:space="preserve">
+    <value>Obiective</value>
+  </data>
+  <data name="ChkNonCuccuren.Text" xml:space="preserve">
+    <value>Clauză de neconcurență</value>
+  </data>
+  <data name="Frame16.Text" xml:space="preserve">
+    <value>Clauze contractuale</value>
+  </data>
+  <data name="lblLabels12.Text" xml:space="preserve">
+    <value>Situație</value>
+  </data>
+  <data name="Frame13.Text" xml:space="preserve">
+    <value>Situație familială</value>
+  </data>
+  <data name="Label525.Text" xml:space="preserve">
+    <value>Contramaistru</value>
+  </data>
+  <data name="CmdAffectChaffChantier.Text" xml:space="preserve">
+    <value>Alocare șantier CHAFF</value>
+  </data>
+  <data name="lblLabels11.Text" xml:space="preserve">
+    <value>Fișier</value>
+  </data>
+  <data name="lblLabels2.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Frame12.Text" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="Label517.Text" xml:space="preserve">
+    <value>Plata în avans</value>
+  </data>
+  <data name="Label520.Text" xml:space="preserve">
+    <value>Autorizație</value>
+  </data>
+  <data name="Label522.Text" xml:space="preserve">
+    <value>Sumă Plata în avans</value>
+  </data>
+  <data name="Frame8.Text" xml:space="preserve">
+    <value>"Date "</value>
+  </data>
+  <data name="Label540.Text" xml:space="preserve">
+    <value>Cpt DIF</value>
+  </data>
+  <data name="Label539.Text" xml:space="preserve">
+    <value>Rată trans.</value>
+  </data>
+  <data name="Label538.Text" xml:space="preserve">
+    <value>Rată AT</value>
+  </data>
+  <data name="Label518.Text" xml:space="preserve">
+    <value>Cost pe oră</value>
+  </data>
+  <data name="Label516.Text" xml:space="preserve">
+    <value>Salariu</value>
+  </data>
+  <data name="lblLabels9.Text" xml:space="preserve">
+    <value>Nr. ore</value>
+  </data>
+  <data name="Frame6.Text" xml:space="preserve">
+    <value>Costuri</value>
+  </data>
+  <data name="Label532.Text" xml:space="preserve">
+    <value>Dată de valabilitate</value>
+  </data>
+  <data name="Label531.Text" xml:space="preserve">
+    <value>Livrată de</value>
+  </data>
+  <data name="Frame15.Text" xml:space="preserve">
+    <value>Permis de ședere</value>
+  </data>
+  <data name="Label534.Text" xml:space="preserve">
+    <value>Cod INSEE</value>
+  </data>
+  <data name="Label535.Text" xml:space="preserve">
+    <value>Cod conv coll.</value>
+  </data>
+  <data name="Label536.Text" xml:space="preserve">
+    <value>Cod conv coll. DAD-U</value>
+  </data>
+  <data name="Label537.Text" xml:space="preserve">
+    <value>Cod meserie BTP</value>
+  </data>
+  <data name="lblLabels15.Text" xml:space="preserve">
+    <value>Ocuparea forței de muncă</value>
+  </data>
+  <data name="Label533.Text" xml:space="preserve">
+    <value>Tip de lucrare</value>
+  </data>
+  <data name="Label530.Text" xml:space="preserve">
+    <value>Naționalitate</value>
+  </data>
+  <data name="Label529.Text" xml:space="preserve">
+    <value>Țară Naștere</value>
+  </data>
+  <data name="Label528.Text" xml:space="preserve">
+    <value>Comună naștere</value>
+  </data>
+  <data name="Label524.Text" xml:space="preserve">
+    <value>Vechime int.</value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>Intrare</value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>Ieșire</value>
+  </data>
+  <data name="Label523.Text" xml:space="preserve">
+    <value>Intrare proviz</value>
+  </data>
+  <data name="Label514.Text" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="Label515.Text" xml:space="preserve">
+    <value>Coeficient</value>
+  </data>
+  <data name="Label511.Text" xml:space="preserve">
+    <value>Scară metalică</value>
+  </data>
+  <data name="Label510.Text" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>Colegiu</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>Vechime</value>
+  </data>
+  <data name="Label56.Text" xml:space="preserve">
+    <value>Vârstă</value>
+  </data>
+  <data name="lblLabels4.Text" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+  <data name="Frame4.Text" xml:space="preserve">
+    <value>Datele societății</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Detalii angajat</value>
+  </data>
+  <data name="apiGroupBox1.Text" xml:space="preserve">
+    <value>Alte beneficii în natură</value>
+  </data>
+  <data name="apiLabel2.Text" xml:space="preserve">
+    <value>Remunerarea anuală brută</value>
+  </data>
+  <data name="btnPrimeCC.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="btnPrimeNonCC.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="chkVisuPlanning.Text" xml:space="preserve">
+    <value>Nu arătați acest angajat în programul MOZART și nu îl atribuiți automat la preventive</value>
+  </data>
+  <data name="cmdRecherche.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="Frame18.Text" xml:space="preserve">
+    <value>Manager operațiuni tehnice regionale</value>
+  </data>
+  <data name="lblNbMoisContractuel.Text" xml:space="preserve">
+    <value>Numărul de luni contractuale</value>
+  </data>
+</root>

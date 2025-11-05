@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblTech.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt, style=Bold</value>
+  </data>
+  <data name="LblTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 54</value>
+  </data>
+  <data name="LblTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 42</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblTech.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LblTech.Text" xml:space="preserve">
+    <value>Technicien :</value>
+  </data>
+  <data name="&gt;&gt;LblTech.Name" xml:space="preserve">
+    <value>LblTech</value>
+  </data>
+  <data name="&gt;&gt;LblTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTech.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTech.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GCQCMDetail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 99</value>
+  </data>
+  <data name="GVQCMDetail.Appearance.GroupRow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GColDetailNIDFICQCM.Caption" xml:space="preserve">
+    <value>NIDFICQCM</value>
+  </data>
+  <data name="GColDetailNIDQCMQUESTION.Caption" xml:space="preserve">
+    <value>NIDQCMQUESTION</value>
+  </data>
+  <data name="GColDetailVQCMQUESTIONLIB.Caption" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="GColDetailVQCMREPONSELIB.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GColDetailVQCMREPONSELIB.Caption" xml:space="preserve">
+    <value>Questionnaire</value>
+  </data>
+  <data name="GColDetailVQCMREPONSELIB.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColDetailVQCMREPONSELIB.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GColDetailVQCMREPONSELIB.Width" type="System.Int32, mscorlib">
+    <value>800</value>
+  </data>
+  <data name="GColDetailBFICQCMREPTECH.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GColDetailBFICQCMREPTECH.Caption" xml:space="preserve">
+    <value>Réponse Technicien</value>
+  </data>
+  <data name="GColDetailBFICQCMREPTECH.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColDetailBFICQCMREPTECH.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GColDetailBFICQCMREPTECH.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="GColDetailBQCMREPONSEVALID.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GColDetailBQCMREPONSEVALID.Caption" xml:space="preserve">
+    <value>Correction</value>
+  </data>
+  <data name="GColDetailBQCMREPONSEVALID.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColDetailBQCMREPONSEVALID.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GColDetailBQCMREPONSEVALID.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="GColDetailNQCMQUESTIONORDER.Caption" xml:space="preserve">
+    <value>Ordre</value>
+  </data>
+  <data name="GColDetailNPERNUM.Caption" xml:space="preserve">
+    <value>NPERNUM</value>
+  </data>
+  <data name="GColDetailVCORRECTCOM.AppearanceHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GColDetailVCORRECTCOM.Caption" xml:space="preserve">
+    <value>Actions correctives</value>
+  </data>
+  <data name="GColDetailVCORRECTCOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GColDetailVCORRECTCOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GColDetailVCORRECTCOM.Width" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="GColDetailDCORRECTVALIDTECH.Caption" xml:space="preserve">
+    <value>DCORRECTVALIDTECH</value>
+  </data>
+  <data name="GColDetailNIDREP.Caption" xml:space="preserve">
+    <value>NIDREP</value>
+  </data>
+  <data name="GColDetailVTYPEREP.Caption" xml:space="preserve">
+    <value>VTYPEREP</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="GVQCMDetail.GroupSummary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Custom</value>
+  </data>
+  <data name="GVQCMDetail.GroupSummary1" xml:space="preserve">
+    <value>BFICQCMREPTECH</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GVQCMDetail.GroupSummary2" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="GVQCMDetail.GroupSummary3" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="GCQCMDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1492, 683</value>
+  </data>
+  <data name="GCQCMDetail.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;GCQCMDetail.Name" xml:space="preserve">
+    <value>GCQCMDetail</value>
+  </data>
+  <data name="&gt;&gt;GCQCMDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GCQCMDetail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GCQCMDetail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt, style=Bold</value>
+  </data>
+  <data name="LblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 12</value>
+  </data>
+  <data name="LblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1246, 42</value>
+  </data>
+  <data name="LblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LblTitre.Text" xml:space="preserve">
+    <value>QCM :</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Name" xml:space="preserve">
+    <value>LblTitre</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 152</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 44</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnAppliqCorrectAuto.Text" xml:space="preserve">
+    <value>Appliquer correction automatique</value>
+  </data>
+  <data name="&gt;&gt;BtnAppliqCorrectAuto.Name" xml:space="preserve">
+    <value>BtnAppliqCorrectAuto</value>
+  </data>
+  <data name="&gt;&gt;BtnAppliqCorrectAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAppliqCorrectAuto.Parent" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnAppliqCorrectAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnCTRL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnCTRL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 368</value>
+  </data>
+  <data name="BtnCTRL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 81</value>
+  </data>
+  <data name="BtnCTRL.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BtnCTRL.Text" xml:space="preserve">
+    <value>Valider la correction et l'envoyer à l'auteur de la réponse</value>
+  </data>
+  <data name="BtnCTRL.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BtnCTRL.Name" xml:space="preserve">
+    <value>BtnCTRL</value>
+  </data>
+  <data name="&gt;&gt;BtnCTRL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCTRL.Parent" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnCTRL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnSaveCorrect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnSaveCorrect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="BtnSaveCorrect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 44</value>
+  </data>
+  <data name="BtnSaveCorrect.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnSaveCorrect.Text" xml:space="preserve">
+    <value>Enregistrer correction</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCorrect.Name" xml:space="preserve">
+    <value>BtnSaveCorrect</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCorrect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCorrect.Parent" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCorrect.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnEditRep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnEditRep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 271</value>
+  </data>
+  <data name="BtnEditRep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 38</value>
+  </data>
+  <data name="BtnEditRep.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnEditRep.Text" xml:space="preserve">
+    <value>Edition Réponse</value>
+  </data>
+  <data name="BtnEditRep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;BtnEditRep.Name" xml:space="preserve">
+    <value>BtnEditRep</value>
+  </data>
+  <data name="&gt;&gt;BtnEditRep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnEditRep.Parent" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnEditRep.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 546</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 38</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GrpBoxActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GrpBoxActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 590</value>
+  </data>
+  <data name="GrpBoxActions.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxActions.Name" xml:space="preserve">
+    <value>GrpBoxActions</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBoxActions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1668, 794</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frmQCMDetailResult</value>
+  </data>
+  <data name="&gt;&gt;GVQCMDetail.Name" xml:space="preserve">
+    <value>GVQCMDetail</value>
+  </data>
+  <data name="&gt;&gt;GVQCMDetail.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDFICQCM.Name" xml:space="preserve">
+    <value>GColDetailNIDFICQCM</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDFICQCM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDQCMQUESTION.Name" xml:space="preserve">
+    <value>GColDetailNIDQCMQUESTION</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDQCMQUESTION.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVQCMQUESTIONLIB.Name" xml:space="preserve">
+    <value>GColDetailVQCMQUESTIONLIB</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVQCMQUESTIONLIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVQCMREPONSELIB.Name" xml:space="preserve">
+    <value>GColDetailVQCMREPONSELIB</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVQCMREPONSELIB.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemRichTextEditReponse.Name" xml:space="preserve">
+    <value>RepositoryItemRichTextEditReponse</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemRichTextEditReponse.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemRichTextEdit, DevExpress.XtraRichEdit.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailBFICQCMREPTECH.Name" xml:space="preserve">
+    <value>GColDetailBFICQCMREPTECH</value>
+  </data>
+  <data name="&gt;&gt;GColDetailBFICQCMREPTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailBQCMREPONSEVALID.Name" xml:space="preserve">
+    <value>GColDetailBQCMREPONSEVALID</value>
+  </data>
+  <data name="&gt;&gt;GColDetailBQCMREPONSEVALID.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNQCMQUESTIONORDER.Name" xml:space="preserve">
+    <value>GColDetailNQCMQUESTIONORDER</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNQCMQUESTIONORDER.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNPERNUM.Name" xml:space="preserve">
+    <value>GColDetailNPERNUM</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNPERNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVCORRECTCOM.Name" xml:space="preserve">
+    <value>GColDetailVCORRECTCOM</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVCORRECTCOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoEditCorrect.Name" xml:space="preserve">
+    <value>RepositoryItemMemoEditCorrect</value>
+  </data>
+  <data name="&gt;&gt;RepositoryItemMemoEditCorrect.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailDCORRECTVALIDTECH.Name" xml:space="preserve">
+    <value>GColDetailDCORRECTVALIDTECH</value>
+  </data>
+  <data name="&gt;&gt;GColDetailDCORRECTVALIDTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDREP.Name" xml:space="preserve">
+    <value>GColDetailNIDREP</value>
+  </data>
+  <data name="&gt;&gt;GColDetailNIDREP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVTYPEREP.Name" xml:space="preserve">
+    <value>GColDetailVTYPEREP</value>
+  </data>
+  <data name="&gt;&gt;GColDetailVTYPEREP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmQCMDetailResult</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

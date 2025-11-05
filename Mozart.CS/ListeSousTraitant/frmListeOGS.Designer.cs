@@ -1,0 +1,141 @@
+namespace MozartCS
+{
+  partial class frmListeOGS
+  {
+    /// <summary>
+    /// Required designer variable.
+    /// </summary>
+    private System.ComponentModel.IContainer components = null;
+
+    /// <summary>
+    /// Clean up any resources being used.
+    /// </summary>
+    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    protected override void Dispose(bool disposing)
+    {
+      if (disposing && (components != null))
+      {
+        components.Dispose();
+      }
+      base.Dispose(disposing);
+    }
+
+    #region Windows Form Designer generated code
+
+    /// <summary>
+    /// Required method for Designer support - do not modify
+    /// the contents of this method with the code editor.
+    /// </summary>
+    private void InitializeComponent()
+    {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListeOGS));
+      this.cmdVisu = new MozartUC.apiButton();
+      this.cmdNouvelle = new MozartUC.apiButton();
+      this.cmdModifier = new MozartUC.apiButton();
+      this.cmdQuitter = new MozartUC.apiButton();
+      this.cmdSupprimer = new MozartUC.apiButton();
+      this.apiGrid = new MozartUC.apiTGrid();
+      this.Label1 = new MozartUC.apiLabel();
+      this.SuspendLayout();
+      // 
+      // cmdVisu
+      // 
+      resources.ApplyResources(this.cmdVisu, "cmdVisu");
+      this.cmdVisu.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.cmdVisu.HelpContextID = 0;
+      this.cmdVisu.Name = "cmdVisu";
+      this.cmdVisu.Tag = "4";
+      this.cmdVisu.UseVisualStyleBackColor = true;
+      this.cmdVisu.Click += new System.EventHandler(this.cmdVisu_Click);
+      // 
+      // cmdNouvelle
+      // 
+      resources.ApplyResources(this.cmdNouvelle, "cmdNouvelle");
+      this.cmdNouvelle.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.cmdNouvelle.HelpContextID = 0;
+      this.cmdNouvelle.Name = "cmdNouvelle";
+      this.cmdNouvelle.Tag = "2";
+      this.cmdNouvelle.UseVisualStyleBackColor = true;
+      this.cmdNouvelle.Click += new System.EventHandler(this.cmdNouvelle_Click);
+      // 
+      // cmdModifier
+      // 
+      resources.ApplyResources(this.cmdModifier, "cmdModifier");
+      this.cmdModifier.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.cmdModifier.HelpContextID = 0;
+      this.cmdModifier.Name = "cmdModifier";
+      this.cmdModifier.Tag = "19";
+      this.cmdModifier.UseVisualStyleBackColor = true;
+      this.cmdModifier.Click += new System.EventHandler(this.cmdModifier_Click);
+      // 
+      // cmdQuitter
+      // 
+      resources.ApplyResources(this.cmdQuitter, "cmdQuitter");
+      this.cmdQuitter.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+      this.cmdQuitter.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.cmdQuitter.HelpContextID = 0;
+      this.cmdQuitter.Name = "cmdQuitter";
+      this.cmdQuitter.Tag = "15";
+      this.cmdQuitter.UseVisualStyleBackColor = true;
+      this.cmdQuitter.Click += new System.EventHandler(this.cmdQuitter_Click);
+      // 
+      // cmdSupprimer
+      // 
+      resources.ApplyResources(this.cmdSupprimer, "cmdSupprimer");
+      this.cmdSupprimer.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.cmdSupprimer.HelpContextID = 0;
+      this.cmdSupprimer.Name = "cmdSupprimer";
+      this.cmdSupprimer.Tag = "27";
+      this.cmdSupprimer.UseVisualStyleBackColor = true;
+      this.cmdSupprimer.Click += new System.EventHandler(this.cmdSupprimer_Click);
+      // 
+      // apiGrid
+      // 
+      resources.ApplyResources(this.apiGrid, "apiGrid");
+      this.apiGrid.FilterBar = true;
+      this.apiGrid.FooterBar = true;
+      this.apiGrid.Name = "apiGrid";
+      this.apiGrid.DoubleClickE += new MozartUC.apiTGrid.DoubleClickEEventHandler(this.apiGrid_DoubleClickE);
+      // 
+      // Label1
+      // 
+      resources.ApplyResources(this.Label1, "Label1");
+      this.Label1.BackColor = System.Drawing.Color.Wheat;
+      this.Label1.ForeColor = System.Drawing.SystemColors.ControlText;
+      this.Label1.HelpContextID = 0;
+      this.Label1.Name = "Label1";
+      // 
+      // frmListeOGS
+      // 
+      this.BackColor = System.Drawing.Color.Wheat;
+      this.CancelButton = this.cmdQuitter;
+      resources.ApplyResources(this, "$this");
+      this.Controls.Add(this.cmdVisu);
+      this.Controls.Add(this.cmdNouvelle);
+      this.Controls.Add(this.cmdModifier);
+      this.Controls.Add(this.cmdQuitter);
+      this.Controls.Add(this.cmdSupprimer);
+      this.Controls.Add(this.apiGrid);
+      this.Controls.Add(this.Label1);
+      this.Name = "frmListeOGS";
+      this.ShowInTaskbar = false;
+      this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+      this.Load += new System.EventHandler(this.frmListeOGS_Load);
+      this.ResumeLayout(false);
+      this.PerformLayout();
+
+    }
+
+    #endregion
+
+    private MozartUC.apiButton cmdVisu;
+    private MozartUC.apiButton cmdNouvelle;
+    private MozartUC.apiButton cmdModifier;
+    private MozartUC.apiButton cmdQuitter;
+    private MozartUC.apiButton cmdSupprimer;
+    private MozartUC.apiTGrid apiGrid;
+    private MozartUC.apiLabel Label1;
+    // TODO GetCodeDeclareControl cas non traité pour type VB.Line
+
+  }
+}

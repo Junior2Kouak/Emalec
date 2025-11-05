@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 942</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 48</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="GrpActions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 999</value>
+  </data>
+  <data name="GrpActions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Name" xml:space="preserve">
+    <value>GrpActions</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpActions.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnPrintGraph1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnPrintGraph1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>762, 268</value>
+  </data>
+  <data name="BtnPrintGraph1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 41</value>
+  </data>
+  <data name="BtnPrintGraph1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnPrintGraph1.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph1.Name" xml:space="preserve">
+    <value>BtnPrintGraph1</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph1.Parent" xml:space="preserve">
+    <value>GrpCA</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Angle" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>Montant en K €</value>
+  </data>
+  <assembly alias="DevExpress.XtraCharts.v22.2" name="DevExpress.XtraCharts.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="SecondaryAxisY1.Alignment" type="DevExpress.XtraCharts.AxisAlignment, DevExpress.XtraCharts.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.Legend.AlignmentHorizontal" type="DevExpress.XtraCharts.LegendAlignmentHorizontal, DevExpress.XtraCharts.v22.2">
+    <value>Left</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v22.2">
+    <value>BottomOutside</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.Legend.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="Series1.Name" xml:space="preserve">
+    <value>SeriesCATOT</value>
+  </data>
+  <data name="RegressionLine1.Name" xml:space="preserve">
+    <value>Courbe de tendance du CA total</value>
+  </data>
+  <data name="Series2.Name" xml:space="preserve">
+    <value>SeriesCATOTINT</value>
+  </data>
+  <data name="Series3.Name" xml:space="preserve">
+    <value>SeriesCATOTSTF</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1143, 302</value>
+  </data>
+  <data name="ChartCtrlStatRHChargeStruct.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlStatRHChargeStruct.Name" xml:space="preserve">
+    <value>ChartCtrlStatRHChargeStruct</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlStatRHChargeStruct.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlStatRHChargeStruct.Parent" xml:space="preserve">
+    <value>GrpCA</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlStatRHChargeStruct.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 47</value>
+  </data>
+  <data name="GrpCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1158, 327</value>
+  </data>
+  <data name="GrpCA.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpCA.Text" xml:space="preserve">
+    <value>Statistique par CA</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Name" xml:space="preserve">
+    <value>GrpCA</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpCA.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnPrintGraph2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnPrintGraph2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 260</value>
+  </data>
+  <data name="BtnPrintGraph2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 41</value>
+  </data>
+  <data name="BtnPrintGraph2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnPrintGraph2.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph2.Name" xml:space="preserve">
+    <value>BtnPrintGraph2</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph2.Parent" xml:space="preserve">
+    <value>GrpPers</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Angle1" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="resource.Text3" xml:space="preserve">
+    <value>Nbre personnes</value>
+  </data>
+  <data name="SecondaryAxisY2.Alignment" type="DevExpress.XtraCharts.AxisAlignment, DevExpress.XtraCharts.v22.2">
+    <value>Near</value>
+  </data>
+  <data name="ChartCtrlPers.Legend.AlignmentHorizontal" type="DevExpress.XtraCharts.LegendAlignmentHorizontal, DevExpress.XtraCharts.v22.2">
+    <value>Left</value>
+  </data>
+  <data name="ChartCtrlPers.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v22.2">
+    <value>BottomOutside</value>
+  </data>
+  <data name="ChartCtrlPers.Legend.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ChartCtrlPers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 19</value>
+  </data>
+  <data name="Series4.Name" xml:space="preserve">
+    <value>SeriesNNBPERTOT</value>
+  </data>
+  <data name="RegressionLine2.Name" xml:space="preserve">
+    <value>Courbe de tendance du personnel</value>
+  </data>
+  <data name="Series5.Name" xml:space="preserve">
+    <value>SeriesNNBTECH</value>
+  </data>
+  <data name="Series6.Name" xml:space="preserve">
+    <value>SeriesNNBPERSTRUCT</value>
+  </data>
+  <data name="Series7.Name" xml:space="preserve">
+    <value>SeriesNNBPERSTRUCTOPE</value>
+  </data>
+  <data name="ChartCtrlPers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1143, 302</value>
+  </data>
+  <data name="ChartCtrlPers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPers.Name" xml:space="preserve">
+    <value>ChartCtrlPers</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPers.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPers.Parent" xml:space="preserve">
+    <value>GrpPers</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlPers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpPers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 384</value>
+  </data>
+  <data name="GrpPers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 327</value>
+  </data>
+  <data name="GrpPers.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GrpPers.Text" xml:space="preserve">
+    <value>Statistique par personne</value>
+  </data>
+  <data name="&gt;&gt;GrpPers.Name" xml:space="preserve">
+    <value>GrpPers</value>
+  </data>
+  <data name="&gt;&gt;GrpPers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpPers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpPers.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnPrintGraph3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnPrintGraph3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>764, 267</value>
+  </data>
+  <data name="BtnPrintGraph3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 41</value>
+  </data>
+  <data name="BtnPrintGraph3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnPrintGraph3.Text" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph3.Name" xml:space="preserve">
+    <value>BtnPrintGraph3</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph3.Parent" xml:space="preserve">
+    <value>GrpTx</value>
+  </data>
+  <data name="&gt;&gt;BtnPrintGraph3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Angle2" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="resource.Text4" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="resource.Text5" xml:space="preserve">
+    <value>Nbre pers</value>
+  </data>
+  <data name="resource.Text6" xml:space="preserve">
+    <value>En %</value>
+  </data>
+  <data name="ChartCtrlTaux.Legend.AlignmentHorizontal" type="DevExpress.XtraCharts.LegendAlignmentHorizontal, DevExpress.XtraCharts.v22.2">
+    <value>Left</value>
+  </data>
+  <data name="ChartCtrlTaux.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v22.2">
+    <value>BottomOutside</value>
+  </data>
+  <data name="ChartCtrlTaux.Legend.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8pt, style=Bold</value>
+  </data>
+  <data name="ChartCtrlTaux.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="Series8.Name" xml:space="preserve">
+    <value>SeriesNTAUXEFFTOT</value>
+  </data>
+  <data name="RegressionLine3.Name" xml:space="preserve">
+    <value>Courbe de tendance Taux</value>
+  </data>
+  <data name="Series9.Name" xml:space="preserve">
+    <value>SeriesNTXCATOT</value>
+  </data>
+  <data name="RegressionLine4.Name" xml:space="preserve">
+    <value>Regression Line 1</value>
+  </data>
+  <data name="Series10.Name" xml:space="preserve">
+    <value>SeriesNTXCAINT</value>
+  </data>
+  <data name="RegressionLine5.Name" xml:space="preserve">
+    <value>Regression Line 1</value>
+  </data>
+  <data name="ChartCtrlTaux.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1147, 302</value>
+  </data>
+  <data name="ChartCtrlTaux.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlTaux.Name" xml:space="preserve">
+    <value>ChartCtrlTaux</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlTaux.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v22.2.UI, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlTaux.Parent" xml:space="preserve">
+    <value>GrpTx</value>
+  </data>
+  <data name="&gt;&gt;ChartCtrlTaux.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpTx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 717</value>
+  </data>
+  <data name="GrpTx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1160, 327</value>
+  </data>
+  <data name="GrpTx.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GrpTx.Text" xml:space="preserve">
+    <value>Statistique taux de structure</value>
+  </data>
+  <data name="&gt;&gt;GrpTx.Name" xml:space="preserve">
+    <value>GrpTx</value>
+  </data>
+  <data name="&gt;&gt;GrpTx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpTx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpTx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="LblTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 12</value>
+  </data>
+  <data name="LblTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 19</value>
+  </data>
+  <data name="LblTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="LblTitre.Text" xml:space="preserve">
+    <value>Statistique - Charge de structure</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Name" xml:space="preserve">
+    <value>LblTitre</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTitre.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblDateJour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDateJour.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblDateJour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 12</value>
+  </data>
+  <data name="lblDateJour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="lblDateJour.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="lblDateJour.Text" xml:space="preserve">
+    <value>, le --/--/----</value>
+  </data>
+  <data name="&gt;&gt;lblDateJour.Name" xml:space="preserve">
+    <value>lblDateJour</value>
+  </data>
+  <data name="&gt;&gt;lblDateJour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDateJour.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDateJour.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Appearance.ColumnHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Appearance.DataHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Appearance.FieldHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Appearance.HeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Appearance.RowHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEECA.Appearance.Cell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEECA.Caption" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="PGFNCATOT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNCATOT.Caption" xml:space="preserve">
+    <value>Chiffre d’affaire par an (en K €)</value>
+  </data>
+  <data name="PGFNCATOT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNCATOT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFNCAST.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNCAST.Caption" xml:space="preserve">
+    <value>Chiffre d’affaire sous-traité  (en K €)</value>
+  </data>
+  <data name="PGFNCAST.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNCAST.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFNCAINT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNCAINT.Caption" xml:space="preserve">
+    <value>Chiffre d’affaire interne  (en K €)</value>
+  </data>
+  <data name="PGFNCAINT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNCAINT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1301, 57</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 299</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="PGCStatRHChargeStructCA.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructCA.Name" xml:space="preserve">
+    <value>PGCStatRHChargeStructCA</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructCA.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridControl, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructCA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructCA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Appearance.ColumnHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Appearance.DataHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Appearance.FieldHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Appearance.HeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Appearance.RowHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEEPER.Appearance.Cell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEEPER.Caption" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="PGFNNBPERTOT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNNBPERTOT.Caption" xml:space="preserve">
+    <value>Nombre de personnes total</value>
+  </data>
+  <data name="PGFNNBPERTOT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNNBPERTOT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFNNBTECH.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNNBTECH.Caption" xml:space="preserve">
+    <value>Nombre de techniciens</value>
+  </data>
+  <data name="PGFNNBTECH.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNNBTECH.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFNNBPERSTRUCT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNNBPERSTRUCT.Caption" xml:space="preserve">
+    <value>Nombre de personnes internes</value>
+  </data>
+  <data name="PGFNNBPERSTRUCT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFNNBPERSTRUCT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1566, 403</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 299</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="PGCStatRHChargeStructPers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructPers.Name" xml:space="preserve">
+    <value>PGCStatRHChargeStructPers</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructPers.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridControl, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructPers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PGCStatRHChargeStructPers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PGCTaux.Appearance.ColumnHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCTaux.Appearance.DataHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCTaux.Appearance.FieldHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCTaux.Appearance.HeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGCTaux.Appearance.RowHeaderArea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEETX.Appearance.Cell.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFNANNEETX.Caption" xml:space="preserve">
+    <value>Année</value>
+  </data>
+  <data name="PGFTXEFFTOT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFTXEFFTOT.Caption" xml:space="preserve">
+    <value>Taux de structure / effectif total (en %)</value>
+  </data>
+  <data name="PGFTXEFFTOT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFTXEFFTOT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFTXCATOT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFTXCATOT.Caption" xml:space="preserve">
+    <value>Taux de structure / CA total (Nb Pers / M €)</value>
+  </data>
+  <data name="PGFTXCATOT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFTXCATOT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGFTXCAINT.Appearance.Value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="PGFTXCAINT.Caption" xml:space="preserve">
+    <value>Taux de structure / CA hors interne, hors STT  (Nb Pers / M €)</value>
+  </data>
+  <data name="PGFTXCAINT.ColumnValueLineCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PGFTXCAINT.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="PGCTaux.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1310, 734</value>
+  </data>
+  <data name="PGCTaux.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 299</value>
+  </data>
+  <data name="PGCTaux.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="PGCTaux.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PGCTaux.Name" xml:space="preserve">
+    <value>PGCTaux</value>
+  </data>
+  <data name="&gt;&gt;PGCTaux.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridControl, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGCTaux.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PGCTaux.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPerim.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPerim.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPerim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="lblPerim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 177</value>
+  </data>
+  <data name="lblPerim.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="lblPerim.Text" xml:space="preserve">
+    <value>Nb Personnes fonctionnelles = </value>
+  </data>
+  <data name="&gt;&gt;lblPerim.Name" xml:space="preserve">
+    <value>lblPerim</value>
+  </data>
+  <data name="&gt;&gt;lblPerim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPerim.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;lblPerim.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9.75pt, style=Bold</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 30</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Périmètre de l'indicateur</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1289, 379</value>
+  </data>
+  <data name="GroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 332</value>
+  </data>
+  <data name="GroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Name" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1832, 1023</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Statistique - Charge de structure</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEECA.Name" xml:space="preserve">
+    <value>PGFNANNEECA</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEECA.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNCATOT.Name" xml:space="preserve">
+    <value>PGFNCATOT</value>
+  </data>
+  <data name="&gt;&gt;PGFNCATOT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNCAST.Name" xml:space="preserve">
+    <value>PGFNCAST</value>
+  </data>
+  <data name="&gt;&gt;PGFNCAST.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNCAINT.Name" xml:space="preserve">
+    <value>PGFNCAINT</value>
+  </data>
+  <data name="&gt;&gt;PGFNCAINT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEEPER.Name" xml:space="preserve">
+    <value>PGFNANNEEPER</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEEPER.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBPERTOT.Name" xml:space="preserve">
+    <value>PGFNNBPERTOT</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBPERTOT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBTECH.Name" xml:space="preserve">
+    <value>PGFNNBTECH</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBTECH.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBPERSTRUCT.Name" xml:space="preserve">
+    <value>PGFNNBPERSTRUCT</value>
+  </data>
+  <data name="&gt;&gt;PGFNNBPERSTRUCT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEETX.Name" xml:space="preserve">
+    <value>PGFNANNEETX</value>
+  </data>
+  <data name="&gt;&gt;PGFNANNEETX.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFTXEFFTOT.Name" xml:space="preserve">
+    <value>PGFTXEFFTOT</value>
+  </data>
+  <data name="&gt;&gt;PGFTXEFFTOT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFTXCATOT.Name" xml:space="preserve">
+    <value>PGFTXCATOT</value>
+  </data>
+  <data name="&gt;&gt;PGFTXCATOT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PGFTXCAINT.Name" xml:space="preserve">
+    <value>PGFTXCAINT</value>
+  </data>
+  <data name="&gt;&gt;PGFTXCAINT.Type" xml:space="preserve">
+    <value>DevExpress.XtraPivotGrid.PivotGridField, DevExpress.XtraPivotGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStatChargeStructure</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

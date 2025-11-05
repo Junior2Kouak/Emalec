@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GridControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="GridControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 34</value>
+  </data>
+  <data name="GridView1.Appearance.HeaderPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="GridView1.Appearance.SelectedRow.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>White</value>
+  </data>
+  <data name="NSTFNUM.Caption" xml:space="preserve">
+    <value>NSTFNUM</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="NSTFNUM.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NSTFNUM.Width" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="VSTFNOM.Caption" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="VSTFNOM.Summary" type="DevExpress.Data.SummaryItemType, DevExpress.Data.v22.2">
+    <value>Count</value>
+  </data>
+  <data name="VSTFNOM.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSTFNOM.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="VSTFNOM.Width" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="VSTFCP.Caption" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+  <data name="VSTFCP.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSTFCP.VisibleIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="VSTFCP.Width" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="VSTFVIL.Caption" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="VSTFVIL.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSTFVIL.VisibleIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="VSTFVIL.Width" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="VSTFPAYS.Caption" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="VSTFPAYS.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSTFPAYS.VisibleIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="VSTFPAYS.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="VSTFETRTYPE.Caption" xml:space="preserve">
+    <value>Partner / Franchised</value>
+  </data>
+  <data name="VSTFETRTYPE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VSTFETRTYPE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="VSTFETRTYPE.Width" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="DatePaetenaire.Caption" xml:space="preserve">
+    <value>Since</value>
+  </data>
+  <data name="DatePaetenaire.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DatePaetenaire.VisibleIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DatePaetenaire.Width" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="CSTFGRPPARTVALIDE.Caption" xml:space="preserve">
+    <value>Validated by Emalec</value>
+  </data>
+  <data name="CSTFGRPPARTVALIDE.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CSTFGRPPARTVALIDE.VisibleIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CSTFGRPPARTVALIDE.Width" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="NCT.Caption" xml:space="preserve">
+    <value>Orders 12 month</value>
+  </data>
+  <data name="NCT.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NCT.VisibleIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="NCT.Width" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="VillesCibles.Caption" xml:space="preserve">
+    <value>Target town</value>
+  </data>
+  <data name="VillesCibles.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VillesCibles.VisibleIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="VillesCibles.Width" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="Activités.Caption" xml:space="preserve">
+    <value>Repairing activity</value>
+  </data>
+  <data name="Activités.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Activités.VisibleIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Activités.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="ACTIVITEPRINCIPALE.Caption" xml:space="preserve">
+    <value>Main activity</value>
+  </data>
+  <data name="ACTIVITEPRINCIPALE.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="GridControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1347, 896</value>
+  </data>
+  <data name="GridControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;GridControl1.Name" xml:space="preserve">
+    <value>GridControl1</value>
+  </data>
+  <data name="&gt;&gt;GridControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GridControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GridControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LabelTitre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelTitre.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18pt, style=Bold</value>
+  </data>
+  <data name="LabelTitre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 3</value>
+  </data>
+  <data name="LabelTitre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 29</value>
+  </data>
+  <data name="LabelTitre.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="LabelTitre.Text" xml:space="preserve">
+    <value>Partners and Franchisees</value>
+  </data>
+  <data name="&gt;&gt;LabelTitre.Name" xml:space="preserve">
+    <value>LabelTitre</value>
+  </data>
+  <data name="&gt;&gt;LabelTitre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelTitre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelTitre.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtRecupPresta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtRecupPresta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 410</value>
+  </data>
+  <data name="BtRecupPresta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 60</value>
+  </data>
+  <data name="BtRecupPresta.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="BtRecupPresta.Text" xml:space="preserve">
+    <value>Récupérer prestations du formulaire</value>
+  </data>
+  <data name="&gt;&gt;BtRecupPresta.Name" xml:space="preserve">
+    <value>BtRecupPresta</value>
+  </data>
+  <data name="&gt;&gt;BtRecupPresta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtRecupPresta.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtRecupPresta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtrecupVilles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtrecupVilles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 290</value>
+  </data>
+  <data name="BtrecupVilles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="BtrecupVilles.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="BtrecupVilles.Text" xml:space="preserve">
+    <value>Récupérer villes du formulaire</value>
+  </data>
+  <data name="&gt;&gt;BtrecupVilles.Name" xml:space="preserve">
+    <value>BtrecupVilles</value>
+  </data>
+  <data name="&gt;&gt;BtrecupVilles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtrecupVilles.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtrecupVilles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ButtonVoir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonVoir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 350</value>
+  </data>
+  <data name="ButtonVoir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="ButtonVoir.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="ButtonVoir.Text" xml:space="preserve">
+    <value>Voir le formulaire web saisi</value>
+  </data>
+  <data name="&gt;&gt;ButtonVoir.Name" xml:space="preserve">
+    <value>ButtonVoir</value>
+  </data>
+  <data name="&gt;&gt;ButtonVoir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonVoir.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonVoir.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ButtonGestionPrestations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonGestionPrestations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="ButtonGestionPrestations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="ButtonGestionPrestations.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="ButtonGestionPrestations.Text" xml:space="preserve">
+    <value>Gestion des prestations</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionPrestations.Name" xml:space="preserve">
+    <value>ButtonGestionPrestations</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionPrestations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionPrestations.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionPrestations.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonGestionVillesCibles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonGestionVillesCibles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 230</value>
+  </data>
+  <data name="ButtonGestionVillesCibles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="ButtonGestionVillesCibles.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="ButtonGestionVillesCibles.Text" xml:space="preserve">
+    <value>Gestion des villes cibles</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionVillesCibles.Name" xml:space="preserve">
+    <value>ButtonGestionVillesCibles</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionVillesCibles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionVillesCibles.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonGestionVillesCibles.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnAffectation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnAffectation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 80</value>
+  </data>
+  <data name="BtnAffectation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 63</value>
+  </data>
+  <data name="BtnAffectation.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="BtnAffectation.Text" xml:space="preserve">
+    <value>Affectation des villes par pays et technique</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectation.Name" xml:space="preserve">
+    <value>BtnAffectation</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectation.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtnAffectation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonExporter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonExporter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 694</value>
+  </data>
+  <data name="ButtonExporter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="ButtonExporter.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="ButtonExporter.Text" xml:space="preserve">
+    <value>Exporter liste (xls)</value>
+  </data>
+  <data name="&gt;&gt;ButtonExporter.Name" xml:space="preserve">
+    <value>ButtonExporter</value>
+  </data>
+  <data name="&gt;&gt;ButtonExporter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonExporter.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonExporter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ButtonCarte.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonCarte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="ButtonCarte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="ButtonCarte.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ButtonCarte.Text" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="&gt;&gt;ButtonCarte.Name" xml:space="preserve">
+    <value>ButtonCarte</value>
+  </data>
+  <data name="&gt;&gt;ButtonCarte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonCarte.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonCarte.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnFermer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="BtnFermer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 831</value>
+  </data>
+  <data name="BtnFermer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 48</value>
+  </data>
+  <data name="BtnFermer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnFermer.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Name" xml:space="preserve">
+    <value>BtnFermer</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BtnFermer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 34</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 896</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListBoxControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ListBoxControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1458, 69</value>
+  </data>
+  <data name="ListBoxControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 861</value>
+  </data>
+  <data name="ListBoxControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="ListBoxControl1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ListBoxControl1.Name" xml:space="preserve">
+    <value>ListBoxControl1</value>
+  </data>
+  <data name="&gt;&gt;ListBoxControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ListBoxControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListBoxControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LabelDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabelDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="LabelDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1454, 46</value>
+  </data>
+  <data name="LabelDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 19</value>
+  </data>
+  <data name="LabelDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="LabelDetails.Text" xml:space="preserve">
+    <value>Détails :</value>
+  </data>
+  <data name="LabelDetails.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LabelDetails.Name" xml:space="preserve">
+    <value>LabelDetails</value>
+  </data>
+  <data name="&gt;&gt;LabelDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1678, 942</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>STT partenaires et franchisés</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Name" xml:space="preserve">
+    <value>GridView1</value>
+  </data>
+  <data name="&gt;&gt;GridView1.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NSTFNUM.Name" xml:space="preserve">
+    <value>NSTFNUM</value>
+  </data>
+  <data name="&gt;&gt;NSTFNUM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSTFNOM.Name" xml:space="preserve">
+    <value>VSTFNOM</value>
+  </data>
+  <data name="&gt;&gt;VSTFNOM.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSTFCP.Name" xml:space="preserve">
+    <value>VSTFCP</value>
+  </data>
+  <data name="&gt;&gt;VSTFCP.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSTFVIL.Name" xml:space="preserve">
+    <value>VSTFVIL</value>
+  </data>
+  <data name="&gt;&gt;VSTFVIL.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSTFPAYS.Name" xml:space="preserve">
+    <value>VSTFPAYS</value>
+  </data>
+  <data name="&gt;&gt;VSTFPAYS.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VSTFETRTYPE.Name" xml:space="preserve">
+    <value>VSTFETRTYPE</value>
+  </data>
+  <data name="&gt;&gt;VSTFETRTYPE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DatePaetenaire.Name" xml:space="preserve">
+    <value>DatePaetenaire</value>
+  </data>
+  <data name="&gt;&gt;DatePaetenaire.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CSTFGRPPARTVALIDE.Name" xml:space="preserve">
+    <value>CSTFGRPPARTVALIDE</value>
+  </data>
+  <data name="&gt;&gt;CSTFGRPPARTVALIDE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NCT.Name" xml:space="preserve">
+    <value>NCT</value>
+  </data>
+  <data name="&gt;&gt;NCT.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VillesCibles.Name" xml:space="preserve">
+    <value>VillesCibles</value>
+  </data>
+  <data name="&gt;&gt;VillesCibles.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Activités.Name" xml:space="preserve">
+    <value>Activités</value>
+  </data>
+  <data name="&gt;&gt;Activités.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ACTIVITEPRINCIPALE.Name" xml:space="preserve">
+    <value>ACTIVITEPRINCIPALE</value>
+  </data>
+  <data name="&gt;&gt;ACTIVITEPRINCIPALE.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Columns.GridColumn, DevExpress.XtraGrid.v22.2, Version=22.2.10.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSTTPartenaires</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
