@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="currentPage"
+			 Title="{Binding Title}"
+             xmlns:local="clr-namespace:PictureDirect.Views"
+             x:Class="PictureDirect.Views.ELoginView">
+	<ContentPage.Content>
+
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+      <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" x:Name="portraitGrid" IsVisible="False">
+
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="1*" />
+          <RowDefinition Height="15" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="15" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="15" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="50" />
+          <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Padding="0,40,0,30" BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Grid.Row="0">
+          <Image Source="logo_emalec.png" VerticalOptions="Center" HeightRequest="32" />
+          <Label Text="PictureDirect" HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" />
+        </StackLayout>
+
+        <Label Text="Numero utilisateur" Margin="10,0,10,0" Grid.Row="2"/>
+        <Entry Text="{Binding NumUser}" Margin="10,0,10,0" TextColor="Black" Keyboard="Numeric" Grid.Row="3" />
+
+        <Label Text="Nom d'utilisateur" Margin="10,0,10,0" Grid.Row="4"/>
+        <Entry Text="{Binding Login}" Margin="10,0,10,0" TextColor="Black" Grid.Row="5" />
+
+        <Label Text="Mot de passe" Margin="10,0,10,0" Grid.Row="6"/>
+        <Entry Text="{Binding Password}" Margin="10,0,10,0" TextColor="Black" Grid.Row="7" IsPassword="True"/>
+
+        <Button Text="Login" Margin="10,0,10,0" Command="{Binding LoginCommand}"  Grid.Row="8"/>
+
+      </Grid>
+
+      <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" x:Name="landscapeGrid" IsVisible="False">
+
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="1*" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="40" />
+          <RowDefinition Height="50" />
+          <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Padding="10,10,10,10" Orientation="Horizontal" BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Grid.Row="0">
+          <Image Source="logo_emalec.png" VerticalOptions="Center" HeightRequest="32" />
+          <Label Margin="10,0,0,0" Text="PictureDirect" HorizontalTextAlignment="Center" VerticalOptions="Fill" VerticalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="FillAndExpand">
+          <Label Text="Numero utilisateur" WidthRequest="100" Margin="10,0,10,0" HorizontalTextAlignment="End" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+          <Entry Text="{Binding NumUser}" Margin="10,0,10,0" TextColor="Black" Keyboard="Numeric" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="3" HorizontalOptions="Fill">
+          <Label Text="Nom d'utilisateur" WidthRequest="100" Margin="10,0,10,0" HorizontalTextAlignment="End" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+          <Entry Text="{Binding Login}" Margin="10,0,10,0" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="4" HorizontalOptions="Fill">
+          <Label Text="Mot de passe" WidthRequest="100" Margin="10,0,10,0" HorizontalTextAlignment="End" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+          <Entry Text="{Binding Password}" Margin="10,0,10,0" TextColor="Black" IsPassword="True" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+        
+        <Button Text="Login" Margin="10,0,10,0" Command="{Binding LoginCommand}"  Grid.Row="5"/>
+
+      </Grid>
+
+      <ActivityIndicator Color="DarkGray" IsRunning="{Binding IsBusy}" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"/>
+
+      <StackLayout AbsoluteLayout.LayoutBounds=".5,1,1,0.1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding HasContextInfo}" BackgroundColor="{Binding ContextInfoColor}">
+        <Label Text="{Binding ContextInfo}" FontAttributes="Bold" TextColor="White" Margin="10" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+      
+    </AbsoluteLayout>
+  </ContentPage.Content>
+</ContentPage>

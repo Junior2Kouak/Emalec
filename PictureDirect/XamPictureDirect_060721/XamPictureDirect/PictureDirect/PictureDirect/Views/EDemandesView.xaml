@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="currentPage"
+			 Title="{Binding Title}"
+             xmlns:local="clr-namespace:PictureDirect.Views"
+             xmlns:renderers="clr-namespace:PictureDirect.Renderers"
+             x:Class="PictureDirect.Views.EDemandesView">
+  <ContentPage.Content>
+
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10">
+
+      <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+
+        <StackLayout x:Name="xamlDemandeStack" Padding="1,0,1,0" >
+          <ListView
+                    x:Name="xamlDemandesList"
+                    BackgroundColor="White"
+                    IsGroupingEnabled="True"
+                    IsPullToRefreshEnabled="true"
+                    IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                    ItemsSource="{Binding Demandes}"
+                    RefreshCommand="{Binding LoadDemandesCommand}"
+                    SelectedItem="{Binding SelectedAction, Mode=TwoWay}" 
+                    SeparatorColor="Gray">
+            <ListView.ItemTemplate>
+              <DataTemplate>
+                <renderers:ExtendedViewCell SelectedBackgroundColor="{StaticResource Accent}" BackgroundColor="White">
+                  <StackLayout Orientation="Horizontal"  VerticalOptions="Center">
+                    <Label
+                                            VerticalOptions="Center"
+                                            FontAttributes="Bold"
+                                            FontSize="Small"
+                                            Text="{Binding Name}"
+                                            TextColor="Gray"
+                                            VerticalTextAlignment="Center" Margin="10,0,0,0" />
+                  </StackLayout>
+                </renderers:ExtendedViewCell>
+              </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.GroupHeaderTemplate>
+              <DataTemplate>
+                <ViewCell>
+                  <Grid >
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="20"/>
+                      <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="ImgA" Source="{Binding StateIcon}" Margin="0,0,5,0" HeightRequest="20" WidthRequest="20" Grid.Column="0"/>
+                    <Label
+                            FontAttributes="Bold"
+                            FontSize="Medium"
+                            Text="{Binding Name}"
+                            TextColor="Black"
+                            VerticalTextAlignment="Center"
+                            Grid.Column="1"/>
+                    
+                    <Grid.GestureRecognizers>
+                      <TapGestureRecognizer Command="{Binding Source={x:Reference currentPage}, 
+															Path=BindingContext.ItemTapCommand}"  
+															NumberOfTapsRequired="1" 
+															CommandParameter="{Binding}"/>
+                    </Grid.GestureRecognizers>
+                  </Grid>
+                </ViewCell>
+              </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+          </ListView>
+        </StackLayout>
+      </Grid>
+
+      <StackLayout AbsoluteLayout.LayoutBounds=".5,1,1,0.1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding HasContextInfo}" BackgroundColor="{Binding ContextInfoColor}">
+        <Label Text="{Binding ContextInfo}" FontAttributes="Bold" TextColor="White" Margin="10" VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalOptions="FillAndExpand" />
+      </StackLayout>
+    </AbsoluteLayout>
+
+  </ContentPage.Content>
+</ContentPage>
